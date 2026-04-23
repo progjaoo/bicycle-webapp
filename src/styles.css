@@ -447,6 +447,7 @@ button {
 
 .controls-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 14px;
 }
 
@@ -518,6 +519,10 @@ button {
 .controls-footer span {
   color: var(--text-soft);
   font-size: 0.95rem;
+}
+
+.controls-footer strong {
+  color: var(--text-main);
 }
 
 .controls-footer {

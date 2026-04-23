@@ -3,9 +3,7 @@ export const bikesDataset = {
   "title": "BH 2026 (AED)",
   "titleCell": "G2",
   "defaultParameters": {
-    "markupCompra": 6.604993597951347,
-    "margemVenda": 38.45655398547896,
-    "taxaConversao": 4.4,
+    "taxaConversao": 4.5,
     "moedaDestino": "AED"
   },
   "totals": {
@@ -25,8 +23,8 @@ export const bikesDataset = {
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3550.0,
-          "defaultSale": 23055.37,
-          "defaultCost": 16651.7
+          "defaultSale": 23579.36,
+          "defaultCost": 17030.15
         },
         {
           "templateRow": 6,
@@ -35,9 +33,9 @@ export const bikesDataset = {
           "specs": "FOX 38 PERFORMANCE 160MM / FOX FLOAT X 160MM / XT SLX 12SP / XT 4P 203MM / DROPPER SP / DT H1900 - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3300.001050943747,
-          "defaultSale": 21431.75,
-          "defaultCost": 15479.05
+          "baseEuro": 3300.0,
+          "defaultSale": 21918.84,
+          "defaultCost": 15830.84
         },
         {
           "templateRow": 7,
@@ -46,9 +44,9 @@ export const bikesDataset = {
           "specs": "FOX 38 RHYTHM 160MM / FOX 160MM / XT DEORE 12SP / MT520 4P 203MM / DROPPER SP / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3045.000630566248,
-          "defaultSale": 19775.66,
-          "defaultCost": 14282.94
+          "baseEuro": 3045.0,
+          "defaultSale": 20225.11,
+          "defaultCost": 14607.55
         },
         {
           "templateRow": 8,
@@ -57,9 +55,9 @@ export const bikesDataset = {
           "specs": "FOX 34 RHYTHM 140MM / FOX 140MM / XT DEORE 12SP / MT520 4P 203MM / DROPPER SP / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2900.000600539284,
-          "defaultSale": 18833.96,
-          "defaultCost": 13602.8
+          "baseEuro": 2900.0,
+          "defaultSale": 19262.01,
+          "defaultCost": 13911.95
         },
         {
           "templateRow": 9,
@@ -68,9 +66,9 @@ export const bikesDataset = {
           "specs": "FOX 38 PERFORMANCE 160MM / FOX 160MM / XT SLX 12SP / XT 4P 203MM / DROPPER SP / DT H1900 - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2675.000480431427,
-          "defaultSale": 17372.7,
-          "defaultCost": 12547.41
+          "baseEuro": 2675.0,
+          "defaultSale": 17767.54,
+          "defaultCost": 12832.58
         },
         {
           "templateRow": 10,
@@ -79,9 +77,9 @@ export const bikesDataset = {
           "specs": "FOX 38 RHYTHM 160MM / FOX 160MM / XT DEORE 12SP / DB8 4P 203MM / DROPPER SP / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2474.999189271966,
-          "defaultSale": 16073.81,
-          "defaultCost": 11609.28
+          "baseEuro": 2475.0,
+          "defaultSale": 16439.13,
+          "defaultCost": 11873.13
         },
         {
           "templateRow": 11,
@@ -90,9 +88,9 @@ export const bikesDataset = {
           "specs": "FOX 34 RHYTHM 140MM / FOX 140MM / XT DEORE 12SP / MT420 4P 203MM / DROPPER SP / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2374.999609649465,
-          "defaultSale": 15424.37,
-          "defaultCost": 11140.22
+          "baseEuro": 2375.0,
+          "defaultSale": 15774.92,
+          "defaultCost": 11393.41
         },
         {
           "templateRow": 12,
@@ -101,9 +99,9 @@ export const bikesDataset = {
           "specs": "RECON BOOST 140MM / DELUXE / DEORE 11SP / MT420 4P 203MM / DROPPER SP / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2149.999489541608,
-          "defaultSale": 13963.11,
-          "defaultCost": 10084.83
+          "baseEuro": 2150.0,
+          "defaultSale": 14280.45,
+          "defaultCost": 10314.03
         },
         {
           "templateRow": 13,
@@ -112,9 +110,9 @@ export const bikesDataset = {
           "specs": "XCR 34 BOOST 120MM / DELUXE 100MM / XT DEORE 12SP / XT 4P 203MM / B&M / RACKTIME - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2315.00114102464,
-          "defaultSale": 15034.7,
-          "defaultCost": 10858.79
+          "baseEuro": 2315.0,
+          "defaultSale": 15376.4,
+          "defaultCost": 11105.58
         },
         {
           "templateRow": 14,
@@ -123,9 +121,9 @@ export const bikesDataset = {
           "specs": "FOX 38 FACTORY 170MM / FOX DHX2 FAC 160MM / XT DI2 12SP / XT 4P 203MM / RF AEFFECT DP / DT H1900 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 6046.000678609391,
-          "defaultSale": 39265.56,
-          "defaultCost": 28359.49
+          "baseEuro": 6046.0,
+          "defaultSale": 40157.97,
+          "defaultCost": 29004.02
         },
         {
           "templateRow": 15,
@@ -134,9 +132,9 @@ export const bikesDataset = {
           "specs": "FOX 38 PERFORMANCE 170MM / FOX FLOAT X 160MM / XT DI2 MIX 12SP / XT 4P 203MM / RF AEFFECT DP / DT H1900 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5219.001213089354,
-          "defaultSale": 33894.63,
-          "defaultCost": 24480.35
+          "baseEuro": 5219.0,
+          "defaultSale": 34664.97,
+          "defaultCost": 25036.72
         },
         {
           "templateRow": 16,
@@ -145,9 +143,9 @@ export const bikesDataset = {
           "specs": "FOX 38 PERFORMANCE 170MM / FOX FLOAT X 160MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF AR30 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4454.999819838215,
-          "defaultSale": 28932.86,
-          "defaultCost": 20896.71
+          "baseEuro": 4455.0,
+          "defaultSale": 29590.43,
+          "defaultCost": 21371.64
         },
         {
           "templateRow": 17,
@@ -156,9 +154,9 @@ export const bikesDataset = {
           "specs": "FOX 36 FACTORY 150MM / FOX FLOAT X 140MM / XT DI2 12SP / XT 4P 203MM / RF AEFFECT DP / DT H1900 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 5728.002185962995,
-          "defaultSale": 37200.32,
-          "defaultCost": 26867.88
+          "baseEuro": 5728.0,
+          "defaultSale": 38045.79,
+          "defaultCost": 27478.5
         },
         {
           "templateRow": 18,
@@ -167,9 +165,9 @@ export const bikesDataset = {
           "specs": "FOX 36 PERFORMANCE 150MM / FOX FLOAT X 140MM / XT DI2 MIX 12SP / XT 4P 203MM / RF AEFFECT DP / DT H1900 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5219.001213089354,
-          "defaultSale": 33894.63,
-          "defaultCost": 24480.35
+          "baseEuro": 5219.0,
+          "defaultSale": 34664.97,
+          "defaultCost": 25036.72
         },
         {
           "templateRow": 19,
@@ -178,9 +176,9 @@ export const bikesDataset = {
           "specs": "FOX 36 PERFORMANCE 150MM / FOX FLOAT X 140MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF AR30 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4454.999819838215,
-          "defaultSale": 28932.86,
-          "defaultCost": 20896.71
+          "baseEuro": 4455.0,
+          "defaultSale": 29590.43,
+          "defaultCost": 21371.64
         },
         {
           "templateRow": 20,
@@ -189,9 +187,9 @@ export const bikesDataset = {
           "specs": "FOX 36 RHYTHM 170MM / FOX RHYTHM 160MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF AR30 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3881.99877489986,
-          "defaultSale": 25211.53,
-          "defaultCost": 18208.98
+          "baseEuro": 3882.0,
+          "defaultSale": 25784.52,
+          "defaultCost": 18622.83
         },
         {
           "templateRow": 21,
@@ -200,9 +198,9 @@ export const bikesDataset = {
           "specs": "RS PSYLO SILVER RC 160MM / RS DELUXE 160MM / DEORE 12SP / MT520 4P 203MM / RF AEFFECT DP / RF AR30 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3500.000210188749,
-          "defaultSale": 22730.64,
-          "defaultCost": 16417.17
+          "baseEuro": 3500.0,
+          "defaultSale": 23247.25,
+          "defaultCost": 16790.29
         },
         {
           "templateRow": 22,
@@ -211,9 +209,9 @@ export const bikesDataset = {
           "specs": "RS RECON 150MM / RS DELUXE 140MM / DEORE 12SP / MT520 4P 203MM / RF AEFFECT DP / RF AR30 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3500.000210188749,
-          "defaultSale": 22730.64,
-          "defaultCost": 16417.17
+          "baseEuro": 3500.0,
+          "defaultSale": 23247.25,
+          "defaultCost": 16790.29
         },
         {
           "templateRow": 23,
@@ -222,9 +220,9 @@ export const bikesDataset = {
           "specs": "SR XCR 34 AIR 140MM / RS DELUXE 140MM / DEORE 10SP / MT201 180MM / KS RAGEI - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3054.999309379823,
-          "defaultSale": 19840.6,
-          "defaultCost": 14329.84
+          "baseEuro": 3055.0,
+          "defaultSale": 20291.53,
+          "defaultCost": 14655.52
         },
         {
           "templateRow": 24,
@@ -233,9 +231,9 @@ export const bikesDataset = {
           "specs": "FOX 38 FACTORY 160MM / FOX FLOAT X FAC 160MM / XT DI2 12SP / XT 4P 203MM / RF AEFFECT DP / RF TURBINE - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 5599.999909919107,
-          "defaultSale": 36369.03,
-          "defaultCost": 26267.47
+          "baseEuro": 5600.0,
+          "defaultSale": 37195.6,
+          "defaultCost": 26864.46
         },
         {
           "templateRow": 25,
@@ -244,9 +242,9 @@ export const bikesDataset = {
           "specs": "FOX 38 PERFORMANCE 160MM / FOX FLOAT X 160MM / XT DI2 MIX 12SP / XT 4P 203MM / RF AEFFECT DP / RF AEFFECT - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4773.00044439907,
-          "defaultSale": 30998.11,
-          "defaultCost": 22388.33
+          "baseEuro": 4773.0,
+          "defaultSale": 31702.61,
+          "defaultCost": 22897.15
         },
         {
           "templateRow": 26,
@@ -255,9 +253,9 @@ export const bikesDataset = {
           "specs": "FOX 38 RHYTHM 160MM / FOX FLOAT X 160MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF ARC30 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4073.001255127104,
-          "defaultSale": 26451.97,
-          "defaultCost": 19104.9
+          "baseEuro": 4073.0,
+          "defaultSale": 27053.16,
+          "defaultCost": 19539.1
         },
         {
           "templateRow": 27,
@@ -266,9 +264,9 @@ export const bikesDataset = {
           "specs": "FOX 36 FACTORY 140MM / FOX FLOAT X 140MM / XT DI2 12SP / XT 4P 203MM / RF AEFFECT DP / RF TURBINE - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 5409.99942948768,
-          "defaultSale": 35135.08,
-          "defaultCost": 25376.25
+          "baseEuro": 5410.0,
+          "defaultSale": 35933.61,
+          "defaultCost": 25952.99
         },
         {
           "templateRow": 28,
@@ -277,9 +275,9 @@ export const bikesDataset = {
           "specs": "FOX 36 PERFORMANCE 150MM / FOX FLOAT X 140MM / XT DI2 MIX 12SP / XT 4P 203MM / RF AEFFECT DP / RF AEFFECT - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4773.00044439907,
-          "defaultSale": 30998.11,
-          "defaultCost": 22388.33
+          "baseEuro": 4773.0,
+          "defaultSale": 31702.61,
+          "defaultCost": 22897.15
         },
         {
           "templateRow": 29,
@@ -288,9 +286,9 @@ export const bikesDataset = {
           "specs": "FOX 36 PERFORMANCE 140MM / FOX FLOAT X 140MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF ARC30 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4073.001255127104,
-          "defaultSale": 26451.97,
-          "defaultCost": 19104.9
+          "baseEuro": 4073.0,
+          "defaultSale": 27053.16,
+          "defaultCost": 19539.1
         },
         {
           "templateRow": 30,
@@ -299,9 +297,9 @@ export const bikesDataset = {
           "specs": "FOX 36 RHYTHM 170MM / FOX RHYTHM 160MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF ARC30 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3437.000006005393,
-          "defaultSale": 22321.49,
-          "defaultCost": 16121.66
+          "baseEuro": 3437.0,
+          "defaultSale": 22828.8,
+          "defaultCost": 16488.06
         },
         {
           "templateRow": 31,
@@ -310,9 +308,9 @@ export const bikesDataset = {
           "specs": "RS PSYLO SILVER RC 160MM / RS DELUXE 160MM / DEORE 12SP / MT520 4P 203MM / RF AEFFECT DP / RF ARC30 / EP6 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3054.999309379823,
-          "defaultSale": 19840.6,
-          "defaultCost": 14329.84
+          "baseEuro": 3055.0,
+          "defaultSale": 20291.53,
+          "defaultCost": 14655.52
         },
         {
           "templateRow": 32,
@@ -321,9 +319,9 @@ export const bikesDataset = {
           "specs": "RS RECON 150MM / RS DELUXE 140MM / DEORE 12SP / MT420 4P 203MM / RF AEFFECT DP / RF AR30 / EP6 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2990.999237315109,
-          "defaultSale": 19424.96,
-          "defaultCost": 14029.64
+          "baseEuro": 2991.0,
+          "defaultSale": 19866.44,
+          "defaultCost": 14348.5
         },
         {
           "templateRow": 33,
@@ -332,9 +330,9 @@ export const bikesDataset = {
           "specs": "SR XCR 34 AIR 140MM / RS DELUXE 140MM / DEORE 10SP / MT201 180MM / KS RAGEI / EP6 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2673.000744668712,
-          "defaultSale": 17359.71,
-          "defaultCost": 12538.03
+          "baseEuro": 2673.0,
+          "defaultSale": 17754.26,
+          "defaultCost": 12822.98
         },
         {
           "templateRow": 34,
@@ -343,9 +341,9 @@ export const bikesDataset = {
           "specs": "FOX 36 FACTORY 150MM / FOX FLOAT X FAC 150MM / XT 12SP / XT 4P 203MM / DROPPER SP / RF TURBINE - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 4773.00044439907,
-          "defaultSale": 30998.11,
-          "defaultCost": 22388.33
+          "baseEuro": 4773.0,
+          "defaultSale": 31702.61,
+          "defaultCost": 22897.15
         },
         {
           "templateRow": 35,
@@ -354,9 +352,9 @@ export const bikesDataset = {
           "specs": "FOX 36 PERFORMANCE 150MM / FOX FLOAT X 150MM / XT MIX 12SP / MT520 4P 203MM / DROPPER SP / RF ARC 30 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3819.000702630963,
-          "defaultSale": 24802.38,
-          "defaultCost": 17913.48
+          "baseEuro": 3819.0,
+          "defaultSale": 25366.07,
+          "defaultCost": 18320.6
         },
         {
           "templateRow": 36,
@@ -365,9 +363,9 @@ export const bikesDataset = {
           "specs": "RS RECON 140MM / RS DELUXE 140MM / DEORE 12SP / MT420 4P 203MM / RF AEFFECT DP / RF AR30 / CK FSA CARBON - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3181.999585627894,
-          "defaultSale": 20665.4,
-          "defaultCost": 14925.55
+          "baseEuro": 3182.0,
+          "defaultSale": 21135.07,
+          "defaultCost": 15264.77
         },
         {
           "templateRow": 37,
@@ -376,9 +374,9 @@ export const bikesDataset = {
           "specs": "FOX 36 PERFORMANCE 150MM / FOX 150MM / XT MIX 12SP / SRAM DB8 4P 203MM / DROPPER SP / RF AEFFECT - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3373.002065855138,
-          "defaultSale": 21905.85,
-          "defaultCost": 15821.47
+          "baseEuro": 3373.0,
+          "defaultSale": 22403.71,
+          "defaultCost": 16181.04
         },
         {
           "templateRow": 38,
@@ -387,9 +385,9 @@ export const bikesDataset = {
           "specs": "FOX 34 RHYTHM 140MM / FOX 140MM / XT MIX 12SP / SRAM DB8 4P 203MM / DROPPER SP - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3054.999309379823,
-          "defaultSale": 19840.6,
-          "defaultCost": 14329.84
+          "baseEuro": 3055.0,
+          "defaultSale": 20291.53,
+          "defaultCost": 14655.52
         },
         {
           "templateRow": 39,
@@ -398,9 +396,9 @@ export const bikesDataset = {
           "specs": "RS RECON 140MM / RS DELUXE 140MM / DEORE 12SP / MT420 4P 203MM / RF AEFFECT DP / RF AEFFECT - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2610.000540485356,
-          "defaultSale": 16950.56,
-          "defaultCost": 12242.52
+          "baseEuro": 2610.0,
+          "defaultSale": 17335.81,
+          "defaultCost": 12520.76
         },
         {
           "templateRow": 40,
@@ -409,9 +407,9 @@ export const bikesDataset = {
           "specs": "SR XCR 34 AIR 140MM / RS DELUXE 140MM / DEORE 10SP / MT201 180MM / KS RAGEI - 540WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2228.001975774245,
-          "defaultSale": 14469.67,
-          "defaultCost": 10450.71
+          "baseEuro": 2228.0,
+          "defaultSale": 14798.54,
+          "defaultCost": 10688.22
         },
         {
           "templateRow": 41,
@@ -420,9 +418,9 @@ export const bikesDataset = {
           "specs": "FOX 34 FACTORY SC 120MM / FOX 120MM / XT 12SP / XT 4P 180MM / BIKEYOKE DIVINE  SP / EVO ALU - 630WH",
           "sizes": "S/M/L",
           "bhu": "BHU",
-          "baseEuro": 4199.999399460716,
-          "defaultSale": 27276.77,
-          "defaultCost": 19700.6
+          "baseEuro": 4200.0,
+          "defaultSale": 27896.7,
+          "defaultCost": 20148.34
         },
         {
           "templateRow": 42,
@@ -431,9 +429,9 @@ export const bikesDataset = {
           "specs": "FOX 34 PERFORMANCE 120MM / FOX 120MM / XT MIX 12SP / SRAM DB8 4P 180MM / RF AEFFECT / RF AR30 - 630WH",
           "sizes": "S/M/L",
           "bhu": "BHU",
-          "baseEuro": 3564.000282253464,
-          "defaultSale": 23146.29,
-          "defaultCost": 16717.37
+          "baseEuro": 3564.0,
+          "defaultSale": 23672.34,
+          "defaultCost": 17097.31
         },
         {
           "templateRow": 43,
@@ -442,9 +440,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO DURA ACE DI2 24SP / CARBON CRANKSET / VISION SC60 / HB EVO SL / CK FSA CARBON / IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 6364.001303170247,
-          "defaultSale": 41330.81,
-          "defaultCost": 29851.11
+          "baseEuro": 6364.0,
+          "defaultSale": 42270.15,
+          "defaultCost": 30529.54
         },
         {
           "templateRow": 44,
@@ -453,9 +451,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO ULTEGRA DI2 24SP / CARBON CRANKSET / VISION TRIMAX 35 / HB EVO SL / CK FSA CARBON /  IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5409.99942948768,
-          "defaultSale": 35135.08,
-          "defaultCost": 25376.25
+          "baseEuro": 5410.0,
+          "defaultSale": 35933.61,
+          "defaultCost": 25952.99
         },
         {
           "templateRow": 45,
@@ -464,9 +462,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO 105 DI2 24SP / VISION TEAM 35 / HB EVO SL / IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4773.00044439907,
-          "defaultSale": 30998.11,
-          "defaultCost": 22388.33
+          "baseEuro": 4773.0,
+          "defaultSale": 31702.61,
+          "defaultCost": 22897.15
         },
         {
           "templateRow": 46,
@@ -475,9 +473,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO ULTEGRA DI2 24SP / CARBON CRANKSET / VISION TRIMAX 35 / HB EVO SL / CK FSA CARBON / IBUTTON - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 5090.998937045467,
-          "defaultSale": 33063.34,
-          "defaultCost": 23879.94
+          "baseEuro": 5091.0,
+          "defaultSale": 33814.79,
+          "defaultCost": 24422.67
         },
         {
           "templateRow": 47,
@@ -486,9 +484,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO 105 DI2 24SP / VISION TEAM 35 / HB FSA SLK CARBON /  IBUTTON - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 4390.9997477735,
-          "defaultSale": 28517.22,
-          "defaultCost": 20596.51
+          "baseEuro": 4391.0,
+          "defaultSale": 29165.34,
+          "defaultCost": 21064.61
         },
         {
           "templateRow": 48,
@@ -497,9 +495,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO 105 24SP / SHIMANO RS171 / IBUTTON - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3500.000210188749,
-          "defaultSale": 22730.64,
-          "defaultCost": 16417.17
+          "baseEuro": 3500.0,
+          "defaultSale": 23247.25,
+          "defaultCost": 16790.29
         },
         {
           "templateRow": 49,
@@ -508,9 +506,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO 105 24SP / SHIMANO RS171 - 630WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 2736.998684818967,
-          "defaultSale": 17775.36,
-          "defaultCost": 12838.22
+          "baseEuro": 2737.0,
+          "defaultSale": 18179.35,
+          "defaultCost": 13130.0
         },
         {
           "templateRow": 50,
@@ -519,9 +517,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO GRX DI2 12SP / CARBON CRANKSET / VISION TRIMAX 30 / HB FSA KWING AGX CARBON - 400WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 4773.00044439907,
-          "defaultSale": 30998.11,
-          "defaultCost": 22388.33
+          "baseEuro": 4773.0,
+          "defaultSale": 31702.61,
+          "defaultCost": 22897.15
         },
         {
           "templateRow": 51,
@@ -530,9 +528,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO GRX 12SP / VISION TC30i - 400WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3819.000702630963,
-          "defaultSale": 24802.38,
-          "defaultCost": 17913.48
+          "baseEuro": 3819.0,
+          "defaultSale": 25366.07,
+          "defaultCost": 18320.6
         },
         {
           "templateRow": 52,
@@ -541,9 +539,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO GRX DI2 24SP / CARBON CRANKSET / SHIMANO RX570 / HB FSA KWING AGX CARBON / CK FSA CARBON / IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 4646.000168150999,
-          "defaultSale": 30173.3,
-          "defaultCost": 21792.62
+          "baseEuro": 4646.0,
+          "defaultSale": 30859.07,
+          "defaultCost": 22287.91
         },
         {
           "templateRow": 53,
@@ -552,9 +550,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO GRX 24SP / SHIMANO RS370 / HB FSA KWING AGX CARBON / IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 4136.999195277359,
-          "defaultSale": 26867.62,
-          "defaultCost": 19405.09
+          "baseEuro": 4137.0,
+          "defaultSale": 27478.25,
+          "defaultCost": 19846.12
         },
         {
           "templateRow": 54,
@@ -563,9 +561,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO GRX 12SP / VISION TC30i / HB FSA KWING AGX CARBON / IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3628.000354318178,
-          "defaultSale": 23561.93,
-          "defaultCost": 17017.57
+          "baseEuro": 3628.0,
+          "defaultSale": 24097.44,
+          "defaultCost": 17404.33
         },
         {
           "templateRow": 55,
@@ -574,9 +572,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO GRX 24SP / SHIMANO RS370  - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3245.999657692608,
-          "defaultSale": 21081.04,
-          "defaultCost": 15225.75
+          "baseEuro": 3246.0,
+          "defaultSale": 21560.17,
+          "defaultCost": 15571.79
         },
         {
           "templateRow": 56,
@@ -585,9 +583,9 @@ export const bikesDataset = {
           "specs": "CARBON / SHIMANO GRX 12SP / SHIMANO RS170 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2928.001165046211,
-          "defaultSale": 19015.81,
-          "defaultCost": 13734.14
+          "baseEuro": 2928.0,
+          "defaultSale": 19447.99,
+          "defaultCost": 14046.27
         },
         {
           "templateRow": 57,
@@ -596,9 +594,9 @@ export const bikesDataset = {
           "specs": "FOX 32 RHYTHM REM 100MM / XT SLX 12SP / DB8 4P 203MM - 810WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 2546.000468420642,
-          "defaultSale": 16534.92,
-          "defaultCost": 11942.32
+          "baseEuro": 2546.0,
+          "defaultSale": 16910.72,
+          "defaultCost": 12213.73
         },
         {
           "templateRow": 58,
@@ -607,9 +605,9 @@ export const bikesDataset = {
           "specs": "RS JUDY SILVER REM 100MM / DEORE 12SP / MT201 - 630WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1909.99921929893,
-          "defaultSale": 12404.44,
-          "defaultCost": 8959.08
+          "baseEuro": 1910.0,
+          "defaultSale": 12686.36,
+          "defaultCost": 9162.7
         },
         {
           "templateRow": 59,
@@ -618,9 +616,9 @@ export const bikesDataset = {
           "specs": "ALLOY / DEORE 10SP / MT200 / SPANNINGA / CURANA / RACKTIME / AXA - 630WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1781.999075169502,
-          "defaultSale": 11573.15,
-          "defaultCost": 8358.68
+          "baseEuro": 1782.0,
+          "defaultSale": 11836.17,
+          "defaultCost": 8548.65
         },
         {
           "templateRow": 60,
@@ -629,9 +627,9 @@ export const bikesDataset = {
           "specs": "ALLOY / DEORE 10SP / MT200 / SPANNINGA / CURANA / RACKTIME / AXA - 630WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1781.999075169502,
-          "defaultSale": 11573.15,
-          "defaultCost": 8358.68
+          "baseEuro": 1782.0,
+          "defaultSale": 11836.17,
+          "defaultCost": 8548.65
         },
         {
           "templateRow": 61,
@@ -640,9 +638,9 @@ export const bikesDataset = {
           "specs": "SR NEX / ALTUS 8SP / MT200 / SPANNINGA / FENDERS / RACKTIME / AXA - 630WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1655.000930835891,
-          "defaultSale": 10748.34,
-          "defaultCost": 7762.98
+          "baseEuro": 1655.0,
+          "defaultSale": 10992.63,
+          "defaultCost": 7939.41
         },
         {
           "templateRow": 62,
@@ -651,9 +649,9 @@ export const bikesDataset = {
           "specs": "SR NEX / ALTUS 8SP / MT200 / SPANNINGA / FENDERS / RACKTIME / AXA - 630WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 1655.000930835891,
-          "defaultSale": 10748.34,
-          "defaultCost": 7762.98
+          "baseEuro": 1655.0,
+          "defaultSale": 10992.63,
+          "defaultCost": 7939.41
         },
         {
           "templateRow": 63,
@@ -662,9 +660,9 @@ export const bikesDataset = {
           "specs": "XCR 34 BOOST 120MM  / RS DELUXE 120MM / DEORE DI2 12SP / XT 4P 203MM / B&M / MIK CARRIER / CX - 800WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 3819.000702630963,
-          "defaultSale": 24802.38,
-          "defaultCost": 17913.48
+          "baseEuro": 3819.0,
+          "defaultSale": 25366.07,
+          "defaultCost": 18320.6
         },
         {
           "templateRow": 64,
@@ -673,9 +671,9 @@ export const bikesDataset = {
           "specs": "XCR 34 BOOST 120MM  / RS DELUXE 120MM / DEORE DI2 12SP / XT 4P 203MM / B&M / MIK CARRIER / CX - 800WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 3819.000702630963,
-          "defaultSale": 24802.38,
-          "defaultCost": 17913.48
+          "baseEuro": 3819.0,
+          "defaultSale": 25366.07,
+          "defaultCost": 18320.6
         },
         {
           "templateRow": 65,
@@ -684,9 +682,9 @@ export const bikesDataset = {
           "specs": "SR MOBIE / GATES / NEXUS 5SP / MT200 / B&M / CURANA / ABUS - 600Wh",
           "sizes": "M/L/XL",
           "bhu": "-",
-          "baseEuro": 2736.998684818967,
-          "defaultSale": 17775.36,
-          "defaultCost": 12838.22
+          "baseEuro": 2737.0,
+          "defaultSale": 18179.35,
+          "defaultCost": 13130.0
         },
         {
           "templateRow": 66,
@@ -695,9 +693,9 @@ export const bikesDataset = {
           "specs": "SR MOBIE / GATES / NEXUS 5SP / MT200 / B&M / CURANA / ABUS - 600Wh",
           "sizes": "M/L/XL",
           "bhu": "-",
-          "baseEuro": 2736.998684818967,
-          "defaultSale": 17775.36,
-          "defaultCost": 12838.22
+          "baseEuro": 2737.0,
+          "defaultSale": 18179.35,
+          "defaultCost": 13130.0
         },
         {
           "templateRow": 67,
@@ -706,9 +704,9 @@ export const bikesDataset = {
           "specs": "SR XCM32 BOOST 100MM / CUES 10SP / MT200 / B&M / RACKTIME / AXA - 600WH",
           "sizes": "M/L/XL",
           "bhu": "-",
-          "baseEuro": 2546.000468420642,
-          "defaultSale": 16534.92,
-          "defaultCost": 11942.32
+          "baseEuro": 2546.0,
+          "defaultSale": 16910.72,
+          "defaultCost": 12213.73
         },
         {
           "templateRow": 68,
@@ -717,9 +715,9 @@ export const bikesDataset = {
           "specs": "SR XCM32 BOOST 100MM / CUES 10SP / MT200 / B&M / RACKTIME / AXA - 600WH",
           "sizes": "M/L/XL",
           "bhu": "-",
-          "baseEuro": 2546.000468420642,
-          "defaultSale": 16534.92,
-          "defaultCost": 11942.32
+          "baseEuro": 2546.0,
+          "defaultSale": 16910.72,
+          "defaultCost": 12213.73
         },
         {
           "templateRow": 69,
@@ -728,9 +726,9 @@ export const bikesDataset = {
           "specs": "JUDY SILVER BOOST 100MM / DEORE 11SP / MT201 180MM / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1749.999039137145,
-          "defaultSale": 11365.33,
-          "defaultCost": 8208.58
+          "baseEuro": 1750.0,
+          "defaultSale": 11623.63,
+          "defaultCost": 8395.14
         },
         {
           "templateRow": 70,
@@ -739,9 +737,9 @@ export const bikesDataset = {
           "specs": "XCR 34 BOOST 100MM / DEORE 11SP / MT420 4P 180MM / B&M / RACKTIME - 720WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1945.000990889819,
-          "defaultSale": 12631.74,
-          "defaultCost": 9123.26
+          "baseEuro": 1945.0,
+          "defaultSale": 12918.83,
+          "defaultCost": 9330.6
         },
         {
           "templateRow": 71,
@@ -750,9 +748,9 @@ export const bikesDataset = {
           "specs": "XCR 34 BOOST 100MM / DEORE 11SP / MT420 4P 180MM / B&M / RACKTIME - 720WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1945.000990889819,
-          "defaultSale": 12631.74,
-          "defaultCost": 9123.26
+          "baseEuro": 1945.0,
+          "defaultSale": 12918.83,
+          "defaultCost": 9330.6
         },
         {
           "templateRow": 72,
@@ -761,9 +759,9 @@ export const bikesDataset = {
           "specs": "XCR 34 BOOST 120MM / DELUXE 100MM / XT DEORE 12SP / MT420 4P 180MM / B&M / RACKTIME - 720WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 2370.000270242678,
-          "defaultSale": 15391.89,
-          "defaultCost": 11116.77
+          "baseEuro": 2370.0,
+          "defaultSale": 15741.71,
+          "defaultCost": 11369.42
         },
         {
           "templateRow": 73,
@@ -772,9 +770,9 @@ export const bikesDataset = {
           "specs": "XCR 34 BOOST 120MM / DEORE 12SP / MT420 4P 180MM / B&M / RACKTIME - 720WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 2049.999909919107,
-          "defaultSale": 13313.66,
-          "defaultCost": 9615.77
+          "baseEuro": 2050.0,
+          "defaultSale": 13616.25,
+          "defaultCost": 9834.31
         },
         {
           "templateRow": 74,
@@ -783,9 +781,9 @@ export const bikesDataset = {
           "specs": "XCR 34 BOOST 100MM / DEORE 11SP / MT200 / B&M / RACKTIME - 720WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1889.999729757322,
-          "defaultSale": 12274.55,
-          "defaultCost": 8865.27
+          "baseEuro": 1890.0,
+          "defaultSale": 12553.52,
+          "defaultCost": 9066.75
         },
         {
           "templateRow": 75,
@@ -794,9 +792,9 @@ export const bikesDataset = {
           "specs": "NX1 / NEXUS 8SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1835.000600539284,
-          "defaultSale": 11917.35,
-          "defaultCost": 8607.29
+          "baseEuro": 1835.0,
+          "defaultSale": 12188.2,
+          "defaultCost": 8802.91
         },
         {
           "templateRow": 76,
@@ -805,9 +803,9 @@ export const bikesDataset = {
           "specs": "NX1 / DEORE 10SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1779.999339406787,
-          "defaultSale": 11560.16,
-          "defaultCost": 8349.3
+          "baseEuro": 1780.0,
+          "defaultSale": 11822.89,
+          "defaultCost": 8539.06
         },
         {
           "templateRow": 77,
@@ -816,9 +814,9 @@ export const bikesDataset = {
           "specs": "XCM HLO / ALIVIO 9SP / MT200 - 500WH",
           "sizes": "XS/S/M/L",
           "bhu": "-",
-          "baseEuro": 1273.000234210321,
-          "defaultSale": 8267.46,
-          "defaultCost": 5971.16
+          "baseEuro": 1273.0,
+          "defaultSale": 8455.36,
+          "defaultCost": 6106.87
         },
         {
           "templateRow": 78,
@@ -827,9 +825,9 @@ export const bikesDataset = {
           "specs": "MOBIE 32 / DEORE 10SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1781.999075169502,
-          "defaultSale": 11573.15,
-          "defaultCost": 8358.68
+          "baseEuro": 1782.0,
+          "defaultSale": 11836.17,
+          "defaultCost": 8548.65
         },
         {
           "templateRow": 79,
@@ -838,9 +836,9 @@ export const bikesDataset = {
           "specs": "NEX HLO / ACERA 8SP / MT200 - 500WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1273.000234210321,
-          "defaultSale": 8267.46,
-          "defaultCost": 5971.16
+          "baseEuro": 1273.0,
+          "defaultSale": 8455.36,
+          "defaultCost": 6106.87
         },
         {
           "templateRow": 80,
@@ -849,9 +847,9 @@ export const bikesDataset = {
           "specs": "NEX HLO / ACERA 8SP / MT200 - 500WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1273.000234210321,
-          "defaultSale": 8267.46,
-          "defaultCost": 5971.16
+          "baseEuro": 1273.0,
+          "defaultSale": 8455.36,
+          "defaultCost": 6106.87
         },
         {
           "templateRow": 81,
@@ -860,9 +858,9 @@ export const bikesDataset = {
           "specs": "MOBIE 32 / DEORE 10SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1909.99921929893,
-          "defaultSale": 12404.44,
-          "defaultCost": 8959.08
+          "baseEuro": 1910.0,
+          "defaultSale": 12686.36,
+          "defaultCost": 9162.7
         },
         {
           "templateRow": 82,
@@ -871,9 +869,9 @@ export const bikesDataset = {
           "specs": "NEX HLO / NEXUS 5SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1845.999147234216,
-          "defaultSale": 11988.79,
-          "defaultCost": 8658.88
+          "baseEuro": 1846.0,
+          "defaultSale": 12261.26,
+          "defaultCost": 8855.68
         },
         {
           "templateRow": 83,
@@ -882,9 +880,9 @@ export const bikesDataset = {
           "specs": "NEX HLO / DEORE 10SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1781.999075169502,
-          "defaultSale": 11573.15,
-          "defaultCost": 8358.68
+          "baseEuro": 1782.0,
+          "defaultSale": 11836.17,
+          "defaultCost": 8548.65
         },
         {
           "templateRow": 84,
@@ -893,9 +891,9 @@ export const bikesDataset = {
           "specs": "NEX / ALTUS 8SP / MT200 / B&M / RACKTIME - 500WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1336.998174360576,
-          "defaultSale": 8683.11,
-          "defaultCost": 6271.35
+          "baseEuro": 1337.0,
+          "defaultSale": 8880.45,
+          "defaultCost": 6413.89
         },
         {
           "templateRow": 85,
@@ -904,9 +902,9 @@ export const bikesDataset = {
           "specs": "NEX / ALTUS 8SP / MT200 / B&M / RACKTIME - 500WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1336.998174360576,
-          "defaultSale": 8683.11,
-          "defaultCost": 6271.35
+          "baseEuro": 1337.0,
+          "defaultSale": 8880.45,
+          "defaultCost": 6413.89
         },
         {
           "templateRow": 86,
@@ -915,9 +913,9 @@ export const bikesDataset = {
           "specs": "NEX / ALTUS 8SP / MT200 / B&M / RACKTIME - 500WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 1336.998174360576,
-          "defaultSale": 8683.11,
-          "defaultCost": 6271.35
+          "baseEuro": 1337.0,
+          "defaultSale": 8880.45,
+          "defaultCost": 6413.89
         }
       ]
     },
@@ -932,9 +930,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XTR 12SP / FOX FAC 36 / FOX FLOAT X FAC / XTR 4P / BIKE YOKE REVIVE / RF NEXT CARBON",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4180.999777800465,
-          "defaultSale": 27153.37,
-          "defaultCost": 19611.48
+          "baseEuro": 4181.0,
+          "defaultSale": 27770.5,
+          "defaultCost": 20057.2
         },
         {
           "templateRow": 90,
@@ -943,9 +941,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT 12SP / FOX FAC 36 / FOX FLOAT X FAC / XT 4P / BIKE YOKE REVIVE / RF TURBINE",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 2249.999069164109,
-          "defaultSale": 14612.56,
-          "defaultCost": 10553.89
+          "baseEuro": 2250.0,
+          "defaultSale": 14944.66,
+          "defaultCost": 10793.76
         },
         {
           "templateRow": 91,
@@ -954,9 +952,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT 12SP MIX / FOX PERF 36 / FOX FLOAT X / MT520 / RF AEFFECT / RF AEFFECT",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 1725.000210188749,
-          "defaultSale": 11202.96,
-          "defaultCost": 8091.32
+          "baseEuro": 1725.0,
+          "defaultSale": 11457.57,
+          "defaultCost": 8275.21
         },
         {
           "templateRow": 92,
@@ -965,9 +963,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XTR DI2 12SP / FOX FAC REM 34SC / FOX FAC REM / XTR / BIKE YOKE DIVINE / EVO CARBON SL / HB EVO CARBON / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5375.999657692608,
-          "defaultSale": 34914.27,
-          "defaultCost": 25216.77
+          "baseEuro": 5376.0,
+          "defaultSale": 35707.78,
+          "defaultCost": 25789.88
         },
         {
           "templateRow": 93,
@@ -976,9 +974,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT DI2 12SP / FOX FAC REM 34SC / FOX FAC REM / XT / BIKE YOKE DIVINE / EVO ALU / HB EVO CARBON / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 3883.000774695677,
-          "defaultSale": 25218.03,
-          "defaultCost": 18213.68
+          "baseEuro": 3883.0,
+          "defaultSale": 25791.17,
+          "defaultCost": 18627.62
         },
         {
           "templateRow": 94,
@@ -987,9 +985,9 @@ export const bikesDataset = {
           "specs": "SRAM GX AXS 12SP / FOX FAC REM 34SC / FOX FAC REM / SRAM LEVEL BRONZE STEALTH / BIKE YOKE DIVINE / EVO ALU / HB EVO CARBON / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 3883.000774695677,
-          "defaultSale": 25218.03,
-          "defaultCost": 18213.68
+          "baseEuro": 3883.0,
+          "defaultSale": 25791.17,
+          "defaultCost": 18627.62
         },
         {
           "templateRow": 95,
@@ -998,9 +996,9 @@ export const bikesDataset = {
           "specs": "SRAM EAGLE 90 12SP / RS SID REM / RS DELUXE / SRAM LEVEL BRONZE STEALTH / RF AEFFECT / EVO ALU / HB EVO CARBON / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3285.000900808926,
-          "defaultSale": 21334.34,
-          "defaultCost": 15408.69
+          "baseEuro": 3285.0,
+          "defaultSale": 21819.21,
+          "defaultCost": 15758.88
         },
         {
           "templateRow": 96,
@@ -1009,9 +1007,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT 12SP / FOX FAC REM 34SC / FOX FAC REM / XT / RF AEFFECT / EVO ALU / HB EVO CARBON / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3285.000900808926,
-          "defaultSale": 21334.34,
-          "defaultCost": 15408.69
+          "baseEuro": 3285.0,
+          "defaultSale": 21819.21,
+          "defaultCost": 15758.88
         },
         {
           "templateRow": 97,
@@ -1020,9 +1018,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT 12SP / FOX PERF REM 34SC 100MM / FOX PERF REM / XT / RF AEFFECT / EVO ALU / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2866.998564711111,
-          "defaultSale": 18619.65,
-          "defaultCost": 13448.0
+          "baseEuro": 2867.0,
+          "defaultSale": 19042.82,
+          "defaultCost": 13753.64
         },
         {
           "templateRow": 98,
@@ -1031,9 +1029,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / FOX PERF REM 34SC / FOX PERF REM / M6100 / RF AEFFECT / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2628.000294264249,
-          "defaultSale": 17067.46,
-          "defaultCost": 12326.95
+          "baseEuro": 2628.0,
+          "defaultSale": 17455.37,
+          "defaultCost": 12607.11
         },
         {
           "templateRow": 99,
@@ -1042,9 +1040,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / FOX RHYTHM 32 / FOX DPS / MT400 / RF AEFFECT / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2270.000690620177,
-          "defaultSale": 14742.45,
-          "defaultCost": 10647.71
+          "baseEuro": 2270.0,
+          "defaultSale": 15077.5,
+          "defaultCost": 10889.7
         },
         {
           "templateRow": 100,
@@ -1053,9 +1051,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / FOX RHYTHM 32 / FOX DPS / MT400 / RF AEFFECT / RF AEFFECT",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2031.000288258856,
-          "defaultSale": 13190.27,
-          "defaultCost": 9526.65
+          "baseEuro": 2031.0,
+          "defaultSale": 13490.05,
+          "defaultCost": 9743.16
         },
         {
           "templateRow": 101,
@@ -1064,9 +1062,9 @@ export const bikesDataset = {
           "specs": "SHIMANO SLX 12SP / RS REC REM / RS DELUXE / MT400 / RF AEFFECT / RF AEFFECT",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1791.999885897536,
-          "defaultSale": 11638.09,
-          "defaultCost": 8405.59
+          "baseEuro": 1792.0,
+          "defaultSale": 11902.59,
+          "defaultCost": 8596.63
         },
         {
           "templateRow": 102,
@@ -1075,9 +1073,9 @@ export const bikesDataset = {
           "specs": "SRAM XX SL AXS 12SP PWM / FOX FAC REM 34SL / FOX FAC REM / XTR / BIKE YOKE DIVINE / EVO CARBON SL / HB EVO STEALTH / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5973.00179561246,
-          "defaultSale": 38791.47,
-          "defaultCost": 28017.08
+          "baseEuro": 5973.0,
+          "defaultSale": 39673.1,
+          "defaultCost": 28653.82
         },
         {
           "templateRow": 103,
@@ -1086,9 +1084,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XTR DI2 12SP / FOX FAC REM 34SL / FOX FAC REM / XTR / BIKE YOKE DIVINE / EVO CARBON SL / HB EVO STEALTH / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5375.999657692608,
-          "defaultSale": 34914.27,
-          "defaultCost": 25216.77
+          "baseEuro": 5376.0,
+          "defaultSale": 35707.78,
+          "defaultCost": 25789.88
         },
         {
           "templateRow": 104,
@@ -1097,9 +1095,9 @@ export const bikesDataset = {
           "specs": "SRAM GX AXS 12SP / FOX FAC REM 34SL / FOX FAC REM / XT / BIKE YOKE DIVINE / EVO CARBON SL / HB EVO STEALTH / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4359.999579622501,
-          "defaultSale": 28315.89,
-          "defaultCost": 20451.1
+          "baseEuro": 4360.0,
+          "defaultSale": 28959.43,
+          "defaultCost": 20915.9
         },
         {
           "templateRow": 105,
@@ -1108,9 +1106,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT DI2 12SP / FOX FAC REM 34SL / FOX FAC REM / XT / BIKE YOKE DIVINE / EVO CARBON SL / HB EVO STEALTH / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4180.999777800465,
-          "defaultSale": 27153.37,
-          "defaultCost": 19611.48
+          "baseEuro": 4181.0,
+          "defaultSale": 27770.5,
+          "defaultCost": 20057.2
         },
         {
           "templateRow": 106,
@@ -1119,9 +1117,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT DI2 MIX 12SP / FOX FAC REM 34SL / FOX FAC REM / XT / BIKE YOKE DIVINE / EVO ALU / HB EVO STEALTH / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3583.999771795072,
-          "defaultSale": 23276.18,
-          "defaultCost": 16811.18
+          "baseEuro": 3584.0,
+          "defaultSale": 23805.19,
+          "defaultCost": 17193.25
         },
         {
           "templateRow": 107,
@@ -1130,9 +1128,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT 12SP / FOX FAC REM 34SL / FOX FAC REM / XT / RF AEFFECT / EVO CARBON / HB EVO STEALTH / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3763.001705531567,
-          "defaultSale": 24438.69,
-          "defaultCost": 17650.81
+          "baseEuro": 3763.0,
+          "defaultSale": 24994.12,
+          "defaultCost": 18051.96
         },
         {
           "templateRow": 108,
@@ -1141,9 +1139,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / FOX PERF REM 34SL / FOX PERF REM / M6000 / RF AEFFECT / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2808.002095882102,
-          "defaultSale": 18236.47,
-          "defaultCost": 13171.27
+          "baseEuro": 2808.0,
+          "defaultSale": 18650.94,
+          "defaultCost": 13470.61
         },
         {
           "templateRow": 109,
@@ -1152,9 +1150,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / FOX RHYTHM 32 REM / FOX PERF REM / MT400 / RF AEFFECT / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2509.001092981497,
-          "defaultSale": 16294.62,
-          "defaultCost": 11768.77
+          "baseEuro": 2509.0,
+          "defaultSale": 16664.96,
+          "defaultCost": 12036.24
         },
         {
           "templateRow": 110,
@@ -1163,9 +1161,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT 12SP MIX / FOX PERF REM 34SC / M6100 / RF AEFFECT / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1791.999885897536,
-          "defaultSale": 11638.09,
-          "defaultCost": 8405.59
+          "baseEuro": 1792.0,
+          "defaultSale": 11902.59,
+          "defaultCost": 8596.63
         },
         {
           "templateRow": 111,
@@ -1174,9 +1172,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT 12SP / FOX PERF REM 34SC / XT / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1731.999285358252,
-          "defaultSale": 11248.42,
-          "defaultCost": 8124.15
+          "baseEuro": 1732.0,
+          "defaultSale": 11504.07,
+          "defaultCost": 8308.79
         },
         {
           "templateRow": 112,
@@ -1185,9 +1183,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / FOX RHYTHM 32 REM / MT400 / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1314.001213089354,
-          "defaultSale": 8533.74,
-          "defaultCost": 6163.48
+          "baseEuro": 1314.0,
+          "defaultSale": 8727.68,
+          "defaultCost": 6303.55
         },
         {
           "templateRow": 113,
@@ -1196,9 +1194,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / RS REC REM / MT201 / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1134.999279352859,
-          "defaultSale": 7371.22,
-          "defaultCost": 5323.85
+          "baseEuro": 1135.0,
+          "defaultSale": 7538.75,
+          "defaultCost": 5444.85
         },
         {
           "templateRow": 114,
@@ -1207,9 +1205,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / RS JUDY REM / MT201 / BH LITE / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1076.000678609391,
-          "defaultSale": 6988.05,
-          "defaultCost": 5047.11
+          "baseEuro": 1076.0,
+          "defaultSale": 7146.87,
+          "defaultCost": 5161.81
         },
         {
           "templateRow": 115,
@@ -1218,9 +1216,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / FOX RHYTHM 32 REM / MT400 / RF AEFFECT",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 836.998144333612,
-          "defaultSale": 5435.87,
-          "defaultCost": 3926.04
+          "baseEuro": 837.0,
+          "defaultSale": 5559.41,
+          "defaultCost": 4015.28
         },
         {
           "templateRow": 116,
@@ -1229,9 +1227,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / RS REC REM / MT201 / RF AEFFECT",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 686.99877489986,
-          "defaultSale": 4461.7,
-          "defaultCost": 3222.45
+          "baseEuro": 687.0,
+          "defaultSale": 4563.1,
+          "defaultCost": 3295.69
         },
         {
           "templateRow": 117,
@@ -1240,9 +1238,9 @@ export const bikesDataset = {
           "specs": "SHIMANO XT MIX 12SP / RS JUDY REM / MT201 / BH LITE",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 628.000174156392,
-          "defaultSale": 4078.52,
-          "defaultCost": 2945.71
+          "baseEuro": 628.0,
+          "defaultSale": 4171.22,
+          "defaultCost": 3012.66
         },
         {
           "templateRow": 118,
@@ -1251,9 +1249,9 @@ export const bikesDataset = {
           "specs": "SHIMANO DEORE 12SP / SR RAIDON REM / MT201 / BH LITE",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 568.001705531567,
-          "defaultSale": 3688.86,
-          "defaultCost": 2664.28
+          "baseEuro": 568.0,
+          "defaultSale": 3772.7,
+          "defaultCost": 2724.82
         },
         {
           "templateRow": 119,
@@ -1262,9 +1260,9 @@ export const bikesDataset = {
           "specs": "SHIMANO DEORE 11SP / SR RAIDON REM / MT200",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 448.000504452999,
-          "defaultSale": 2909.52,
-          "defaultCost": 2101.4
+          "baseEuro": 448.0,
+          "defaultSale": 2975.65,
+          "defaultCost": 2149.16
         },
         {
           "templateRow": 120,
@@ -1273,9 +1271,9 @@ export const bikesDataset = {
           "specs": "SHIMANO DEORE 10SP / SR XCM REM / MT200",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 388.999771795072,
-          "defaultSale": 2526.35,
-          "defaultCost": 1824.65
+          "baseEuro": 389.0,
+          "defaultSale": 2583.77,
+          "defaultCost": 1866.12
         },
         {
           "templateRow": 121,
@@ -1284,9 +1282,9 @@ export const bikesDataset = {
           "specs": "SHIMANO ALTUS 16SP / SR XCT HLO / MT200",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 329.001303170247,
-          "defaultSale": 2136.68,
-          "defaultCost": 1543.22
+          "baseEuro": 329.0,
+          "defaultSale": 2185.24,
+          "defaultCost": 1578.29
         }
       ]
     },
@@ -1301,9 +1299,9 @@ export const bikesDataset = {
           "specs": "SHIMANO DURA ACE DI2 24SP / VISION METRON 45 / SHIMANO DURA ACE / HB METRON 5D / PLANK LIGHT",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 5375.999657692608,
-          "defaultSale": 34914.27,
-          "defaultCost": 25216.77
+          "baseEuro": 5376.0,
+          "defaultSale": 35707.78,
+          "defaultCost": 25789.88
         },
         {
           "templateRow": 125,
@@ -1312,9 +1310,9 @@ export const bikesDataset = {
           "specs": "SHIMANO ULTEGRA DI2 24SP / BH EVO STEALTH / SHIMANO ULTEGRA PWR / HB EVO SL / PLANK LIGHT",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4779.001783601674,
-          "defaultSale": 31037.07,
-          "defaultCost": 22416.48
+          "baseEuro": 4779.0,
+          "defaultSale": 31742.46,
+          "defaultCost": 22925.94
         },
         {
           "templateRow": 126,
@@ -1323,9 +1321,9 @@ export const bikesDataset = {
           "specs": "SHIMANO ULTEGRA DI2 24SP / VISION SC45 / SHIMANO ULTEGRA / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 3763.001705531567,
-          "defaultSale": 24438.69,
-          "defaultCost": 17650.81
+          "baseEuro": 3763.0,
+          "defaultSale": 24994.12,
+          "defaultCost": 18051.96
         },
         {
           "templateRow": 127,
@@ -1334,9 +1332,9 @@ export const bikesDataset = {
           "specs": "SHIMANO 105 DI2 24SP / VISION TEAM 35 / SHIMANO 105 / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2748.001495342818,
-          "defaultSale": 17846.8,
-          "defaultCost": 12889.83
+          "baseEuro": 2748.0,
+          "defaultSale": 18252.41,
+          "defaultCost": 13182.77
         },
         {
           "templateRow": 128,
@@ -1345,9 +1343,9 @@ export const bikesDataset = {
           "specs": "SHIMANO DURA ACE DI2 24SP / BH EVO STEALTH / SHIMANO DURA ACE / HB METRON 5D / PLANK LIGHT",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 5375.999657692608,
-          "defaultSale": 34914.27,
-          "defaultCost": 25216.77
+          "baseEuro": 5376.0,
+          "defaultSale": 35707.78,
+          "defaultCost": 25789.88
         },
         {
           "templateRow": 129,
@@ -1356,9 +1354,9 @@ export const bikesDataset = {
           "specs": "SHIMANO ULTEGRA DI2 24SP / BH EVO STEALTH / SHIMANO ULTEGRA PWR / HB EVO SL / PLANK LIGHT",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4779.001783601674,
-          "defaultSale": 31037.07,
-          "defaultCost": 22416.48
+          "baseEuro": 4779.0,
+          "defaultSale": 31742.46,
+          "defaultCost": 22925.94
         },
         {
           "templateRow": 130,
@@ -1367,9 +1365,9 @@ export const bikesDataset = {
           "specs": "SHIMANO ULTEGRA DI2 24SP / VISION SC60 / SHIMANO ULTEGRA / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 3763.001705531567,
-          "defaultSale": 24438.69,
-          "defaultCost": 17650.81
+          "baseEuro": 3763.0,
+          "defaultSale": 24994.12,
+          "defaultCost": 18051.96
         },
         {
           "templateRow": 131,
@@ -1378,9 +1376,9 @@ export const bikesDataset = {
           "specs": "SHIMANO 105 DI2 24SP / VISION TEAM 35 / SHIMANO 105 / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2748.001495342818,
-          "defaultSale": 17846.8,
-          "defaultCost": 12889.83
+          "baseEuro": 2748.0,
+          "defaultSale": 18252.41,
+          "defaultCost": 13182.77
         },
         {
           "templateRow": 132,
@@ -1389,9 +1387,9 @@ export const bikesDataset = {
           "specs": "SHIMANO ULTEGRA DI2 24SP / SHIMANO RS710 CARBON / SHIMANO ULTEGRA PWR / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3883.000774695677,
-          "defaultSale": 25218.03,
-          "defaultCost": 18213.68
+          "baseEuro": 3883.0,
+          "defaultSale": 25791.17,
+          "defaultCost": 18627.62
         },
         {
           "templateRow": 133,
@@ -1400,9 +1398,9 @@ export const bikesDataset = {
           "specs": "SHIMANO ULTEGRA DI2 24SP / VISION TEAM 35 / SHIMANO ULTEGRA / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2688.000894803534,
-          "defaultSale": 17457.13,
-          "defaultCost": 12608.39
+          "baseEuro": 2688.0,
+          "defaultSale": 17853.89,
+          "defaultCost": 12894.94
         },
         {
           "templateRow": 134,
@@ -1411,9 +1409,9 @@ export const bikesDataset = {
           "specs": "SHIMANO 105 DI2 24SP / SHIMANO RS710 CARBON / SHIMANO 105 / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2688.000894803534,
-          "defaultSale": 17457.13,
-          "defaultCost": 12608.39
+          "baseEuro": 2688.0,
+          "defaultSale": 17853.89,
+          "defaultCost": 12894.94
         },
         {
           "templateRow": 135,
@@ -1422,9 +1420,9 @@ export const bikesDataset = {
           "specs": "SHIMANO 105 DI2 24SP / VISION TEAM 35 / SHIMANO 105 / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2210.000090080893,
-          "defaultSale": 14352.77,
-          "defaultCost": 10366.27
+          "baseEuro": 2210.0,
+          "defaultSale": 14678.98,
+          "defaultCost": 10601.87
         },
         {
           "templateRow": 136,
@@ -1433,9 +1431,9 @@ export const bikesDataset = {
           "specs": "SHIMANO 105 24SP / SHIMANO RX180 / SHIMANO 105",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1791.999885897536,
-          "defaultSale": 11638.09,
-          "defaultCost": 8405.59
+          "baseEuro": 1792.0,
+          "defaultSale": 11902.59,
+          "defaultCost": 8596.63
         },
         {
           "templateRow": 137,
@@ -1444,9 +1442,9 @@ export const bikesDataset = {
           "specs": "SHIMANO ULTEGRA DI2 24SP / VISION TC30 / SHIMANO ULTEGRA",
           "sizes": "XS/S/M/L/XL/XXL",
           "bhu": "-",
-          "baseEuro": 2388.999891902929,
-          "defaultSale": 15515.29,
-          "defaultCost": 11205.89
+          "baseEuro": 2389.0,
+          "defaultSale": 15867.91,
+          "defaultCost": 11460.57
         },
         {
           "templateRow": 138,
@@ -1455,9 +1453,9 @@ export const bikesDataset = {
           "specs": "SHIMANO 105 DI2 24SP / VISION TEAM 35 / SHIMANO 105",
           "sizes": "XS/S/M/L/XL/XXL",
           "bhu": "-",
-          "baseEuro": 1970.999687719572,
-          "defaultSale": 12800.6,
-          "defaultCost": 9245.21
+          "baseEuro": 1971.0,
+          "defaultSale": 13091.52,
+          "defaultCost": 9455.33
         },
         {
           "templateRow": 139,
@@ -1466,9 +1464,9 @@ export const bikesDataset = {
           "specs": "SHIMANO 105 24SP / SHIMANO RS171 / FSA GOSSAMER",
           "sizes": "XS/S/M/L/XL/XXL",
           "bhu": "-",
-          "baseEuro": 1494.000882792748,
-          "defaultSale": 9702.74,
-          "defaultCost": 7007.79
+          "baseEuro": 1494.0,
+          "defaultSale": 9923.26,
+          "defaultCost": 7167.05
         },
         {
           "templateRow": 140,
@@ -1477,9 +1475,9 @@ export const bikesDataset = {
           "specs": "SHIMANO DURA ACE DI2 24SP / VISION METRON 81 / VISION METRON",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 6271.998534684146,
-          "defaultSale": 40733.32,
-          "defaultCost": 29419.56
+          "baseEuro": 6272.0,
+          "defaultSale": 41659.08,
+          "defaultCost": 30088.19
         },
         {
           "templateRow": 141,
@@ -1488,9 +1486,9 @@ export const bikesDataset = {
           "specs": "SHIMANO ULTEGRA DI2 24SP / VISION TC40 / ROTOR VEGAST AERO",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5076.998654792003,
-          "defaultSale": 32972.42,
-          "defaultCost": 23814.27
+          "baseEuro": 5077.0,
+          "defaultSale": 33721.8,
+          "defaultCost": 24355.51
         },
         {
           "templateRow": 142,
@@ -1499,9 +1497,9 @@ export const bikesDataset = {
           "specs": "SHIMANO 105 DI2 24SP / VISION TC30 / SHIMANO 105",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 3883.000774695677,
-          "defaultSale": 25218.03,
-          "defaultCost": 18213.68
+          "baseEuro": 3883.0,
+          "defaultSale": 25791.17,
+          "defaultCost": 18627.62
         },
         {
           "templateRow": 143,
@@ -1510,9 +1508,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX DI2 24SP / VISION SC45 / SHIMANO GRX / RACE FRAME",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 2986.999765789679,
-          "defaultSale": 19398.98,
-          "defaultCost": 14010.88
+          "baseEuro": 2987.0,
+          "defaultSale": 19839.87,
+          "defaultCost": 14329.31
         },
         {
           "templateRow": 144,
@@ -1521,9 +1519,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX DI2 24SP / VISION SC45 / SHIMANO GRX / AT FRAME",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 2986.999765789679,
-          "defaultSale": 19398.98,
-          "defaultCost": 14010.88
+          "baseEuro": 2987.0,
+          "defaultSale": 19839.87,
+          "defaultCost": 14329.31
         },
         {
           "templateRow": 145,
@@ -1532,9 +1530,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX 820 24SP / VISION TC30 / SHIMANO GRX / RACE FRAME",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2090.998756883681,
-          "defaultSale": 13579.93,
-          "defaultCost": 9808.08
+          "baseEuro": 2091.0,
+          "defaultSale": 13888.57,
+          "defaultCost": 10031.0
         },
         {
           "templateRow": 146,
@@ -1543,9 +1541,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX 820 24SP / VISION TC30 / SHIMANO GRX / AT FRAME",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2090.998756883681,
-          "defaultSale": 13579.93,
-          "defaultCost": 9808.08
+          "baseEuro": 2091.0,
+          "defaultSale": 13888.57,
+          "defaultCost": 10031.0
         },
         {
           "templateRow": 147,
@@ -1554,9 +1552,9 @@ export const bikesDataset = {
           "specs": "SRAM APEX AXS 12SP / VISION TC30 / SRAM APEX / RACE FRAME",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2210.000090080893,
-          "defaultSale": 14352.77,
-          "defaultCost": 10366.27
+          "baseEuro": 2210.0,
+          "defaultSale": 14678.98,
+          "defaultCost": 10601.87
         },
         {
           "templateRow": 148,
@@ -1565,9 +1563,9 @@ export const bikesDataset = {
           "specs": "SRAM APEX AXS 12SP / VISION TC30 / SRAM APEX / AT FRAME",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2210.000090080893,
-          "defaultSale": 14352.77,
-          "defaultCost": 10366.27
+          "baseEuro": 2210.0,
+          "defaultSale": 14678.98,
+          "defaultCost": 10601.87
         },
         {
           "templateRow": 149,
@@ -1576,9 +1574,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX 822 12SP / SHIMANO RX181 / SHIMANO GRX / RACE FRAME",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1791.999885897536,
-          "defaultSale": 11638.09,
-          "defaultCost": 8405.59
+          "baseEuro": 1792.0,
+          "defaultSale": 11902.59,
+          "defaultCost": 8596.63
         },
         {
           "templateRow": 150,
@@ -1587,9 +1585,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX 822 12SP / SHIMANO RX181 / SHIMANO GRX / AT FRAME",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1791.999885897536,
-          "defaultSale": 11638.09,
-          "defaultCost": 8405.59
+          "baseEuro": 1792.0,
+          "defaultSale": 11902.59,
+          "defaultCost": 8596.63
         },
         {
           "templateRow": 151,
@@ -1598,9 +1596,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX 20SP / SHIMANO RS171 / SHIMANO GRX / RACE FRAME",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1673.000684614784,
-          "defaultSale": 10865.24,
-          "defaultCost": 7847.41
+          "baseEuro": 1673.0,
+          "defaultSale": 11112.19,
+          "defaultCost": 8025.76
         },
         {
           "templateRow": 152,
@@ -1609,9 +1607,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX 20SP / SHIMANO RS171 / SHIMANO GRX / AT FRAME",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1673.000684614784,
-          "defaultSale": 10865.24,
-          "defaultCost": 7847.41
+          "baseEuro": 1673.0,
+          "defaultSale": 11112.19,
+          "defaultCost": 8025.76
         },
         {
           "templateRow": 153,
@@ -1620,9 +1618,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX 820 24SP / VISION TC30 / SHIMANO GRX",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1494.000882792748,
-          "defaultSale": 9702.74,
-          "defaultCost": 7007.79
+          "baseEuro": 1494.0,
+          "defaultSale": 9923.26,
+          "defaultCost": 7167.05
         },
         {
           "templateRow": 154,
@@ -1631,9 +1629,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX 822 12SP / SHIMANO RX181 / SHIMANO GRX",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1194.999879892143,
-          "defaultSale": 7760.89,
-          "defaultCost": 5605.29
+          "baseEuro": 1195.0,
+          "defaultSale": 7937.28,
+          "defaultCost": 5732.68
         },
         {
           "templateRow": 155,
@@ -1642,9 +1640,9 @@ export const bikesDataset = {
           "specs": "SHIMANO GRX DI2 24SP / VISION TC30 / ROTOR VEGAST",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2688.000894803534,
-          "defaultSale": 17457.13,
-          "defaultCost": 12608.39
+          "baseEuro": 2688.0,
+          "defaultSale": 17853.89,
+          "defaultCost": 12894.94
         },
         {
           "templateRow": 156,
@@ -1653,9 +1651,9 @@ export const bikesDataset = {
           "specs": "SRAM APEX AXS 12SP / VISION TC30 / SRAM APEX",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2210.000090080893,
-          "defaultSale": 14352.77,
-          "defaultCost": 10366.27
+          "baseEuro": 2210.0,
+          "defaultSale": 14678.98,
+          "defaultCost": 10601.87
         },
         {
           "templateRow": 157,
@@ -1664,9 +1662,9 @@ export const bikesDataset = {
           "specs": "SHIMANO 105 24SP / SHIMANO RS171 / SHIMANO 105",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1911.998955061645,
-          "defaultSale": 12417.43,
-          "defaultCost": 8968.46
+          "baseEuro": 1912.0,
+          "defaultSale": 12699.64,
+          "defaultCost": 9172.29
         }
       ]
     },
@@ -1681,9 +1679,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / GATES ALFINE 11SP / MT200 / CURANA / RACKTIME",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1076.000678609391,
-          "defaultSale": 6988.05,
-          "defaultCost": 5047.11
+          "baseEuro": 1076.0,
+          "defaultSale": 7146.87,
+          "defaultCost": 5161.81
         },
         {
           "templateRow": 161,
@@ -1692,9 +1690,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / GATES ALFINE 11SP / MT200 / CURANA / RACKTIME",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1076.000678609391,
-          "defaultSale": 6988.05,
-          "defaultCost": 5047.11
+          "baseEuro": 1076.0,
+          "defaultSale": 7146.87,
+          "defaultCost": 5161.81
         },
         {
           "templateRow": 162,
@@ -1703,9 +1701,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / XT 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 776.999675708786,
-          "defaultSale": 5046.21,
-          "defaultCost": 3644.61
+          "baseEuro": 777.0,
+          "defaultSale": 5160.89,
+          "defaultCost": 3727.44
         },
         {
           "templateRow": 163,
@@ -1714,9 +1712,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / XT 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 776.999675708786,
-          "defaultSale": 5046.21,
-          "defaultCost": 3644.61
+          "baseEuro": 777.0,
+          "defaultSale": 5160.89,
+          "defaultCost": 3727.44
         },
         {
           "templateRow": 164,
@@ -1725,9 +1723,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / DEORE 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 656.998474630218,
-          "defaultSale": 4266.86,
-          "defaultCost": 3081.73
+          "baseEuro": 657.0,
+          "defaultSale": 4363.84,
+          "defaultCost": 3151.78
         },
         {
           "templateRow": 165,
@@ -1736,9 +1734,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / DEORE 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 656.998474630218,
-          "defaultSale": 4266.86,
-          "defaultCost": 3081.73
+          "baseEuro": 657.0,
+          "defaultSale": 4363.84,
+          "defaultCost": 3151.78
         },
         {
           "templateRow": 166,
@@ -1747,9 +1745,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / GATES ALFINE 11SP / MT200 / CURANA / RACKTIME",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1016.000078070107,
-          "defaultSale": 6598.38,
-          "defaultCost": 4765.67
+          "baseEuro": 1016.0,
+          "defaultSale": 6748.35,
+          "defaultCost": 4873.98
         },
         {
           "templateRow": 167,
@@ -1758,9 +1756,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / GATES ALFINE 11SP / MT200 / CURANA / RACKTIME",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1016.000078070107,
-          "defaultSale": 6598.38,
-          "defaultCost": 4765.67
+          "baseEuro": 1016.0,
+          "defaultSale": 6748.35,
+          "defaultCost": 4873.98
         },
         {
           "templateRow": 168,
@@ -1769,9 +1767,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / XT 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 716.999075169502,
-          "defaultSale": 4656.53,
-          "defaultCost": 3363.17
+          "baseEuro": 717.0,
+          "defaultSale": 4762.37,
+          "defaultCost": 3439.61
         },
         {
           "templateRow": 169,
@@ -1780,9 +1778,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / XT 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 716.999075169502,
-          "defaultSale": 4656.53,
-          "defaultCost": 3363.17
+          "baseEuro": 717.0,
+          "defaultSale": 4762.37,
+          "defaultCost": 3439.61
         },
         {
           "templateRow": 170,
@@ -1791,9 +1789,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / DEORE 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 597.99987388675,
-          "defaultSale": 3883.69,
-          "defaultCost": 2804.99
+          "baseEuro": 598.0,
+          "defaultSale": 3971.96,
+          "defaultCost": 2868.74
         },
         {
           "templateRow": 171,
@@ -1802,9 +1800,9 @@ export const bikesDataset = {
           "specs": "ALU 28\" / RIGID / DEORE 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 597.99987388675,
-          "defaultSale": 3883.69,
-          "defaultCost": 2804.99
+          "baseEuro": 598.0,
+          "defaultSale": 3971.96,
+          "defaultCost": 2868.74
         }
       ]
     },
@@ -1819,9 +1817,9 @@ export const bikesDataset = {
           "specs": "26\" / ALLOY / 18SP / H. DISC / SUSP",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 413.000864776569,
-          "defaultSale": 2682.22,
-          "defaultCost": 1937.23
+          "baseEuro": 413.0,
+          "defaultSale": 2743.18,
+          "defaultCost": 1981.25
         },
         {
           "templateRow": 175,
@@ -1830,9 +1828,9 @@ export const bikesDataset = {
           "specs": "26\" / ALLOY/ 21SP / VBRAKE / SUSP",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 322.999963967643,
-          "defaultSale": 2097.72,
-          "defaultCost": 1515.07
+          "baseEuro": 323.0,
+          "defaultSale": 2145.39,
+          "defaultCost": 1549.5
         },
         {
           "templateRow": 176,
@@ -1841,9 +1839,9 @@ export const bikesDataset = {
           "specs": "24\" / ALLOY / 8SP / VBRAKE",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 274.999909919107,
-          "defaultSale": 1785.98,
-          "defaultCost": 1289.92
+          "baseEuro": 275.0,
+          "defaultSale": 1826.57,
+          "defaultCost": 1319.24
         },
         {
           "templateRow": 177,
@@ -1852,9 +1850,9 @@ export const bikesDataset = {
           "specs": "20\" / ALLOY / 7SP / VBRAKE / SUSP",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 280.999117207252,
-          "defaultSale": 1824.95,
-          "defaultCost": 1318.06
+          "baseEuro": 281.0,
+          "defaultSale": 1866.42,
+          "defaultCost": 1348.02
         },
         {
           "templateRow": 178,
@@ -1863,9 +1861,9 @@ export const bikesDataset = {
           "specs": "20\" / ALLOY / 7SP",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 244.999609649465,
-          "defaultSale": 1591.14,
-          "defaultCost": 1149.2
+          "baseEuro": 245.0,
+          "defaultSale": 1627.31,
+          "defaultCost": 1175.32
         }
       ]
     },
@@ -1880,9 +1878,9 @@ export const bikesDataset = {
           "specs": "CROMOLY FORK / 7SP / M.MOTOR / H DISC / DIFF. / F&R BASKETS - 504WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2228.001975774245,
-          "defaultSale": 14469.67,
-          "defaultCost": 10450.71
+          "baseEuro": 2228.0,
+          "defaultSale": 14798.54,
+          "defaultCost": 10688.22
         },
         {
           "templateRow": 182,
@@ -1891,9 +1889,9 @@ export const bikesDataset = {
           "specs": "ALU 24\" / ZOOM 595S 100MM / REVOSHIFT / 7SP / M.MOTOR / DIFF. / 504WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2546.000468420642,
-          "defaultSale": 16534.92,
-          "defaultCost": 11942.32
+          "baseEuro": 2546.0,
+          "defaultSale": 16910.72,
+          "defaultCost": 12213.73
         },
         {
           "templateRow": 183,
@@ -1902,9 +1900,9 @@ export const bikesDataset = {
           "specs": "CROMOLY FORK / 7SP / F.MOTOR / M DISC / DIFF.  / F&R BASKETS - 418WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 1719.001002900605,
-          "defaultSale": 11163.99,
-          "defaultCost": 8063.18
+          "baseEuro": 1719.0,
+          "defaultSale": 11417.72,
+          "defaultCost": 8246.43
         },
         {
           "templateRow": 184,
@@ -1913,9 +1911,9 @@ export const bikesDataset = {
           "specs": "CROMOLY FORK / 7SP / M. DISC / DIFF. / F&R BASKETS",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 1273.000234210321,
-          "defaultSale": 8267.46,
-          "defaultCost": 5971.16
+          "baseEuro": 1273.0,
+          "defaultSale": 8455.36,
+          "defaultCost": 6106.87
         },
         {
           "templateRow": 185,
@@ -1924,9 +1922,9 @@ export const bikesDataset = {
           "specs": "ALU 24\"-20\"/SR MOBIE 34 /MICROSHIFT 10SP/ TEKTRO DISC H / LIGHTS / CARGO RACK / AXA - 540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2355.000120107857,
-          "defaultSale": 15294.48,
-          "defaultCost": 11046.41
+          "baseEuro": 2355.0,
+          "defaultSale": 15642.08,
+          "defaultCost": 11297.46
         },
         {
           "templateRow": 186,
@@ -1935,9 +1933,9 @@ export const bikesDataset = {
           "specs": "ALU 26\" / CROMOLY FORK / ALFINE / 11SP /540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2546.000468420642,
-          "defaultSale": 16534.92,
-          "defaultCost": 11942.32
+          "baseEuro": 2546.0,
+          "defaultSale": 16910.72,
+          "defaultCost": 12213.73
         },
         {
           "templateRow": 187,
@@ -1946,9 +1944,9 @@ export const bikesDataset = {
           "specs": "ALU 26\" / CROMOLY FORK / ALFINE / 11SP /540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2546.000468420642,
-          "defaultSale": 16534.92,
-          "defaultCost": 11942.32
+          "baseEuro": 2546.0,
+          "defaultSale": 16910.72,
+          "defaultCost": 12213.73
         },
         {
           "templateRow": 188,
@@ -1957,9 +1955,9 @@ export const bikesDataset = {
           "specs": "ALU 26\" / SUNTOUR XCR32 80MM / CUES / 11SP / 540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2419.000192172571,
-          "defaultSale": 15710.12,
-          "defaultCost": 11346.61
+          "baseEuro": 2419.0,
+          "defaultSale": 16067.17,
+          "defaultCost": 11604.49
         },
         {
           "templateRow": 189,
@@ -1968,9 +1966,9 @@ export const bikesDataset = {
           "specs": "ALU 26\" / SUNTOUR XCR32 80MM / CUES / 11SP / 540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2419.000192172571,
-          "defaultSale": 15710.12,
-          "defaultCost": 11346.61
+          "baseEuro": 2419.0,
+          "defaultSale": 16067.17,
+          "defaultCost": 11604.49
         },
         {
           "templateRow": 190,
@@ -1979,9 +1977,9 @@ export const bikesDataset = {
           "specs": "ALU 26\" / CROMOLY FORK / CUES / 10SP/ 540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2291.000048043143,
-          "defaultSale": 14878.83,
-          "defaultCost": 10746.21
+          "baseEuro": 2291.0,
+          "defaultSale": 15216.99,
+          "defaultCost": 10990.44
         },
         {
           "templateRow": 191,
@@ -1990,9 +1988,9 @@ export const bikesDataset = {
           "specs": "ALU 26\" / SUNTOUR XCR32 80MM / CUES / 11SP / 540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2864.001092981497,
-          "defaultSale": 18600.16,
-          "defaultCost": 13433.94
+          "baseEuro": 2864.0,
+          "defaultSale": 19022.89,
+          "defaultCost": 13739.25
         },
         {
           "templateRow": 192,
@@ -2001,9 +1999,9 @@ export const bikesDataset = {
           "specs": "ALU FORK / ALTUS 2X9SP / TEKTRO DISC H  / DYNAMO / LIGHTS / RACK",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 566.999705735751,
-          "defaultSale": 3682.36,
-          "defaultCost": 2659.58
+          "baseEuro": 567.0,
+          "defaultSale": 3766.05,
+          "defaultCost": 2720.03
         },
         {
           "templateRow": 193,
@@ -2012,9 +2010,9 @@ export const bikesDataset = {
           "specs": "SUNTOUR NVX 63MM / DEORE 10SP / TEKTRO DISC H",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 516.000048043143,
-          "defaultSale": 3351.15,
-          "defaultCost": 2420.36
+          "baseEuro": 516.0,
+          "defaultSale": 3427.31,
+          "defaultCost": 2475.37
         },
         {
           "templateRow": 194,
@@ -2023,9 +2021,9 @@ export const bikesDataset = {
           "specs": "ALU FORK / ALTUS 2X8SP / TEKTRO DISC H",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 459.00118306239,
-          "defaultSale": 2980.96,
-          "defaultCost": 2153.0
+          "baseEuro": 459.0,
+          "defaultSale": 3048.71,
+          "defaultCost": 2201.93
         },
         {
           "templateRow": 195,
@@ -2034,9 +2032,9 @@ export const bikesDataset = {
           "specs": "STEEL FORK / REVOSHIFT 6SP / V-BRAKE",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 330.998907018503,
-          "defaultSale": 2149.67,
-          "defaultCost": 1552.59
+          "baseEuro": 331.0,
+          "defaultSale": 2198.53,
+          "defaultCost": 1587.88
         },
         {
           "templateRow": 196,
@@ -2045,9 +2043,9 @@ export const bikesDataset = {
           "specs": "SR RAIDON XC-RLR 100MM / DEORE 12SP / TEKTRO DISC H",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 699.999189271966,
-          "defaultSale": 4546.12,
-          "defaultCost": 3283.43
+          "baseEuro": 700.0,
+          "defaultSale": 4649.45,
+          "defaultCost": 3358.06
         },
         {
           "templateRow": 197,
@@ -2056,9 +2054,9 @@ export const bikesDataset = {
           "specs": "SR XCM-RL 100MM / DEORE 10SP / TEKTRO DISC H",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 510.000840754998,
-          "defaultSale": 3312.18,
-          "defaultCost": 2392.22
+          "baseEuro": 510.0,
+          "defaultSale": 3387.46,
+          "defaultCost": 2446.58
         },
         {
           "templateRow": 198,
@@ -2067,9 +2065,9 @@ export const bikesDataset = {
           "specs": "SR XCM-RL 100MM / ALTUS 2X8SP / TEKTRO DISC H",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 459.00118306239,
-          "defaultSale": 2980.96,
-          "defaultCost": 2153.0
+          "baseEuro": 459.0,
+          "defaultSale": 3048.71,
+          "defaultCost": 2201.93
         },
         {
           "templateRow": 199,
@@ -2078,9 +2076,9 @@ export const bikesDataset = {
           "specs": "SR XCM-HLO 100MM / DEORE 10SP / TEKTRO DISC H",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 496.998294468433,
-          "defaultSale": 3227.75,
-          "defaultCost": 2331.23
+          "baseEuro": 497.0,
+          "defaultSale": 3301.11,
+          "defaultCost": 2384.22
         },
         {
           "templateRow": 200,
@@ -2089,9 +2087,9 @@ export const bikesDataset = {
           "specs": "ZOOM 565D 100MM / ACERA 2X8SP / TEKTRO DISC H",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 401.000318285821,
-          "defaultSale": 2604.28,
-          "defaultCost": 1880.94
+          "baseEuro": 401.0,
+          "defaultSale": 2663.47,
+          "defaultCost": 1923.69
         },
         {
           "templateRow": 201,
@@ -2100,9 +2098,9 @@ export const bikesDataset = {
           "specs": "ZOOM 565D 100MM / ACERA 2X7SP / TEKTRO DISC H",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 375.999357422966,
-          "defaultSale": 2441.92,
-          "defaultCost": 1763.67
+          "baseEuro": 376.0,
+          "defaultSale": 2497.42,
+          "defaultCost": 1803.76
         },
         {
           "templateRow": 202,
@@ -2111,9 +2109,9 @@ export const bikesDataset = {
           "specs": "ZOOM BRAVO 386 60MM / ACERA 3X7SP / V-BRAKE",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 319.000492442213,
-          "defaultSale": 2071.74,
-          "defaultCost": 1496.31
+          "baseEuro": 319.0,
+          "defaultSale": 2118.82,
+          "defaultCost": 1530.31
         },
         {
           "templateRow": 203,
@@ -2122,9 +2120,9 @@ export const bikesDataset = {
           "specs": "ZOOM BRAVO 386A 50MM / ALTUS 7SP / TEKTRO DISC H",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 319.000492442213,
-          "defaultSale": 2071.74,
-          "defaultCost": 1496.31
+          "baseEuro": 319.0,
+          "defaultSale": 2118.82,
+          "defaultCost": 1530.31
         },
         {
           "templateRow": 204,
@@ -2133,9 +2131,9 @@ export const bikesDataset = {
           "specs": "ZOOM BRAVO 386 50MM / ALTUS 7SP / V-BRAKE",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 279.999249325895,
-          "defaultSale": 1818.46,
-          "defaultCost": 1313.37
+          "baseEuro": 280.0,
+          "defaultSale": 1859.78,
+          "defaultCost": 1343.22
         },
         {
           "templateRow": 205,
@@ -2144,9 +2142,9 @@ export const bikesDataset = {
           "specs": "ZOOM BRAVO 327 30MM / REVOSHIFT 6SP / V-BRAKE",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 242.000006005393,
-          "defaultSale": 1571.66,
-          "defaultCost": 1135.13
+          "baseEuro": 242.0,
+          "defaultSale": 1607.38,
+          "defaultCost": 1160.93
         },
         {
           "templateRow": 206,
@@ -2155,9 +2153,9 @@ export const bikesDataset = {
           "specs": "STEEL FORK / REVOSHIFT 6SP / V-BRAKE",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 242.000006005393,
-          "defaultSale": 1571.66,
-          "defaultCost": 1135.13
+          "baseEuro": 242.0,
+          "defaultSale": 1607.38,
+          "defaultCost": 1160.93
         },
         {
           "templateRow": 207,
@@ -2166,9 +2164,9 @@ export const bikesDataset = {
           "specs": "STEEL FORK / V-BRAKE",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 191.000348312785,
-          "defaultSale": 1240.44,
-          "defaultCost": 895.91
+          "baseEuro": 191.0,
+          "defaultSale": 1268.64,
+          "defaultCost": 916.27
         }
       ]
     }

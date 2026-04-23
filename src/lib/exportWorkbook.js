@@ -2,7 +2,7 @@ import JSZip from "jszip";
 import { resolveItemPrices } from "./pricing.js";
 
 const TEMPLATE_URL = "/templates/PricesBH_2026_AED_Ajustado (1).xlsx";
-const WORKSHEET_PATH = "xl/worksheets/sheet1.xml";
+const DEFAULT_WORKSHEET_PATH = "xl/worksheets/sheet1.xml";
 
 function sanitizeFileLabel(label) {
   return label
@@ -72,7 +72,8 @@ function updateWorksheetXml(sheetXml, dataset, parameters) {
 
 export async function buildWorkbookBlob(templateData, dataset, parameters) {
   const zip = await JSZip.loadAsync(templateData);
-  const worksheetFile = zip.file(WORKSHEET_PATH);
+  const worksheetPath = dataset.worksheetPath || DEFAULT_WORKSHEET_PATH;
+  const worksheetFile = zip.file(worksheetPath);
 
   if (!worksheetFile) {
     throw new Error("A aba principal não foi encontrada no template.");
@@ -80,7 +81,7 @@ export async function buildWorkbookBlob(templateData, dataset, parameters) {
 
   const sheetXml = await worksheetFile.async("string");
   const updatedSheetXml = updateWorksheetXml(sheetXml, dataset, parameters);
-  zip.file(WORKSHEET_PATH, updatedSheetXml);
+  zip.file(worksheetPath, updatedSheetXml);
 
   return zip.generateAsync({
     type: "blob",
@@ -88,13 +89,18 @@ export async function buildWorkbookBlob(templateData, dataset, parameters) {
   });
 }
 
-export async function exportWorkbook(dataset, parameters) {
-  const response = await fetch(TEMPLATE_URL);
-  if (!response.ok) {
-    throw new Error("Não foi possível carregar o template da planilha.");
+export async function exportWorkbook(dataset, parameters, templateData = null) {
+  let workbookData = templateData;
+
+  if (!workbookData) {
+    const response = await fetch(TEMPLATE_URL);
+    if (!response.ok) {
+      throw new Error("Não foi possível carregar o template da planilha.");
+    }
+
+    workbookData = await response.arrayBuffer();
   }
 
-  const workbookData = await response.arrayBuffer();
   const blob = await buildWorkbookBlob(workbookData, dataset, parameters);
   const currencyLabel = parameters.moedaDestino.trim().toUpperCase() || "AED";
 

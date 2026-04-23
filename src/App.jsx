@@ -4,46 +4,40 @@ import {
   formatPrice,
   parseLocalizedNumber,
   resolveItemPrices,
-  toInputString,
   validateParameters,
 } from "./lib/pricing";
 
 const brandImageUrl = "/brand/tp-maduro.jpeg";
 
-const dashboardMetrics = [
-  { label: "Categorias", value: bikesDataset.totals.categories },
-  { label: "SKUs", value: bikesDataset.totals.skus },
-  { label: "Base", value: "TP Maduro" },
-];
+function buildLandingPreviewItems(dataset) {
+  const firstCategory = dataset.categories[0];
+  if (!firstCategory) {
+    return [];
+  }
 
-const landingPreviewItems = bikesDataset.categories[0].items.slice(0, 3).map((item) => ({
-  code: item.code,
-  description: item.description,
-  sale: formatPrice(
-    resolveItemPrices(item, bikesDataset.defaultParameters, bikesDataset.defaultParameters).sale,
-  ),
-}));
-
-function formatInputValue(value) {
-  return value.toFixed(2).replace(".", ",");
+  return firstCategory.items.slice(0, 3).map((item) => ({
+    code: item.code,
+    description: item.description,
+    sale: formatPrice(resolveItemPrices(item, dataset.defaultParameters, dataset.defaultParameters).sale),
+  }));
 }
 
-function createDraftParameters() {
+function createDraftParameters(dataset) {
   return {
     markupCompra: "",
     margemVenda: "",
     taxaConversao: "",
-    moedaDestino: bikesDataset.defaultParameters.moedaDestino,
+    moedaDestino: dataset.defaultParameters.moedaDestino,
     query: "",
   };
 }
 
-function createAppliedParameters() {
+function createAppliedParameters(dataset) {
   return {
-    markupCompra: bikesDataset.defaultParameters.markupCompra,
-    margemVenda: bikesDataset.defaultParameters.margemVenda,
-    taxaConversao: bikesDataset.defaultParameters.taxaConversao,
-    moedaDestino: bikesDataset.defaultParameters.moedaDestino,
+    markupCompra: dataset.defaultParameters.markupCompra,
+    margemVenda: dataset.defaultParameters.margemVenda,
+    taxaConversao: dataset.defaultParameters.taxaConversao,
+    moedaDestino: dataset.defaultParameters.moedaDestino,
   };
 }
 
@@ -56,6 +50,7 @@ function downloadBlob(blob, fileName) {
   document.body.appendChild(anchor);
   anchor.click();
   document.body.removeChild(anchor);
+
   window.setTimeout(() => {
     window.URL.revokeObjectURL(url);
   }, 1000);
@@ -88,29 +83,22 @@ function ParameterField({
   );
 }
 
-function WelcomeScreen({ onStart }) {
+function WelcomeScreen({ dataset, onStart }) {
+  const landingPreviewItems = buildLandingPreviewItems(dataset);
+  const featuredCategory = dataset.categories[0];
+
   return (
     <main className="landing-shell">
       <section className="landing-card">
         <div className="landing-copy">
           <span className="landing-copy__eyebrow">Painel BH - TP Maduro</span>
           <h1>Precificação BH com abertura direta para a operação.</h1>
-         
 
           <div className="landing-actions">
             <button type="button" className="button button--primary button--large" onClick={onStart}>
               Iniciar
             </button>
           </div>
-
-          {/* <div className="landing-metrics">
-            {dashboardMetrics.map((metric) => (
-              <article key={metric.label}>
-                <strong>{metric.value}</strong>
-                <span>{metric.label}</span>
-              </article>
-            ))}
-          </div> */}
         </div>
 
         <aside className="landing-preview">
@@ -128,23 +116,13 @@ function WelcomeScreen({ onStart }) {
             <strong>Recálculo em tempo real</strong>
           </header>
 
-         {/*  <div className="landing-preview__panel">
-            <div>
-              <span>Markup Compra</span>
-              <strong>{formatInputValue(bikesDataset.defaultParameters.markupCompra)}%</strong>
-            </div>
-            <div>
-              <span>Margem Venda</span>
-              <strong>{formatInputValue(bikesDataset.defaultParameters.margemVenda)}%</strong>
-            </div>
-            <div>
-              <span>Taxa Conversão</span>
-              <strong>{formatInputValue(bikesDataset.defaultParameters.taxaConversao)}</strong>
-            </div>
-          </div> */}
-
           <div className="landing-preview__table">
-            <div className="landing-preview__category">E-BIKES · 82 produtos</div>
+            <div className="landing-preview__category">
+              {featuredCategory
+                ? `${featuredCategory.name} · ${featuredCategory.items.length} produtos`
+                : "Base pronta para importação"}
+            </div>
+
             {landingPreviewItems.map((item) => (
               <div key={item.code} className="landing-preview__row">
                 <span>{item.code}</span>
@@ -160,35 +138,32 @@ function WelcomeScreen({ onStart }) {
 }
 
 export default function App() {
+  const dataset = bikesDataset;
   const [hasStarted, setHasStarted] = useState(false);
-  const [draftParameters, setDraftParameters] = useState(createDraftParameters);
-  const [appliedParameters, setAppliedParameters] = useState(createAppliedParameters);
+  const [draftParameters, setDraftParameters] = useState(() => createDraftParameters(bikesDataset));
+  const [appliedParameters, setAppliedParameters] = useState(() => createAppliedParameters(bikesDataset));
   const [isExporting, setIsExporting] = useState(false);
   const [feedbackMessage, setFeedbackMessage] = useState("");
 
   const errors = validateParameters(draftParameters);
   const normalizedQuery = draftParameters.query.trim().toLowerCase();
-  const moedaDestino = draftParameters.moedaDestino.trim().toUpperCase() || "AED";
+  const moedaDestino =
+    draftParameters.moedaDestino.trim().toUpperCase() || dataset.defaultParameters.moedaDestino;
   const hasErrors = Object.keys(errors).length > 0;
 
-  const visibleCategories = bikesDataset.categories
+  const visibleCategories = dataset.categories
     .map((category) => {
       const items = category.items
         .map((item) => ({
           ...item,
-          ...resolveItemPrices(
-            item,
-            { ...appliedParameters, moedaDestino },
-            bikesDataset.defaultParameters,
-          ),
+          ...resolveItemPrices(item, { ...appliedParameters, moedaDestino }, dataset.defaultParameters),
         }))
         .filter((item) => {
           if (!normalizedQuery) {
             return true;
           }
 
-          const searchContent = `${item.code} ${item.description}`.toLowerCase();
-          return searchContent.includes(normalizedQuery);
+          return `${item.code} ${item.description}`.toLowerCase().includes(normalizedQuery);
         });
 
       return {
@@ -207,7 +182,7 @@ export default function App() {
     if (nextValue.trim() === "") {
       setAppliedParameters((currentParameters) => ({
         ...currentParameters,
-        [field]: bikesDataset.defaultParameters[field],
+        [field]: dataset.defaultParameters[field],
       }));
       return;
     }
@@ -244,16 +219,24 @@ export default function App() {
   function handleTextChange(field) {
     return (event) => {
       const nextValue = event.target.value;
+
       setDraftParameters((currentParameters) => ({
         ...currentParameters,
         [field]: nextValue,
       }));
+
+      if (field === "moedaDestino") {
+        setAppliedParameters((currentParameters) => ({
+          ...currentParameters,
+          moedaDestino: nextValue.trim().toUpperCase() || dataset.defaultParameters.moedaDestino,
+        }));
+      }
     };
   }
 
   function handleReset() {
-    setDraftParameters(createDraftParameters());
-    setAppliedParameters(createAppliedParameters());
+    setDraftParameters(createDraftParameters(dataset));
+    setAppliedParameters(createAppliedParameters(dataset));
     setFeedbackMessage("");
   }
 
@@ -268,10 +251,7 @@ export default function App() {
 
     try {
       const { exportWorkbook } = await import("./lib/exportWorkbook");
-      const exportedFile = await exportWorkbook(bikesDataset, {
-        ...appliedParameters,
-        moedaDestino,
-      });
+      const exportedFile = await exportWorkbook(dataset, { ...appliedParameters, moedaDestino });
 
       downloadBlob(exportedFile.blob, exportedFile.fileName);
       setFeedbackMessage(`Arquivo exportado: ${exportedFile.fileName}`);
@@ -283,7 +263,7 @@ export default function App() {
   }
 
   if (!hasStarted) {
-    return <WelcomeScreen onStart={() => setHasStarted(true)} />;
+    return <WelcomeScreen dataset={dataset} onStart={() => setHasStarted(true)} />;
   }
 
   return (
@@ -292,7 +272,7 @@ export default function App() {
         <div>
           <h1>PAINEL BH - TP MADURO</h1>
           <p className="dashboard-hero__meta">
-            BH 2026 · {bikesDataset.totals.skus} SKUs · {bikesDataset.totals.categories} categorias
+            BH 2026 · {dataset.totals.skus} SKUs · {dataset.totals.categories} categorias
           </p>
         </div>
         <span className="status-chip">Recálculo em tempo real</span>
@@ -323,14 +303,14 @@ export default function App() {
             error={errors.taxaConversao}
             placeholder=""
           />
-          <ParameterField
+         {/* <ParameterField
             label="Moeda Destino (rótulo)"
             value={draftParameters.moedaDestino}
             onChange={handleTextChange("moedaDestino")}
-            placeholder="AED"
+            placeholder={dataset.defaultParameters.moedaDestino}
             className="parameter-field--neutral"
             inputMode="text"
-          />
+          />  */}
         </div>
 
         <div className="controls-toolbar">
@@ -344,7 +324,11 @@ export default function App() {
               {isExporting ? "Exportando..." : "Exportar Excel"}
             </button>
 
-            <button type="button" className="button button--ghost" onClick={handleReset}>
+            <button
+              type="button"
+              className="button button--ghost"
+              onClick={handleReset}
+            >
               Restaurar padrão
             </button>
           </div>
@@ -355,7 +339,9 @@ export default function App() {
               onChange={handleTextChange("query")}
               placeholder="Buscar por código ou descrição."
             />
-            <span>{visibleSkuCount}/{bikesDataset.totals.skus}</span>
+            <span>
+              {visibleSkuCount}/{dataset.totals.skus}
+            </span>
           </label>
         </div>
 
@@ -364,6 +350,10 @@ export default function App() {
             Há campos inválidos no painel. O preview foi mantido com o último cálculo válido.
           </div>
         ) : null}
+
+        <div className="controls-footer">
+          {feedbackMessage ? <span>{feedbackMessage}</span> : null}
+        </div>
       </section>
 
       <section className="table-card">
@@ -388,9 +378,7 @@ export default function App() {
           </table>
 
           {!visibleCategories.length ? (
-            <div className="empty-state">
-              Nenhum SKU encontrado com esse filtro.
-            </div>
+            <div className="empty-state">Nenhum SKU encontrado com esse filtro.</div>
           ) : null}
         </div>
       </section>
