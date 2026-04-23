@@ -1,8 +1,10 @@
 export const bikesDataset = {
   "sheetName": "Hoja1",
   "title": "BH 2026 (AED)",
-  "titleCell": "G2",
+  "titleCell": "G1",
   "defaultParameters": {
+    "markupCompra": 0.7111111111111111,
+    "margemVenda": 48.5,
     "taxaConversao": 4.5,
     "moedaDestino": "AED"
   },
@@ -13,2160 +15,2160 @@ export const bikesDataset = {
   "categories": [
     {
       "name": "E-BIKES",
-      "templateRow": 4,
+      "templateRow": 3,
       "items": [
         {
-          "templateRow": 5,
+          "templateRow": 4,
           "code": "ER995",
           "description": "ATOMX LYNX  9.9",
           "specs": "FOX 38 FACTORY 160MM / FOX DHX2 FAC 160MM / XT 12SP / XT 4P 203MM / DROPPER SP / DT H1700 - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3550.0,
-          "defaultSale": 23579.36,
-          "defaultCost": 17030.15
+          "defaultSale": 23891.57,
+          "defaultCost": 16088.6
         },
         {
-          "templateRow": 6,
+          "templateRow": 5,
           "code": "ER985",
           "description": "ATOMX LYNX  9.8",
           "specs": "FOX 38 PERFORMANCE 160MM / FOX FLOAT X 160MM / XT SLX 12SP / XT 4P 203MM / DROPPER SP / DT H1900 - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3300.0,
-          "defaultSale": 21918.84,
-          "defaultCost": 15830.84
+          "defaultSale": 22209.07,
+          "defaultCost": 14955.6
         },
         {
-          "templateRow": 7,
+          "templateRow": 6,
           "code": "ER975",
           "description": "ATOMX LYNX  9.7",
           "specs": "FOX 38 RHYTHM 160MM / FOX 160MM / XT DEORE 12SP / MT520 4P 203MM / DROPPER SP / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3045.0,
-          "defaultSale": 20225.11,
-          "defaultCost": 14607.55
+          "defaultSale": 20492.91,
+          "defaultCost": 13799.94
         },
         {
-          "templateRow": 8,
+          "templateRow": 7,
           "code": "ER875",
           "description": "ATOMX LYNX  8.7",
           "specs": "FOX 34 RHYTHM 140MM / FOX 140MM / XT DEORE 12SP / MT520 4P 203MM / DROPPER SP / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2900.0,
-          "defaultSale": 19262.01,
-          "defaultCost": 13911.95
+          "defaultSale": 19517.06,
+          "defaultCost": 13142.8
         },
         {
-          "templateRow": 9,
+          "templateRow": 8,
           "code": "ER925",
           "description": "ATOMX LYNX  9.2",
           "specs": "FOX 38 PERFORMANCE 160MM / FOX 160MM / XT SLX 12SP / XT 4P 203MM / DROPPER SP / DT H1900 - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2675.0,
-          "defaultSale": 17767.54,
-          "defaultCost": 12832.58
+          "defaultSale": 18002.8,
+          "defaultCost": 12123.1
         },
         {
-          "templateRow": 10,
+          "templateRow": 9,
           "code": "ER905",
           "description": "ATOMX LYNX  9.0",
           "specs": "FOX 38 RHYTHM 160MM / FOX 160MM / XT DEORE 12SP / DB8 4P 203MM / DROPPER SP / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2475.0,
-          "defaultSale": 16439.13,
-          "defaultCost": 11873.13
+          "defaultSale": 16656.8,
+          "defaultCost": 11216.7
         },
         {
-          "templateRow": 11,
+          "templateRow": 10,
           "code": "ER845",
           "description": "ATOMX LYNX  8.4",
           "specs": "FOX 34 RHYTHM 140MM / FOX 140MM / XT DEORE 12SP / MT420 4P 203MM / DROPPER SP / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2375.0,
-          "defaultSale": 15774.92,
-          "defaultCost": 11393.41
+          "defaultSale": 15983.8,
+          "defaultCost": 10763.5
         },
         {
-          "templateRow": 12,
+          "templateRow": 11,
           "code": "ER825",
           "description": "ATOMX LYNX  8.2",
           "specs": "RECON BOOST 140MM / DELUXE / DEORE 11SP / MT420 4P 203MM / DROPPER SP / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2150.0,
-          "defaultSale": 14280.45,
-          "defaultCost": 10314.03
+          "defaultSale": 14469.54,
+          "defaultCost": 9743.8
         },
         {
-          "templateRow": 13,
+          "templateRow": 12,
           "code": "ER565",
           "description": "ATOMX CROSS",
           "specs": "XCR 34 BOOST 120MM / DELUXE 100MM / XT DEORE 12SP / XT 4P 203MM / B&M / RACKTIME - 720WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2315.0,
-          "defaultSale": 15376.4,
-          "defaultCost": 11105.58
+          "defaultSale": 15580.0,
+          "defaultCost": 10491.58
         },
         {
-          "templateRow": 14,
+          "templateRow": 13,
           "code": "EX986",
           "description": "iLYNX+ NX ENDURO CARBON 9.8",
           "specs": "FOX 38 FACTORY 170MM / FOX DHX2 FAC 160MM / XT DI2 12SP / XT 4P 203MM / RF AEFFECT DP / DT H1900 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 6046.0,
-          "defaultSale": 40157.97,
-          "defaultCost": 29004.02
+          "baseEuro": 6045.999558693733,
+          "defaultSale": 40689.7,
+          "defaultCost": 27400.47
         },
         {
-          "templateRow": 15,
+          "templateRow": 14,
           "code": "EX976",
           "description": "iLYNX+ NX ENDURO CARBON 9.7",
           "specs": "FOX 38 PERFORMANCE 170MM / FOX FLOAT X 160MM / XT DI2 MIX 12SP / XT 4P 203MM / RF AEFFECT DP / DT H1900 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5219.0,
-          "defaultSale": 34664.97,
-          "defaultCost": 25036.72
+          "baseEuro": 5219.000441306267,
+          "defaultSale": 35123.97,
+          "defaultCost": 23652.51
         },
         {
-          "templateRow": 16,
+          "templateRow": 15,
           "code": "EX966",
           "description": "iLYNX+ NX ENDURO CARBON 9.6",
           "specs": "FOX 38 PERFORMANCE 170MM / FOX FLOAT X 160MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF AR30 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
           "baseEuro": 4455.0,
-          "defaultSale": 29590.43,
-          "defaultCost": 21371.64
+          "defaultSale": 29982.24,
+          "defaultCost": 20190.06
         },
         {
-          "templateRow": 17,
+          "templateRow": 16,
           "code": "EX886",
           "description": "iLYNX+ NX TRAIL CARBON 8.8",
           "specs": "FOX 36 FACTORY 150MM / FOX FLOAT X 140MM / XT DI2 12SP / XT 4P 203MM / RF AEFFECT DP / DT H1900 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 5728.0,
-          "defaultSale": 38045.79,
-          "defaultCost": 27478.5
+          "baseEuro": 5728.000882612533,
+          "defaultSale": 38549.55,
+          "defaultCost": 25959.3
         },
         {
-          "templateRow": 18,
+          "templateRow": 17,
           "code": "EX876",
           "description": "iLYNX+ NX TRAIL CARBON 8.7",
           "specs": "FOX 36 PERFORMANCE 150MM / FOX FLOAT X 140MM / XT DI2 MIX 12SP / XT 4P 203MM / RF AEFFECT DP / DT H1900 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5219.0,
-          "defaultSale": 34664.97,
-          "defaultCost": 25036.72
+          "baseEuro": 5219.000441306267,
+          "defaultSale": 35123.97,
+          "defaultCost": 23652.51
         },
         {
-          "templateRow": 19,
+          "templateRow": 18,
           "code": "EX866",
           "description": "iLYNX+ NX TRAIL CARBON 8.6",
           "specs": "FOX 36 PERFORMANCE 150MM / FOX FLOAT X 140MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF AR30 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
           "baseEuro": 4455.0,
-          "defaultSale": 29590.43,
-          "defaultCost": 21371.64
+          "defaultSale": 29982.24,
+          "defaultCost": 20190.06
         },
         {
-          "templateRow": 20,
+          "templateRow": 19,
           "code": "EX916",
           "description": "iLYNX+ NX ENDURO 9.1",
           "specs": "FOX 36 RHYTHM 170MM / FOX RHYTHM 160MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF AR30 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3882.0,
-          "defaultSale": 25784.52,
-          "defaultCost": 18622.83
+          "baseEuro": 3881.999117387467,
+          "defaultSale": 26125.94,
+          "defaultCost": 17593.22
         },
         {
-          "templateRow": 21,
+          "templateRow": 20,
           "code": "EX906",
           "description": "iLYNX+ NX ENDURO 9.0",
           "specs": "RS PSYLO SILVER RC 160MM / RS DELUXE 160MM / DEORE 12SP / MT520 4P 203MM / RF AEFFECT DP / RF AR30 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3500.0,
-          "defaultSale": 23247.25,
-          "defaultCost": 16790.29
+          "defaultSale": 23555.07,
+          "defaultCost": 15862.0
         },
         {
-          "templateRow": 22,
+          "templateRow": 21,
           "code": "EX806",
           "description": "iLYNX+ NX TRAIL 8.0",
           "specs": "RS RECON 150MM / RS DELUXE 140MM / DEORE 12SP / MT520 4P 203MM / RF AEFFECT DP / RF AR30 - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3500.0,
-          "defaultSale": 23247.25,
-          "defaultCost": 16790.29
+          "defaultSale": 23555.07,
+          "defaultCost": 15862.0
         },
         {
-          "templateRow": 23,
+          "templateRow": 22,
           "code": "EX796",
           "description": "iLYNX+ NX TRAIL 7.9",
           "specs": "SR XCR 34 AIR 140MM / RS DELUXE 140MM / DEORE 10SP / MT201 180MM / KS RAGEI - 800WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3055.0,
-          "defaultSale": 20291.53,
-          "defaultCost": 14655.52
+          "defaultSale": 20560.21,
+          "defaultCost": 13845.26
         },
         {
-          "templateRow": 24,
+          "templateRow": 23,
           "code": "ES986",
           "description": "iLYNX+ SL ENDURO CARBON 9.8",
           "specs": "FOX 38 FACTORY 160MM / FOX FLOAT X FAC 160MM / XT DI2 12SP / XT 4P 203MM / RF AEFFECT DP / RF TURBINE - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
           "baseEuro": 5600.0,
-          "defaultSale": 37195.6,
-          "defaultCost": 26864.46
+          "defaultSale": 37688.11,
+          "defaultCost": 25379.2
         },
         {
-          "templateRow": 25,
+          "templateRow": 24,
           "code": "ES976",
           "description": "iLYNX+ SL ENDURO CARBON 9.7",
           "specs": "FOX 38 PERFORMANCE 160MM / FOX FLOAT X 160MM / XT DI2 MIX 12SP / XT 4P 203MM / RF AEFFECT DP / RF AEFFECT - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4773.0,
-          "defaultSale": 31702.61,
-          "defaultCost": 22897.15
+          "baseEuro": 4773.000882612533,
+          "defaultSale": 32122.39,
+          "defaultCost": 21631.24
         },
         {
-          "templateRow": 26,
+          "templateRow": 25,
           "code": "ES966",
           "description": "iLYNX+ SL ENDURO CARBON 9.6",
           "specs": "FOX 38 RHYTHM 160MM / FOX FLOAT X 160MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF ARC30 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4073.0,
-          "defaultSale": 27053.16,
-          "defaultCost": 19539.1
+          "baseEuro": 4073.000882612533,
+          "defaultSale": 27411.37,
+          "defaultCost": 18458.84
         },
         {
-          "templateRow": 27,
+          "templateRow": 26,
           "code": "ES886",
           "description": "iLYNX+ SL TRAIL CARBON 8.8",
           "specs": "FOX 36 FACTORY 140MM / FOX FLOAT X 140MM / XT DI2 12SP / XT 4P 203MM / RF AEFFECT DP / RF TURBINE - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
           "baseEuro": 5410.0,
-          "defaultSale": 35933.61,
-          "defaultCost": 25952.99
+          "defaultSale": 36409.41,
+          "defaultCost": 24518.12
         },
         {
-          "templateRow": 28,
+          "templateRow": 27,
           "code": "ES876",
           "description": "iLYNX+ SL TRAIL CARBON 8.7",
           "specs": "FOX 36 PERFORMANCE 150MM / FOX FLOAT X 140MM / XT DI2 MIX 12SP / XT 4P 203MM / RF AEFFECT DP / RF AEFFECT - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4773.0,
-          "defaultSale": 31702.61,
-          "defaultCost": 22897.15
+          "baseEuro": 4773.000882612533,
+          "defaultSale": 32122.39,
+          "defaultCost": 21631.24
         },
         {
-          "templateRow": 29,
+          "templateRow": 28,
           "code": "ES866",
           "description": "iLYNX+ SL TRAIL CARBON 8.6",
           "specs": "FOX 36 PERFORMANCE 140MM / FOX FLOAT X 140MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF ARC30 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4073.0,
-          "defaultSale": 27053.16,
-          "defaultCost": 19539.1
+          "baseEuro": 4073.000882612533,
+          "defaultSale": 27411.37,
+          "defaultCost": 18458.84
         },
         {
-          "templateRow": 30,
+          "templateRow": 29,
           "code": "ES916",
           "description": "iLYNX+ SL ENDURO 9.1",
           "specs": "FOX 36 RHYTHM 170MM / FOX RHYTHM 160MM / XT MIX 12SP / MT520 4P 203MM / RF AEFFECT DP / RF ARC30 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3437.0,
-          "defaultSale": 22828.8,
-          "defaultCost": 16488.06
+          "baseEuro": 3436.999117387467,
+          "defaultSale": 23131.08,
+          "defaultCost": 15576.48
         },
         {
-          "templateRow": 31,
+          "templateRow": 30,
           "code": "ES906",
           "description": "iLYNX+ SL ENDURO 9.0",
           "specs": "RS PSYLO SILVER RC 160MM / RS DELUXE 160MM / DEORE 12SP / MT520 4P 203MM / RF AEFFECT DP / RF ARC30 / EP6 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3055.0,
-          "defaultSale": 20291.53,
-          "defaultCost": 14655.52
+          "defaultSale": 20560.21,
+          "defaultCost": 13845.26
         },
         {
-          "templateRow": 32,
+          "templateRow": 31,
           "code": "ES806",
           "description": "iLYNX+ SL TRAIL 8.0",
           "specs": "RS RECON 150MM / RS DELUXE 140MM / DEORE 12SP / MT420 4P 203MM / RF AEFFECT DP / RF AR30 / EP6 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2991.0,
-          "defaultSale": 19866.44,
-          "defaultCost": 14348.5
+          "baseEuro": 2990.999558693733,
+          "defaultSale": 20129.49,
+          "defaultCost": 13555.21
         },
         {
-          "templateRow": 33,
+          "templateRow": 32,
           "code": "ES796",
           "description": "iLYNX+ SL TRAIL 7.9",
           "specs": "SR XCR 34 AIR 140MM / RS DELUXE 140MM / DEORE 10SP / MT201 180MM / KS RAGEI / EP6 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2673.0,
-          "defaultSale": 17754.26,
-          "defaultCost": 12822.98
+          "baseEuro": 2673.000882612533,
+          "defaultSale": 17989.34,
+          "defaultCost": 12114.04
         },
         {
-          "templateRow": 34,
+          "templateRow": 33,
           "code": "EC896",
           "description": "iLYNX TRAIL CARBON 8.9",
           "specs": "FOX 36 FACTORY 150MM / FOX FLOAT X FAC 150MM / XT 12SP / XT 4P 203MM / DROPPER SP / RF TURBINE - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 4773.0,
-          "defaultSale": 31702.61,
-          "defaultCost": 22897.15
+          "baseEuro": 4773.000882612533,
+          "defaultSale": 32122.39,
+          "defaultCost": 21631.24
         },
         {
-          "templateRow": 35,
+          "templateRow": 34,
           "code": "EC876",
           "description": "iLYNX TRAIL CARBON 8.7",
           "specs": "FOX 36 PERFORMANCE 150MM / FOX FLOAT X 150MM / XT MIX 12SP / MT520 4P 203MM / DROPPER SP / RF ARC 30 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3819.0,
-          "defaultSale": 25366.07,
-          "defaultCost": 18320.6
+          "baseEuro": 3819.000441306267,
+          "defaultSale": 25701.95,
+          "defaultCost": 17307.71
         },
         {
-          "templateRow": 36,
+          "templateRow": 35,
           "code": "EC856",
           "description": "iLYNX TRAIL CARBON 8.5",
           "specs": "RS RECON 140MM / RS DELUXE 140MM / DEORE 12SP / MT420 4P 203MM / RF AEFFECT DP / RF AR30 / CK FSA CARBON - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3182.0,
-          "defaultSale": 21135.07,
-          "defaultCost": 15264.77
+          "baseEuro": 3181.999117387467,
+          "defaultSale": 21414.92,
+          "defaultCost": 14420.82
         },
         {
-          "templateRow": 37,
+          "templateRow": 36,
           "code": "EC826",
           "description": "iLYNX TRAIL 8.2",
           "specs": "FOX 36 PERFORMANCE 150MM / FOX 150MM / XT MIX 12SP / SRAM DB8 4P 203MM / DROPPER SP / RF AEFFECT - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3373.0,
-          "defaultSale": 22403.71,
-          "defaultCost": 16181.04
+          "baseEuro": 3373.000882612533,
+          "defaultSale": 22700.36,
+          "defaultCost": 15286.44
         },
         {
-          "templateRow": 38,
+          "templateRow": 37,
           "code": "EC816",
           "description": "iLYNX TRAIL 8.1",
           "specs": "FOX 34 RHYTHM 140MM / FOX 140MM / XT MIX 12SP / SRAM DB8 4P 203MM / DROPPER SP - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3055.0,
-          "defaultSale": 20291.53,
-          "defaultCost": 14655.52
+          "defaultSale": 20560.21,
+          "defaultCost": 13845.26
         },
         {
-          "templateRow": 39,
+          "templateRow": 38,
           "code": "EC806",
           "description": "iLYNX TRAIL 8.0",
           "specs": "RS RECON 140MM / RS DELUXE 140MM / DEORE 12SP / MT420 4P 203MM / RF AEFFECT DP / RF AEFFECT - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2610.0,
-          "defaultSale": 17335.81,
-          "defaultCost": 12520.76
+          "defaultSale": 17565.35,
+          "defaultCost": 11828.52
         },
         {
-          "templateRow": 40,
+          "templateRow": 39,
           "code": "EC796",
           "description": "iLYNX TRAIL 7.9",
           "specs": "SR XCR 34 AIR 140MM / RS DELUXE 140MM / DEORE 10SP / MT201 180MM / KS RAGEI - 540WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2228.0,
-          "defaultSale": 14798.54,
-          "defaultCost": 10688.22
+          "baseEuro": 2228.000882612533,
+          "defaultSale": 14994.48,
+          "defaultCost": 10097.3
         },
         {
-          "templateRow": 41,
+          "templateRow": 40,
           "code": "EC786",
           "description": "iLYNX RACE CARBON 7.8",
           "specs": "FOX 34 FACTORY SC 120MM / FOX 120MM / XT 12SP / XT 4P 180MM / BIKEYOKE DIVINE  SP / EVO ALU - 630WH",
           "sizes": "S/M/L",
           "bhu": "BHU",
           "baseEuro": 4200.0,
-          "defaultSale": 27896.7,
-          "defaultCost": 20148.34
+          "defaultSale": 28266.08,
+          "defaultCost": 19034.4
         },
         {
-          "templateRow": 42,
+          "templateRow": 41,
           "code": "EC776",
           "description": "iLYNX RACE CARBON 7.7",
           "specs": "FOX 34 PERFORMANCE 120MM / FOX 120MM / XT MIX 12SP / SRAM DB8 4P 180MM / RF AEFFECT / RF AR30 - 630WH",
           "sizes": "S/M/L",
           "bhu": "BHU",
-          "baseEuro": 3564.0,
-          "defaultSale": 23672.34,
-          "defaultCost": 17097.31
+          "baseEuro": 3564.000441306267,
+          "defaultSale": 23985.79,
+          "defaultCost": 16152.05
         },
         {
-          "templateRow": 43,
+          "templateRow": 42,
           "code": "EC196",
           "description": "iAEROLIGHT 1.9",
           "specs": "CARBON / SHIMANO DURA ACE DI2 24SP / CARBON CRANKSET / VISION SC60 / HB EVO SL / CK FSA CARBON / IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 6364.0,
-          "defaultSale": 42270.15,
-          "defaultCost": 30529.54
+          "baseEuro": 6364.000441306267,
+          "defaultSale": 42829.85,
+          "defaultCost": 28841.65
         },
         {
-          "templateRow": 44,
+          "templateRow": 43,
           "code": "EC186",
           "description": "iAEROLIGHT 1.8",
           "specs": "CARBON / SHIMANO ULTEGRA DI2 24SP / CARBON CRANKSET / VISION TRIMAX 35 / HB EVO SL / CK FSA CARBON /  IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
           "baseEuro": 5410.0,
-          "defaultSale": 35933.61,
-          "defaultCost": 25952.99
+          "defaultSale": 36409.41,
+          "defaultCost": 24518.12
         },
         {
-          "templateRow": 45,
+          "templateRow": 44,
           "code": "EC176",
           "description": "iAEROLIGHT 1.7",
           "specs": "CARBON / SHIMANO 105 DI2 24SP / VISION TEAM 35 / HB EVO SL / IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4773.0,
-          "defaultSale": 31702.61,
-          "defaultCost": 22897.15
+          "baseEuro": 4773.000882612533,
+          "defaultSale": 32122.39,
+          "defaultCost": 21631.24
         },
         {
-          "templateRow": 46,
+          "templateRow": 45,
           "code": "EC166",
           "description": "iRS1 CARBON 1.6",
           "specs": "CARBON / SHIMANO ULTEGRA DI2 24SP / CARBON CRANKSET / VISION TRIMAX 35 / HB EVO SL / CK FSA CARBON / IBUTTON - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 5091.0,
-          "defaultSale": 33814.79,
-          "defaultCost": 24422.67
+          "baseEuro": 5090.999558693733,
+          "defaultSale": 34262.53,
+          "defaultCost": 23072.41
         },
         {
-          "templateRow": 47,
+          "templateRow": 46,
           "code": "EC156",
           "description": "iRS1 CARBON 1.5",
           "specs": "CARBON / SHIMANO 105 DI2 24SP / VISION TEAM 35 / HB FSA SLK CARBON /  IBUTTON - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 4391.0,
-          "defaultSale": 29165.34,
-          "defaultCost": 21064.61
+          "baseEuro": 4390.999558693733,
+          "defaultSale": 29551.52,
+          "defaultCost": 19900.01
         },
         {
-          "templateRow": 48,
+          "templateRow": 47,
           "code": "EC146",
           "description": "iRS1 CARBON 1.4",
           "specs": "CARBON / SHIMANO 105 24SP / SHIMANO RS171 / IBUTTON - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3500.0,
-          "defaultSale": 23247.25,
-          "defaultCost": 16790.29
+          "defaultSale": 23555.07,
+          "defaultCost": 15862.0
         },
         {
-          "templateRow": 49,
+          "templateRow": 48,
           "code": "EC126",
           "description": "iRS1 1.2",
           "specs": "CARBON / SHIMANO 105 24SP / SHIMANO RS171 - 630WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 2737.0,
-          "defaultSale": 18179.35,
-          "defaultCost": 13130.0
+          "baseEuro": 2736.999117387467,
+          "defaultSale": 18420.06,
+          "defaultCost": 12404.08
         },
         {
-          "templateRow": 50,
+          "templateRow": 49,
           "code": "EX296",
           "description": "iGRAVELX NX CARBON 2.9",
           "specs": "CARBON / SHIMANO GRX DI2 12SP / CARBON CRANKSET / VISION TRIMAX 30 / HB FSA KWING AGX CARBON - 400WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 4773.0,
-          "defaultSale": 31702.61,
-          "defaultCost": 22897.15
+          "baseEuro": 4773.000882612533,
+          "defaultSale": 32122.39,
+          "defaultCost": 21631.24
         },
         {
-          "templateRow": 51,
+          "templateRow": 50,
           "code": "EX276",
           "description": "iGRAVELX NX CARBON 2.7",
           "specs": "CARBON / SHIMANO GRX 12SP / VISION TC30i - 400WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3819.0,
-          "defaultSale": 25366.07,
-          "defaultCost": 18320.6
+          "baseEuro": 3819.000441306267,
+          "defaultSale": 25701.95,
+          "defaultCost": 17307.71
         },
         {
-          "templateRow": 52,
+          "templateRow": 51,
           "code": "EC296",
           "description": "iGRAVELX CARBON 2.9",
           "specs": "CARBON / SHIMANO GRX DI2 24SP / CARBON CRANKSET / SHIMANO RX570 / HB FSA KWING AGX CARBON / CK FSA CARBON / IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 4646.0,
-          "defaultSale": 30859.07,
-          "defaultCost": 22287.91
+          "baseEuro": 4645.999558693733,
+          "defaultSale": 31267.67,
+          "defaultCost": 21055.67
         },
         {
-          "templateRow": 53,
+          "templateRow": 52,
           "code": "EC286",
           "description": "iGRAVELX CARBON 2.8",
           "specs": "CARBON / SHIMANO GRX 24SP / SHIMANO RS370 / HB FSA KWING AGX CARBON / IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 4137.0,
-          "defaultSale": 27478.25,
-          "defaultCost": 19846.12
+          "baseEuro": 4136.999117387467,
+          "defaultSale": 27842.09,
+          "defaultCost": 18748.88
         },
         {
-          "templateRow": 54,
+          "templateRow": 53,
           "code": "EC276",
           "description": "iGRAVELX CARBON 2.7",
           "specs": "CARBON / SHIMANO GRX 12SP / VISION TC30i / HB FSA KWING AGX CARBON / IBUTTON - 600WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3628.0,
-          "defaultSale": 24097.44,
-          "defaultCost": 17404.33
+          "baseEuro": 3628.000882612533,
+          "defaultSale": 24416.51,
+          "defaultCost": 16442.1
         },
         {
-          "templateRow": 55,
+          "templateRow": 54,
           "code": "EC246",
           "description": "iGRAVELX 2.4",
           "specs": "CARBON / SHIMANO GRX 24SP / SHIMANO RS370  - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3246.0,
-          "defaultSale": 21560.17,
-          "defaultCost": 15571.79
+          "baseEuro": 3245.999558693733,
+          "defaultSale": 21845.64,
+          "defaultCost": 14710.87
         },
         {
-          "templateRow": 56,
+          "templateRow": 55,
           "code": "EC226",
           "description": "iGRAVELX 2.2",
           "specs": "CARBON / SHIMANO GRX 12SP / SHIMANO RS170 - 630WH",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2928.0,
-          "defaultSale": 19447.99,
-          "defaultCost": 14046.27
+          "baseEuro": 2928.000882612533,
+          "defaultSale": 19705.5,
+          "defaultCost": 13269.7
         },
         {
-          "templateRow": 57,
+          "templateRow": 56,
           "code": "EC646",
           "description": "CORE 29 PRO",
           "specs": "FOX 32 RHYTHM REM 100MM / XT SLX 12SP / DB8 4P 203MM - 810WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 2546.0,
-          "defaultSale": 16910.72,
-          "defaultCost": 12213.73
+          "baseEuro": 2545.999558693733,
+          "defaultSale": 17134.63,
+          "defaultCost": 11538.47
         },
         {
-          "templateRow": 58,
+          "templateRow": 57,
           "code": "EC626",
           "description": "CORE 29",
           "specs": "RS JUDY SILVER REM 100MM / DEORE 12SP / MT201 - 630WH",
           "sizes": "S/M/L",
           "bhu": "-",
           "baseEuro": 1910.0,
-          "defaultSale": 12686.36,
-          "defaultCost": 9162.7
+          "defaultSale": 12854.34,
+          "defaultCost": 8656.12
         },
         {
-          "templateRow": 59,
+          "templateRow": 58,
           "code": "EC516",
           "description": "CORE JET",
           "specs": "ALLOY / DEORE 10SP / MT200 / SPANNINGA / CURANA / RACKTIME / AXA - 630WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1782.0,
-          "defaultSale": 11836.17,
-          "defaultCost": 8548.65
+          "baseEuro": 1781.999117387467,
+          "defaultSale": 11992.9,
+          "defaultCost": 8076.02
         },
         {
-          "templateRow": 60,
+          "templateRow": 59,
           "code": "EC506",
           "description": "CORE CROSS",
           "specs": "ALLOY / DEORE 10SP / MT200 / SPANNINGA / CURANA / RACKTIME / AXA - 630WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1782.0,
-          "defaultSale": 11836.17,
-          "defaultCost": 8548.65
+          "baseEuro": 1781.999117387467,
+          "defaultSale": 11992.9,
+          "defaultCost": 8076.02
         },
         {
-          "templateRow": 61,
+          "templateRow": 60,
           "code": "EC416",
           "description": "CORE CITY WAVE",
           "specs": "SR NEX / ALTUS 8SP / MT200 / SPANNINGA / FENDERS / RACKTIME / AXA - 630WH",
           "sizes": "M/L",
           "bhu": "-",
           "baseEuro": 1655.0,
-          "defaultSale": 10992.63,
-          "defaultCost": 7939.41
+          "defaultSale": 11138.18,
+          "defaultCost": 7500.46
         },
         {
-          "templateRow": 62,
+          "templateRow": 61,
           "code": "EC316",
           "description": "CORE STREET",
           "specs": "SR NEX / ALTUS 8SP / MT200 / SPANNINGA / FENDERS / RACKTIME / AXA - 630WH",
           "sizes": "M",
           "bhu": "-",
           "baseEuro": 1655.0,
-          "defaultSale": 10992.63,
-          "defaultCost": 7939.41
+          "defaultSale": 11138.18,
+          "defaultCost": 7500.46
         },
         {
-          "templateRow": 63,
+          "templateRow": 62,
           "code": "EX497",
           "description": "ATOM+ NX SUV",
           "specs": "XCR 34 BOOST 120MM  / RS DELUXE 120MM / DEORE DI2 12SP / XT 4P 203MM / B&M / MIK CARRIER / CX - 800WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 3819.0,
-          "defaultSale": 25366.07,
-          "defaultCost": 18320.6
+          "baseEuro": 3819.000441306267,
+          "defaultSale": 25701.95,
+          "defaultCost": 17307.71
         },
         {
-          "templateRow": 64,
+          "templateRow": 63,
           "code": "EX487",
           "description": "ATOM+ NX SUV WAVE",
           "specs": "XCR 34 BOOST 120MM  / RS DELUXE 120MM / DEORE DI2 12SP / XT 4P 203MM / B&M / MIK CARRIER / CX - 800WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 3819.0,
-          "defaultSale": 25366.07,
-          "defaultCost": 18320.6
+          "baseEuro": 3819.000441306267,
+          "defaultSale": 25701.95,
+          "defaultCost": 17307.71
         },
         {
-          "templateRow": 65,
+          "templateRow": 64,
           "code": "EX466",
           "description": "ATOM+ NX DIAMOND",
           "specs": "SR MOBIE / GATES / NEXUS 5SP / MT200 / B&M / CURANA / ABUS - 600Wh",
           "sizes": "M/L/XL",
           "bhu": "-",
-          "baseEuro": 2737.0,
-          "defaultSale": 18179.35,
-          "defaultCost": 13130.0
+          "baseEuro": 2736.999117387467,
+          "defaultSale": 18420.06,
+          "defaultCost": 12404.08
         },
         {
-          "templateRow": 66,
+          "templateRow": 65,
           "code": "EX456",
           "description": "ATOM+ NX DIAMOND WAVE",
           "specs": "SR MOBIE / GATES / NEXUS 5SP / MT200 / B&M / CURANA / ABUS - 600Wh",
           "sizes": "M/L/XL",
           "bhu": "-",
-          "baseEuro": 2737.0,
-          "defaultSale": 18179.35,
-          "defaultCost": 13130.0
+          "baseEuro": 2736.999117387467,
+          "defaultSale": 18420.06,
+          "defaultCost": 12404.08
         },
         {
-          "templateRow": 67,
+          "templateRow": 66,
           "code": "EX446",
           "description": "ATOM+ NX JET",
           "specs": "SR XCM32 BOOST 100MM / CUES 10SP / MT200 / B&M / RACKTIME / AXA - 600WH",
           "sizes": "M/L/XL",
           "bhu": "-",
-          "baseEuro": 2546.0,
-          "defaultSale": 16910.72,
-          "defaultCost": 12213.73
+          "baseEuro": 2545.999558693733,
+          "defaultSale": 17134.63,
+          "defaultCost": 11538.47
         },
         {
-          "templateRow": 68,
+          "templateRow": 67,
           "code": "EX436",
           "description": "ATOM+ NX WAVE",
           "specs": "SR XCM32 BOOST 100MM / CUES 10SP / MT200 / B&M / RACKTIME / AXA - 600WH",
           "sizes": "M/L/XL",
           "bhu": "-",
-          "baseEuro": 2546.0,
-          "defaultSale": 16910.72,
-          "defaultCost": 12213.73
+          "baseEuro": 2545.999558693733,
+          "defaultSale": 17134.63,
+          "defaultCost": 11538.47
         },
         {
-          "templateRow": 69,
+          "templateRow": 68,
           "code": "ES624",
           "description": "ATOMe PRO",
           "specs": "JUDY SILVER BOOST 100MM / DEORE 11SP / MT201 180MM / T.R. 2.4\" - 720WH",
           "sizes": "S/M/L",
           "bhu": "-",
           "baseEuro": 1750.0,
-          "defaultSale": 11623.63,
-          "defaultCost": 8395.14
+          "defaultSale": 11777.54,
+          "defaultCost": 7931.0
         },
         {
-          "templateRow": 70,
+          "templateRow": 69,
           "code": "ES534",
           "description": "ATOMe JET PRO",
           "specs": "XCR 34 BOOST 100MM / DEORE 11SP / MT420 4P 180MM / B&M / RACKTIME - 720WH",
           "sizes": "S/M/L",
           "bhu": "-",
           "baseEuro": 1945.0,
-          "defaultSale": 12918.83,
-          "defaultCost": 9330.6
+          "defaultSale": 13089.89,
+          "defaultCost": 8814.74
         },
         {
-          "templateRow": 71,
+          "templateRow": 70,
           "code": "ES524",
           "description": "ATOMe CROSS PRO",
           "specs": "XCR 34 BOOST 100MM / DEORE 11SP / MT420 4P 180MM / B&M / RACKTIME - 720WH",
           "sizes": "S/M/L",
           "bhu": "-",
           "baseEuro": 1945.0,
-          "defaultSale": 12918.83,
-          "defaultCost": 9330.6
+          "defaultSale": 13089.89,
+          "defaultCost": 8814.74
         },
         {
-          "templateRow": 72,
+          "templateRow": 71,
           "code": "ES494",
           "description": "ATOMe SUV PRO-SE",
           "specs": "XCR 34 BOOST 120MM / DELUXE 100MM / XT DEORE 12SP / MT420 4P 180MM / B&M / RACKTIME - 720WH",
           "sizes": "M/L",
           "bhu": "-",
           "baseEuro": 2370.0,
-          "defaultSale": 15741.71,
-          "defaultCost": 11369.42
+          "defaultSale": 15950.15,
+          "defaultCost": 10740.84
         },
         {
-          "templateRow": 73,
+          "templateRow": 72,
           "code": "ES484",
           "description": "ATOMe SUV PRO-S",
           "specs": "XCR 34 BOOST 120MM / DEORE 12SP / MT420 4P 180MM / B&M / RACKTIME - 720WH",
           "sizes": "M/L",
           "bhu": "-",
           "baseEuro": 2050.0,
-          "defaultSale": 13616.25,
-          "defaultCost": 9834.31
+          "defaultSale": 13796.54,
+          "defaultCost": 9290.6
         },
         {
-          "templateRow": 74,
+          "templateRow": 73,
           "code": "ES474",
           "description": "ATOMe SUV PRO",
           "specs": "XCR 34 BOOST 100MM / DEORE 11SP / MT200 / B&M / RACKTIME - 720WH",
           "sizes": "M/L",
           "bhu": "-",
           "baseEuro": 1890.0,
-          "defaultSale": 12553.52,
-          "defaultCost": 9066.75
+          "defaultSale": 12719.74,
+          "defaultCost": 8565.48
         },
         {
-          "templateRow": 75,
+          "templateRow": 74,
           "code": "ES454",
           "description": "ATOMe DIAMOND WAVE PRO",
           "specs": "NX1 / NEXUS 8SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "M/L",
           "bhu": "-",
           "baseEuro": 1835.0,
-          "defaultSale": 12188.2,
-          "defaultCost": 8802.91
+          "defaultSale": 12349.59,
+          "defaultCost": 8316.22
         },
         {
-          "templateRow": 76,
+          "templateRow": 75,
           "code": "ES434",
           "description": "ATOMe CITY WAVE PRO",
           "specs": "NX1 / DEORE 10SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "M/L",
           "bhu": "-",
           "baseEuro": 1780.0,
-          "defaultSale": 11822.89,
-          "defaultCost": 8539.06
+          "defaultSale": 11979.44,
+          "defaultCost": 8066.96
         },
         {
-          "templateRow": 77,
+          "templateRow": 76,
           "code": "EA625",
           "description": "ATOM 29",
           "specs": "XCM HLO / ALIVIO 9SP / MT200 - 500WH",
           "sizes": "XS/S/M/L",
           "bhu": "-",
-          "baseEuro": 1273.0,
-          "defaultSale": 8455.36,
-          "defaultCost": 6106.87
+          "baseEuro": 1273.000882612533,
+          "defaultSale": 8567.32,
+          "defaultCost": 5769.24
         },
         {
-          "templateRow": 78,
+          "templateRow": 77,
           "code": "EA525",
           "description": "ATOM CROSS PRO",
           "specs": "MOBIE 32 / DEORE 10SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1782.0,
-          "defaultSale": 11836.17,
-          "defaultCost": 8548.65
+          "baseEuro": 1781.999117387467,
+          "defaultSale": 11992.9,
+          "defaultCost": 8076.02
         },
         {
-          "templateRow": 79,
+          "templateRow": 78,
           "code": "EA512",
           "description": "ATOM JET",
           "specs": "NEX HLO / ACERA 8SP / MT200 - 500WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1273.0,
-          "defaultSale": 8455.36,
-          "defaultCost": 6106.87
+          "baseEuro": 1273.000882612533,
+          "defaultSale": 8567.32,
+          "defaultCost": 5769.24
         },
         {
-          "templateRow": 80,
+          "templateRow": 79,
           "code": "EA502",
           "description": "ATOM CROSS",
           "specs": "NEX HLO / ACERA 8SP / MT200 - 500WH",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 1273.0,
-          "defaultSale": 8455.36,
-          "defaultCost": 6106.87
+          "baseEuro": 1273.000882612533,
+          "defaultSale": 8567.32,
+          "defaultCost": 5769.24
         },
         {
-          "templateRow": 81,
+          "templateRow": 80,
           "code": "EA475",
           "description": "ATOM SUV PRO",
           "specs": "MOBIE 32 / DEORE 10SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "M/L",
           "bhu": "-",
           "baseEuro": 1910.0,
-          "defaultSale": 12686.36,
-          "defaultCost": 9162.7
+          "defaultSale": 12854.34,
+          "defaultCost": 8656.12
         },
         {
-          "templateRow": 82,
+          "templateRow": 81,
           "code": "EA455",
           "description": "ATOM DIAMOND WAVE PRO",
           "specs": "NEX HLO / NEXUS 5SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1846.0,
-          "defaultSale": 12261.26,
-          "defaultCost": 8855.68
+          "baseEuro": 1845.999558693733,
+          "defaultSale": 12423.62,
+          "defaultCost": 8366.07
         },
         {
-          "templateRow": 83,
+          "templateRow": 82,
           "code": "EA435",
           "description": "ATOM CITY WAVE PRO",
           "specs": "NEX HLO / DEORE 10SP / MT200 / B&M / RACKTIME / AXA - 720WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1782.0,
-          "defaultSale": 11836.17,
-          "defaultCost": 8548.65
+          "baseEuro": 1781.999117387467,
+          "defaultSale": 11992.9,
+          "defaultCost": 8076.02
         },
         {
-          "templateRow": 84,
+          "templateRow": 83,
           "code": "EA415",
           "description": "ATOM CITY WAVE",
           "specs": "NEX / ALTUS 8SP / MT200 / B&M / RACKTIME - 500WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1337.0,
-          "defaultSale": 8880.45,
-          "defaultCost": 6413.89
+          "baseEuro": 1336.999117387467,
+          "defaultSale": 8998.04,
+          "defaultCost": 6059.28
         },
         {
-          "templateRow": 85,
+          "templateRow": 84,
           "code": "EA405",
           "description": "ATOM CITY",
           "specs": "NEX / ALTUS 8SP / MT200 / B&M / RACKTIME - 500WH",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1337.0,
-          "defaultSale": 8880.45,
-          "defaultCost": 6413.89
+          "baseEuro": 1336.999117387467,
+          "defaultSale": 8998.04,
+          "defaultCost": 6059.28
         },
         {
-          "templateRow": 86,
+          "templateRow": 85,
           "code": "EA317",
           "description": "ATOM STREET",
           "specs": "NEX / ALTUS 8SP / MT200 / B&M / RACKTIME - 500WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 1337.0,
-          "defaultSale": 8880.45,
-          "defaultCost": 6413.89
+          "baseEuro": 1336.999117387467,
+          "defaultSale": 8998.04,
+          "defaultCost": 6059.28
         }
       ]
     },
     {
       "name": "MTB",
-      "templateRow": 88,
+      "templateRow": 87,
       "items": [
         {
-          "templateRow": 89,
+          "templateRow": 88,
           "code": "DT906",
           "description": "LYNX TRAIL 9.0",
           "specs": "SHIMANO XTR 12SP / FOX FAC 36 / FOX FLOAT X FAC / XTR 4P / BIKE YOKE REVIVE / RF NEXT CARBON",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4181.0,
-          "defaultSale": 27770.5,
-          "defaultCost": 20057.2
+          "baseEuro": 4180.999558693733,
+          "defaultSale": 28138.21,
+          "defaultCost": 18948.29
         },
         {
-          "templateRow": 90,
+          "templateRow": 89,
           "code": "DT806",
           "description": "LYNX TRAIL 9.5",
           "specs": "SHIMANO XT 12SP / FOX FAC 36 / FOX FLOAT X FAC / XT 4P / BIKE YOKE REVIVE / RF TURBINE",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
           "baseEuro": 2250.0,
-          "defaultSale": 14944.66,
-          "defaultCost": 10793.76
+          "defaultSale": 15142.55,
+          "defaultCost": 10197.0
         },
         {
-          "templateRow": 91,
+          "templateRow": 90,
           "code": "DA903",
           "description": "LYNX TRAIL 9.0",
           "specs": "SHIMANO XT 12SP MIX / FOX PERF 36 / FOX FLOAT X / MT520 / RF AEFFECT / RF AEFFECT",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
           "baseEuro": 1725.0,
-          "defaultSale": 11457.57,
-          "defaultCost": 8275.21
+          "defaultSale": 11609.28,
+          "defaultCost": 7817.7
         },
         {
-          "templateRow": 92,
+          "templateRow": 91,
           "code": "DX956",
           "description": "LYNX RACE 9.5",
           "specs": "SHIMANO XTR DI2 12SP / FOX FAC REM 34SC / FOX FAC REM / XTR / BIKE YOKE DIVINE / EVO CARBON SL / HB EVO CARBON / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5376.0,
-          "defaultSale": 35707.78,
-          "defaultCost": 25789.88
+          "baseEuro": 5375.999558693733,
+          "defaultSale": 36180.59,
+          "defaultCost": 24364.03
         },
         {
-          "templateRow": 93,
+          "templateRow": 92,
           "code": "DX926",
           "description": "LYNX RACE 9.2",
           "specs": "SHIMANO XT DI2 12SP / FOX FAC REM 34SC / FOX FAC REM / XT / BIKE YOKE DIVINE / EVO ALU / HB EVO CARBON / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 3883.0,
-          "defaultSale": 25791.17,
-          "defaultCost": 18627.62
+          "baseEuro": 3883.000882612533,
+          "defaultSale": 26132.67,
+          "defaultCost": 17597.76
         },
         {
-          "templateRow": 94,
+          "templateRow": 93,
           "code": "DX906",
           "description": "LYNX RACE 9.0",
           "specs": "SRAM GX AXS 12SP / FOX FAC REM 34SC / FOX FAC REM / SRAM LEVEL BRONZE STEALTH / BIKE YOKE DIVINE / EVO ALU / HB EVO CARBON / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 3883.0,
-          "defaultSale": 25791.17,
-          "defaultCost": 18627.62
+          "baseEuro": 3883.000882612533,
+          "defaultSale": 26132.67,
+          "defaultCost": 17597.76
         },
         {
-          "templateRow": 95,
+          "templateRow": 94,
           "code": "DX856",
           "description": "LYNX RACE 8.5",
           "specs": "SRAM EAGLE 90 12SP / RS SID REM / RS DELUXE / SRAM LEVEL BRONZE STEALTH / RF AEFFECT / EVO ALU / HB EVO CARBON / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3285.0,
-          "defaultSale": 21819.21,
-          "defaultCost": 15758.88
+          "defaultSale": 22108.12,
+          "defaultCost": 14887.62
         },
         {
-          "templateRow": 96,
+          "templateRow": 95,
           "code": "DX806",
           "description": "LYNX RACE 8.0",
           "specs": "SHIMANO XT 12SP / FOX FAC REM 34SC / FOX FAC REM / XT / RF AEFFECT / EVO ALU / HB EVO CARBON / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 3285.0,
-          "defaultSale": 21819.21,
-          "defaultCost": 15758.88
+          "defaultSale": 22108.12,
+          "defaultCost": 14887.62
         },
         {
-          "templateRow": 97,
+          "templateRow": 96,
           "code": "DX706",
           "description": "LYNX RACE 7.0",
           "specs": "SHIMANO XT 12SP / FOX PERF REM 34SC 100MM / FOX PERF REM / XT / RF AEFFECT / EVO ALU / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2867.0,
-          "defaultSale": 19042.82,
-          "defaultCost": 13753.64
+          "baseEuro": 2866.999117387467,
+          "defaultSale": 19294.97,
+          "defaultCost": 12993.24
         },
         {
-          "templateRow": 98,
+          "templateRow": 97,
           "code": "DX656",
           "description": "LYNX RACE 6.5",
           "specs": "SHIMANO XT MIX 12SP / FOX PERF REM 34SC / FOX PERF REM / M6100 / RF AEFFECT / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2628.0,
-          "defaultSale": 17455.37,
-          "defaultCost": 12607.11
+          "baseEuro": 2628.000882612533,
+          "defaultSale": 17686.49,
+          "defaultCost": 11910.1
         },
         {
-          "templateRow": 99,
+          "templateRow": 98,
           "code": "DX606",
           "description": "LYNX RACE 6.0",
           "specs": "SHIMANO XT MIX 12SP / FOX RHYTHM 32 / FOX DPS / MT400 / RF AEFFECT / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2270.0,
-          "defaultSale": 15077.5,
-          "defaultCost": 10889.7
+          "defaultSale": 15277.15,
+          "defaultCost": 10287.64
         },
         {
-          "templateRow": 100,
+          "templateRow": 99,
           "code": "DX406",
           "description": "LYNX RACE 4.0",
           "specs": "SHIMANO XT MIX 12SP / FOX RHYTHM 32 / FOX DPS / MT400 / RF AEFFECT / RF AEFFECT",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2031.0,
-          "defaultSale": 13490.05,
-          "defaultCost": 9743.16
+          "baseEuro": 2030.999558693733,
+          "defaultSale": 13668.67,
+          "defaultCost": 9204.49
         },
         {
-          "templateRow": 101,
+          "templateRow": 100,
           "code": "DX306",
           "description": "LYNX RACE 3.0",
           "specs": "SHIMANO SLX 12SP / RS REC REM / RS DELUXE / MT400 / RF AEFFECT / RF AEFFECT",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1792.0,
-          "defaultSale": 11902.59,
-          "defaultCost": 8596.63
+          "baseEuro": 1791.999117387467,
+          "defaultSale": 12060.2,
+          "defaultCost": 8121.34
         },
         {
-          "templateRow": 102,
+          "templateRow": 101,
           "code": "DS956",
           "description": "LYNX SLS 9.5",
           "specs": "SRAM XX SL AXS 12SP PWM / FOX FAC REM 34SL / FOX FAC REM / XTR / BIKE YOKE DIVINE / EVO CARBON SL / HB EVO STEALTH / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5973.0,
-          "defaultSale": 39673.1,
-          "defaultCost": 28653.82
+          "baseEuro": 5973.000882612533,
+          "defaultSale": 40198.41,
+          "defaultCost": 27069.64
         },
         {
-          "templateRow": 103,
+          "templateRow": 102,
           "code": "DS906",
           "description": "LYNX SLS 9.0",
           "specs": "SHIMANO XTR DI2 12SP / FOX FAC REM 34SL / FOX FAC REM / XTR / BIKE YOKE DIVINE / EVO CARBON SL / HB EVO STEALTH / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5376.0,
-          "defaultSale": 35707.78,
-          "defaultCost": 25789.88
+          "baseEuro": 5375.999558693733,
+          "defaultSale": 36180.59,
+          "defaultCost": 24364.03
         },
         {
-          "templateRow": 104,
+          "templateRow": 103,
           "code": "DS856",
           "description": "LYNX SLS 8.5",
           "specs": "SRAM GX AXS 12SP / FOX FAC REM 34SL / FOX FAC REM / XT / BIKE YOKE DIVINE / EVO CARBON SL / HB EVO STEALTH / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
           "baseEuro": 4360.0,
-          "defaultSale": 28959.43,
-          "defaultCost": 20915.9
+          "defaultSale": 29342.89,
+          "defaultCost": 19759.52
         },
         {
-          "templateRow": 105,
+          "templateRow": 104,
           "code": "DS806",
           "description": "LYNX SLS 8.0",
           "specs": "SHIMANO XT DI2 12SP / FOX FAC REM 34SL / FOX FAC REM / XT / BIKE YOKE DIVINE / EVO CARBON SL / HB EVO STEALTH / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4181.0,
-          "defaultSale": 27770.5,
-          "defaultCost": 20057.2
+          "baseEuro": 4180.999558693733,
+          "defaultSale": 28138.21,
+          "defaultCost": 18948.29
         },
         {
-          "templateRow": 106,
+          "templateRow": 105,
           "code": "DS756",
           "description": "LYNX SLS 7.5",
           "specs": "SHIMANO XT DI2 MIX 12SP / FOX FAC REM 34SL / FOX FAC REM / XT / BIKE YOKE DIVINE / EVO ALU / HB EVO STEALTH / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3584.0,
-          "defaultSale": 23805.19,
-          "defaultCost": 17193.25
+          "baseEuro": 3584.000441306267,
+          "defaultSale": 24120.39,
+          "defaultCost": 16242.69
         },
         {
-          "templateRow": 107,
+          "templateRow": 106,
           "code": "DS706",
           "description": "LYNX SLS 7.0",
           "specs": "SHIMANO XT 12SP / FOX FAC REM 34SL / FOX FAC REM / XT / RF AEFFECT / EVO CARBON / HB EVO STEALTH / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3763.0,
-          "defaultSale": 24994.12,
-          "defaultCost": 18051.96
+          "baseEuro": 3763.000882612533,
+          "defaultSale": 25325.07,
+          "defaultCost": 17053.92
         },
         {
-          "templateRow": 108,
+          "templateRow": 107,
           "code": "DS656",
           "description": "LYNX SLS 6.5",
           "specs": "SHIMANO XT MIX 12SP / FOX PERF REM 34SL / FOX PERF REM / M6000 / RF AEFFECT / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2808.0,
-          "defaultSale": 18650.94,
-          "defaultCost": 13470.61
+          "baseEuro": 2808.000882612533,
+          "defaultSale": 18897.9,
+          "defaultCost": 12725.86
         },
         {
-          "templateRow": 109,
+          "templateRow": 108,
           "code": "DS606",
           "description": "LYNX SLS 6.0",
           "specs": "SHIMANO XT MIX 12SP / FOX RHYTHM 32 REM / FOX PERF REM / MT400 / RF AEFFECT / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2509.0,
-          "defaultSale": 16664.96,
-          "defaultCost": 12036.24
+          "baseEuro": 2509.000441306267,
+          "defaultSale": 16885.62,
+          "defaultCost": 11370.79
         },
         {
-          "templateRow": 110,
+          "templateRow": 109,
           "code": "A8096",
           "description": "ULTIMATE 8.0",
           "specs": "SHIMANO XT 12SP MIX / FOX PERF REM 34SC / M6100 / RF AEFFECT / EVO LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1792.0,
-          "defaultSale": 11902.59,
-          "defaultCost": 8596.63
+          "baseEuro": 1791.999117387467,
+          "defaultSale": 12060.2,
+          "defaultCost": 8121.34
         },
         {
-          "templateRow": 111,
+          "templateRow": 110,
           "code": "A7596",
           "description": "ULTIMATE 7.5",
           "specs": "SHIMANO XT 12SP / FOX PERF REM 34SC / XT / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1732.0,
-          "defaultSale": 11504.07,
-          "defaultCost": 8308.79
+          "baseEuro": 1731.999117387467,
+          "defaultSale": 11656.39,
+          "defaultCost": 7849.42
         },
         {
-          "templateRow": 112,
+          "templateRow": 111,
           "code": "A7096",
           "description": "ULTIMATE 7.0",
           "specs": "SHIMANO XT MIX 12SP / FOX RHYTHM 32 REM / MT400 / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1314.0,
-          "defaultSale": 8727.68,
-          "defaultCost": 6303.55
+          "baseEuro": 1314.000441306267,
+          "defaultSale": 8843.25,
+          "defaultCost": 5955.05
         },
         {
-          "templateRow": 113,
+          "templateRow": 112,
           "code": "A6596",
           "description": "ULTIMATE 6.5",
           "specs": "SHIMANO XT MIX 12SP / RS REC REM / MT201 / RF AEFFECT / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 1135.0,
-          "defaultSale": 7538.75,
-          "defaultCost": 5444.85
+          "defaultSale": 7638.57,
+          "defaultCost": 5143.82
         },
         {
-          "templateRow": 114,
+          "templateRow": 113,
           "code": "A6096",
           "description": "ULTIMATE 6.0",
           "specs": "SHIMANO XT MIX 12SP / RS JUDY REM / MT201 / BH LITE / PERFORMANCE LAYUP",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1076.0,
-          "defaultSale": 7146.87,
-          "defaultCost": 5161.81
+          "baseEuro": 1075.999558693733,
+          "defaultSale": 7241.5,
+          "defaultCost": 4876.43
         },
         {
-          "templateRow": 115,
+          "templateRow": 114,
           "code": "A5596",
           "description": "EXPERT 5.5",
           "specs": "SHIMANO XT MIX 12SP / FOX RHYTHM 32 REM / MT400 / RF AEFFECT",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 837.0,
-          "defaultSale": 5559.41,
-          "defaultCost": 4015.28
+          "baseEuro": 836.999117387467,
+          "defaultSale": 5633.03,
+          "defaultCost": 3793.28
         },
         {
-          "templateRow": 116,
+          "templateRow": 115,
           "code": "A5096",
           "description": "EXPERT 5.0",
           "specs": "SHIMANO XT MIX 12SP / RS REC REM / MT201 / RF AEFFECT",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 687.0,
-          "defaultSale": 4563.1,
-          "defaultCost": 3295.69
+          "baseEuro": 686.999117387467,
+          "defaultSale": 4623.52,
+          "defaultCost": 3113.48
         },
         {
-          "templateRow": 117,
+          "templateRow": 116,
           "code": "A4596",
           "description": "EXPERT 4.5",
           "specs": "SHIMANO XT MIX 12SP / RS JUDY REM / MT201 / BH LITE",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 628.0,
-          "defaultSale": 4171.22,
-          "defaultCost": 3012.66
+          "baseEuro": 628.000882612533,
+          "defaultSale": 4226.45,
+          "defaultCost": 2846.1
         },
         {
-          "templateRow": 118,
+          "templateRow": 117,
           "code": "A4096",
           "description": "EXPERT 4.0",
           "specs": "SHIMANO DEORE 12SP / SR RAIDON REM / MT201 / BH LITE",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 568.0,
-          "defaultSale": 3772.7,
-          "defaultCost": 2724.82
+          "baseEuro": 568.000882612533,
+          "defaultSale": 3822.65,
+          "defaultCost": 2574.18
         },
         {
-          "templateRow": 119,
+          "templateRow": 118,
           "code": "A3096",
           "description": "SPIKE 3.0",
           "specs": "SHIMANO DEORE 11SP / SR RAIDON REM / MT200",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 448.0,
-          "defaultSale": 2975.65,
-          "defaultCost": 2149.16
+          "baseEuro": 448.000882612533,
+          "defaultSale": 3015.05,
+          "defaultCost": 2030.34
         },
         {
-          "templateRow": 120,
+          "templateRow": 119,
           "code": "A2596",
           "description": "SPIKE 2.5",
           "specs": "SHIMANO DEORE 10SP / SR XCM REM / MT200",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 389.0,
-          "defaultSale": 2583.77,
-          "defaultCost": 1866.12
+          "baseEuro": 389.000441306267,
+          "defaultSale": 2617.98,
+          "defaultCost": 1762.95
         },
         {
-          "templateRow": 121,
+          "templateRow": 120,
           "code": "A2096",
           "description": "SPIKE 2.0",
           "specs": "SHIMANO ALTUS 16SP / SR XCT HLO / MT200",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 329.0,
-          "defaultSale": 2185.24,
-          "defaultCost": 1578.29
+          "baseEuro": 329.000441306267,
+          "defaultSale": 2214.18,
+          "defaultCost": 1491.03
         }
       ]
     },
     {
       "name": "ROAD",
-      "templateRow": 123,
+      "templateRow": 122,
       "items": [
         {
-          "templateRow": 124,
+          "templateRow": 123,
           "code": "LR906",
           "description": "ULTRALIGHT 9.0",
           "specs": "SHIMANO DURA ACE DI2 24SP / VISION METRON 45 / SHIMANO DURA ACE / HB METRON 5D / PLANK LIGHT",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 5376.0,
-          "defaultSale": 35707.78,
-          "defaultCost": 25789.88
+          "baseEuro": 5375.999558693733,
+          "defaultSale": 36180.59,
+          "defaultCost": 24364.03
         },
         {
-          "templateRow": 125,
+          "templateRow": 124,
           "code": "LR806",
           "description": "ULTRALIGHT 8.0",
           "specs": "SHIMANO ULTEGRA DI2 24SP / BH EVO STEALTH / SHIMANO ULTEGRA PWR / HB EVO SL / PLANK LIGHT",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4779.0,
-          "defaultSale": 31742.46,
-          "defaultCost": 22925.94
+          "baseEuro": 4779.000441306267,
+          "defaultSale": 32162.77,
+          "defaultCost": 21658.43
         },
         {
-          "templateRow": 126,
+          "templateRow": 125,
           "code": "LR706",
           "description": "ULTRALIGHT 7.0",
           "specs": "SHIMANO ULTEGRA DI2 24SP / VISION SC45 / SHIMANO ULTEGRA / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 3763.0,
-          "defaultSale": 24994.12,
-          "defaultCost": 18051.96
+          "baseEuro": 3763.000882612533,
+          "defaultSale": 25325.07,
+          "defaultCost": 17053.92
         },
         {
-          "templateRow": 127,
+          "templateRow": 126,
           "code": "LR606",
           "description": "ULTRALIGHT 6.0",
           "specs": "SHIMANO 105 DI2 24SP / VISION TEAM 35 / SHIMANO 105 / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2748.0,
-          "defaultSale": 18252.41,
-          "defaultCost": 13182.77
+          "baseEuro": 2748.000882612533,
+          "defaultSale": 18494.09,
+          "defaultCost": 12453.94
         },
         {
-          "templateRow": 128,
+          "templateRow": 127,
           "code": "LA906",
           "description": "AEROLIGHT 9.0",
           "specs": "SHIMANO DURA ACE DI2 24SP / BH EVO STEALTH / SHIMANO DURA ACE / HB METRON 5D / PLANK LIGHT",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 5376.0,
-          "defaultSale": 35707.78,
-          "defaultCost": 25789.88
+          "baseEuro": 5375.999558693733,
+          "defaultSale": 36180.59,
+          "defaultCost": 24364.03
         },
         {
-          "templateRow": 129,
+          "templateRow": 128,
           "code": "LA806",
           "description": "AEROLIGHT 8.0",
           "specs": "SHIMANO ULTEGRA DI2 24SP / BH EVO STEALTH / SHIMANO ULTEGRA PWR / HB EVO SL / PLANK LIGHT",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 4779.0,
-          "defaultSale": 31742.46,
-          "defaultCost": 22925.94
+          "baseEuro": 4779.000441306267,
+          "defaultSale": 32162.77,
+          "defaultCost": 21658.43
         },
         {
-          "templateRow": 130,
+          "templateRow": 129,
           "code": "LA706",
           "description": "AEROLIGHT 7.0",
           "specs": "SHIMANO ULTEGRA DI2 24SP / VISION SC60 / SHIMANO ULTEGRA / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 3763.0,
-          "defaultSale": 24994.12,
-          "defaultCost": 18051.96
+          "baseEuro": 3763.000882612533,
+          "defaultSale": 25325.07,
+          "defaultCost": 17053.92
         },
         {
-          "templateRow": 131,
+          "templateRow": 130,
           "code": "LA606",
           "description": "AEROLIGHT 6.0",
           "specs": "SHIMANO 105 DI2 24SP / VISION TEAM 35 / SHIMANO 105 / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2748.0,
-          "defaultSale": 18252.41,
-          "defaultCost": 13182.77
+          "baseEuro": 2748.000882612533,
+          "defaultSale": 18494.09,
+          "defaultCost": 12453.94
         },
         {
-          "templateRow": 132,
+          "templateRow": 131,
           "code": "LA556",
           "description": "RS1 5.5",
           "specs": "SHIMANO ULTEGRA DI2 24SP / SHIMANO RS710 CARBON / SHIMANO ULTEGRA PWR / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 3883.0,
-          "defaultSale": 25791.17,
-          "defaultCost": 18627.62
+          "baseEuro": 3883.000882612533,
+          "defaultSale": 26132.67,
+          "defaultCost": 17597.76
         },
         {
-          "templateRow": 133,
+          "templateRow": 132,
           "code": "LA506",
           "description": "RS1 5.0",
           "specs": "SHIMANO ULTEGRA DI2 24SP / VISION TEAM 35 / SHIMANO ULTEGRA / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2688.0,
-          "defaultSale": 17853.89,
-          "defaultCost": 12894.94
+          "baseEuro": 2688.000882612533,
+          "defaultSale": 18090.29,
+          "defaultCost": 12182.02
         },
         {
-          "templateRow": 134,
+          "templateRow": 133,
           "code": "LA456",
           "description": "RS1 4.5",
           "specs": "SHIMANO 105 DI2 24SP / SHIMANO RS710 CARBON / SHIMANO 105 / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2688.0,
-          "defaultSale": 17853.89,
-          "defaultCost": 12894.94
+          "baseEuro": 2688.000882612533,
+          "defaultSale": 18090.29,
+          "defaultCost": 12182.02
         },
         {
-          "templateRow": 135,
+          "templateRow": 134,
           "code": "LA406",
           "description": "RS1 4.0",
           "specs": "SHIMANO 105 DI2 24SP / VISION TEAM 35 / SHIMANO 105 / HB EVO SL",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2210.0,
-          "defaultSale": 14678.98,
-          "defaultCost": 10601.87
+          "defaultSale": 14873.34,
+          "defaultCost": 10015.72
         },
         {
-          "templateRow": 136,
+          "templateRow": 135,
           "code": "LA356",
           "description": "RS1 3.5",
           "specs": "SHIMANO 105 24SP / SHIMANO RX180 / SHIMANO 105",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1792.0,
-          "defaultSale": 11902.59,
-          "defaultCost": 8596.63
+          "baseEuro": 1791.999117387467,
+          "defaultSale": 12060.2,
+          "defaultCost": 8121.34
         },
         {
-          "templateRow": 137,
+          "templateRow": 136,
           "code": "LR456",
           "description": "SL1 4.5",
           "specs": "SHIMANO ULTEGRA DI2 24SP / VISION TC30 / SHIMANO ULTEGRA",
           "sizes": "XS/S/M/L/XL/XXL",
           "bhu": "-",
-          "baseEuro": 2389.0,
-          "defaultSale": 15867.91,
-          "defaultCost": 11460.57
+          "baseEuro": 2389.000441306267,
+          "defaultSale": 16078.02,
+          "defaultCost": 10826.95
         },
         {
-          "templateRow": 138,
+          "templateRow": 137,
           "code": "LR406",
           "description": "SL1 4.0",
           "specs": "SHIMANO 105 DI2 24SP / VISION TEAM 35 / SHIMANO 105",
           "sizes": "XS/S/M/L/XL/XXL",
           "bhu": "-",
-          "baseEuro": 1971.0,
-          "defaultSale": 13091.52,
-          "defaultCost": 9455.33
+          "baseEuro": 1970.999558693733,
+          "defaultSale": 13264.87,
+          "defaultCost": 8932.57
         },
         {
-          "templateRow": 139,
+          "templateRow": 138,
           "code": "LR356",
           "description": "SL1 3.5",
           "specs": "SHIMANO 105 24SP / SHIMANO RS171 / FSA GOSSAMER",
           "sizes": "XS/S/M/L/XL/XXL",
           "bhu": "-",
-          "baseEuro": 1494.0,
-          "defaultSale": 9923.26,
-          "defaultCost": 7167.05
+          "baseEuro": 1494.000441306267,
+          "defaultSale": 10054.65,
+          "defaultCost": 6770.81
         },
         {
-          "templateRow": 140,
+          "templateRow": 139,
           "code": "LT806",
           "description": "AEROTT 8.0",
           "specs": "SHIMANO DURA ACE DI2 24SP / VISION METRON 81 / VISION METRON",
           "sizes": "S/M/L/XL",
           "bhu": "BHU FOC",
-          "baseEuro": 6272.0,
-          "defaultSale": 41659.08,
-          "defaultCost": 30088.19
+          "baseEuro": 6271.999117387467,
+          "defaultSale": 42210.69,
+          "defaultCost": 28424.7
         },
         {
-          "templateRow": 141,
+          "templateRow": 140,
           "code": "LT706",
           "description": "AEROTT 7.0",
           "specs": "SHIMANO ULTEGRA DI2 24SP / VISION TC40 / ROTOR VEGAST AERO",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 5077.0,
-          "defaultSale": 33721.8,
-          "defaultCost": 24355.51
+          "baseEuro": 5076.999117387467,
+          "defaultSale": 34168.31,
+          "defaultCost": 23008.96
         },
         {
-          "templateRow": 142,
+          "templateRow": 141,
           "code": "LT606",
           "description": "AEROTT 6.0",
           "specs": "SHIMANO 105 DI2 24SP / VISION TC30 / SHIMANO 105",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 3883.0,
-          "defaultSale": 25791.17,
-          "defaultCost": 18627.62
+          "baseEuro": 3883.000882612533,
+          "defaultSale": 26132.67,
+          "defaultCost": 17597.76
         },
         {
-          "templateRow": 143,
+          "templateRow": 142,
           "code": "LG656",
           "description": "GRAVELX CARBON 6.5R",
           "specs": "SHIMANO GRX DI2 24SP / VISION SC45 / SHIMANO GRX / RACE FRAME",
           "sizes": "XS/S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 2987.0,
-          "defaultSale": 19839.87,
-          "defaultCost": 14329.31
+          "baseEuro": 2986.999117387467,
+          "defaultSale": 20102.57,
+          "defaultCost": 13537.08
         },
         {
-          "templateRow": 144,
+          "templateRow": 143,
           "code": "LG606",
           "description": "GRAVELX CARBON 6.0AT",
           "specs": "SHIMANO GRX DI2 24SP / VISION SC45 / SHIMANO GRX / AT FRAME",
           "sizes": "S/M/L/XL",
           "bhu": "BHU",
-          "baseEuro": 2987.0,
-          "defaultSale": 19839.87,
-          "defaultCost": 14329.31
+          "baseEuro": 2986.999117387467,
+          "defaultSale": 20102.57,
+          "defaultCost": 13537.08
         },
         {
-          "templateRow": 145,
+          "templateRow": 144,
           "code": "LG556",
           "description": "GRAVELX CARBON 5.5R",
           "specs": "SHIMANO GRX 820 24SP / VISION TC30 / SHIMANO GRX / RACE FRAME",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2091.0,
-          "defaultSale": 13888.57,
-          "defaultCost": 10031.0
+          "baseEuro": 2090.999558693733,
+          "defaultSale": 14072.47,
+          "defaultCost": 9476.41
         },
         {
-          "templateRow": 146,
+          "templateRow": 145,
           "code": "LG506",
           "description": "GRAVELX CARBON 5.0AT",
           "specs": "SHIMANO GRX 820 24SP / VISION TC30 / SHIMANO GRX / AT FRAME",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2091.0,
-          "defaultSale": 13888.57,
-          "defaultCost": 10031.0
+          "baseEuro": 2090.999558693733,
+          "defaultSale": 14072.47,
+          "defaultCost": 9476.41
         },
         {
-          "templateRow": 147,
+          "templateRow": 146,
           "code": "LG456",
           "description": "GRAVELX CARBON 4.5R",
           "specs": "SRAM APEX AXS 12SP / VISION TC30 / SRAM APEX / RACE FRAME",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2210.0,
-          "defaultSale": 14678.98,
-          "defaultCost": 10601.87
+          "defaultSale": 14873.34,
+          "defaultCost": 10015.72
         },
         {
-          "templateRow": 148,
+          "templateRow": 147,
           "code": "LG406",
           "description": "GRAVELX CARBON 4.0AT",
           "specs": "SRAM APEX AXS 12SP / VISION TC30 / SRAM APEX / AT FRAME",
           "sizes": "S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2210.0,
-          "defaultSale": 14678.98,
-          "defaultCost": 10601.87
+          "defaultSale": 14873.34,
+          "defaultCost": 10015.72
         },
         {
-          "templateRow": 149,
+          "templateRow": 148,
           "code": "LG356",
           "description": "GRAVELX CARBON 3.5R",
           "specs": "SHIMANO GRX 822 12SP / SHIMANO RX181 / SHIMANO GRX / RACE FRAME",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1792.0,
-          "defaultSale": 11902.59,
-          "defaultCost": 8596.63
+          "baseEuro": 1791.999117387467,
+          "defaultSale": 12060.2,
+          "defaultCost": 8121.34
         },
         {
-          "templateRow": 150,
+          "templateRow": 149,
           "code": "LG306",
           "description": "GRAVELX CARBON 3.0AT",
           "specs": "SHIMANO GRX 822 12SP / SHIMANO RX181 / SHIMANO GRX / AT FRAME",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1792.0,
-          "defaultSale": 11902.59,
-          "defaultCost": 8596.63
+          "baseEuro": 1791.999117387467,
+          "defaultSale": 12060.2,
+          "defaultCost": 8121.34
         },
         {
-          "templateRow": 151,
+          "templateRow": 150,
           "code": "LG256",
           "description": "GRAVELX CARBON 2.5R",
           "specs": "SHIMANO GRX 20SP / SHIMANO RS171 / SHIMANO GRX / RACE FRAME",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1673.0,
-          "defaultSale": 11112.19,
-          "defaultCost": 8025.76
+          "baseEuro": 1673.000882612533,
+          "defaultSale": 11259.32,
+          "defaultCost": 7582.04
         },
         {
-          "templateRow": 152,
+          "templateRow": 151,
           "code": "LG206",
           "description": "GRAVELX CARBON 2.0AT",
           "specs": "SHIMANO GRX 20SP / SHIMANO RS171 / SHIMANO GRX / AT FRAME",
           "sizes": "S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1673.0,
-          "defaultSale": 11112.19,
-          "defaultCost": 8025.76
+          "baseEuro": 1673.000882612533,
+          "defaultSale": 11259.32,
+          "defaultCost": 7582.04
         },
         {
-          "templateRow": 153,
+          "templateRow": 152,
           "code": "LG186",
           "description": "GRAVELX 1.8",
           "specs": "SHIMANO GRX 820 24SP / VISION TC30 / SHIMANO GRX",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1494.0,
-          "defaultSale": 9923.26,
-          "defaultCost": 7167.05
+          "baseEuro": 1494.000441306267,
+          "defaultSale": 10054.65,
+          "defaultCost": 6770.81
         },
         {
-          "templateRow": 154,
+          "templateRow": 153,
           "code": "LG156",
           "description": "GRAVELX 1.5",
           "specs": "SHIMANO GRX 822 12SP / SHIMANO RX181 / SHIMANO GRX",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
           "baseEuro": 1195.0,
-          "defaultSale": 7937.28,
-          "defaultCost": 5732.68
+          "defaultSale": 8042.37,
+          "defaultCost": 5415.74
         },
         {
-          "templateRow": 155,
+          "templateRow": 154,
           "code": "LC506",
           "description": "RX TEAM 5.0",
           "specs": "SHIMANO GRX DI2 24SP / VISION TC30 / ROTOR VEGAST",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 2688.0,
-          "defaultSale": 17853.89,
-          "defaultCost": 12894.94
+          "baseEuro": 2688.000882612533,
+          "defaultSale": 18090.29,
+          "defaultCost": 12182.02
         },
         {
-          "templateRow": 156,
+          "templateRow": 155,
           "code": "LC406",
           "description": "RX TEAM 4.0",
           "specs": "SRAM APEX AXS 12SP / VISION TC30 / SRAM APEX",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
           "baseEuro": 2210.0,
-          "defaultSale": 14678.98,
-          "defaultCost": 10601.87
+          "defaultSale": 14873.34,
+          "defaultCost": 10015.72
         },
         {
-          "templateRow": 157,
+          "templateRow": 156,
           "code": "LC306",
           "description": "RX TEAM 3.0",
           "specs": "SHIMANO 105 24SP / SHIMANO RS171 / SHIMANO 105",
           "sizes": "XS/S/M/L/XL",
           "bhu": "-",
-          "baseEuro": 1912.0,
-          "defaultSale": 12699.64,
-          "defaultCost": 9172.29
+          "baseEuro": 1911.999117387467,
+          "defaultSale": 12867.8,
+          "defaultCost": 8665.18
         }
       ]
     },
     {
       "name": "TREKKING / URBAN",
-      "templateRow": 159,
+      "templateRow": 158,
       "items": [
         {
-          "templateRow": 160,
+          "templateRow": 159,
           "code": "TE756",
           "description": "OXFORD JET PRO",
           "specs": "ALU 28\" / RIGID / GATES ALFINE 11SP / MT200 / CURANA / RACKTIME",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1076.0,
-          "defaultSale": 7146.87,
-          "defaultCost": 5161.81
+          "baseEuro": 1075.999558693733,
+          "defaultSale": 7241.5,
+          "defaultCost": 4876.43
         },
         {
-          "templateRow": 161,
+          "templateRow": 160,
           "code": "TE746",
           "description": "OXFORD PRO",
           "specs": "ALU 28\" / RIGID / GATES ALFINE 11SP / MT200 / CURANA / RACKTIME",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1076.0,
-          "defaultSale": 7146.87,
-          "defaultCost": 5161.81
+          "baseEuro": 1075.999558693733,
+          "defaultSale": 7241.5,
+          "defaultCost": 4876.43
         },
         {
-          "templateRow": 162,
+          "templateRow": 161,
           "code": "TE736",
           "description": "OXFORD JET",
           "specs": "ALU 28\" / RIGID / XT 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 777.0,
-          "defaultSale": 5160.89,
-          "defaultCost": 3727.44
+          "baseEuro": 776.999117387467,
+          "defaultSale": 5229.23,
+          "defaultCost": 3521.36
         },
         {
-          "templateRow": 163,
+          "templateRow": 162,
           "code": "TE726",
           "description": "OXFORD",
           "specs": "ALU 28\" / RIGID / XT 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 777.0,
-          "defaultSale": 5160.89,
-          "defaultCost": 3727.44
+          "baseEuro": 776.999117387467,
+          "defaultSale": 5229.23,
+          "defaultCost": 3521.36
         },
         {
-          "templateRow": 164,
+          "templateRow": 163,
           "code": "TE716",
           "description": "OXFORD JET LITE",
           "specs": "ALU 28\" / RIGID / DEORE 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 657.0,
-          "defaultSale": 4363.84,
-          "defaultCost": 3151.78
+          "baseEuro": 656.999117387467,
+          "defaultSale": 4421.62,
+          "defaultCost": 2977.52
         },
         {
-          "templateRow": 165,
+          "templateRow": 164,
           "code": "TE706",
           "description": "OXFORD LITE",
           "specs": "ALU 28\" / RIGID / DEORE 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 657.0,
-          "defaultSale": 4363.84,
-          "defaultCost": 3151.78
+          "baseEuro": 656.999117387467,
+          "defaultSale": 4421.62,
+          "defaultCost": 2977.52
         },
         {
-          "templateRow": 166,
+          "templateRow": 165,
           "code": "TS756",
           "description": "SILVERTIP JET PRO",
           "specs": "ALU 28\" / RIGID / GATES ALFINE 11SP / MT200 / CURANA / RACKTIME",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1016.0,
-          "defaultSale": 6748.35,
-          "defaultCost": 4873.98
+          "baseEuro": 1015.999558693733,
+          "defaultSale": 6837.7,
+          "defaultCost": 4604.51
         },
         {
-          "templateRow": 167,
+          "templateRow": 166,
           "code": "TS746",
           "description": "SILVERTIP PRO",
           "specs": "ALU 28\" / RIGID / GATES ALFINE 11SP / MT200 / CURANA / RACKTIME",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 1016.0,
-          "defaultSale": 6748.35,
-          "defaultCost": 4873.98
+          "baseEuro": 1015.999558693733,
+          "defaultSale": 6837.7,
+          "defaultCost": 4604.51
         },
         {
-          "templateRow": 168,
+          "templateRow": 167,
           "code": "TS736",
           "description": "SILVERTIP JET",
           "specs": "ALU 28\" / RIGID / XT 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 717.0,
-          "defaultSale": 4762.37,
-          "defaultCost": 3439.61
+          "baseEuro": 716.999117387467,
+          "defaultSale": 4825.42,
+          "defaultCost": 3249.44
         },
         {
-          "templateRow": 169,
+          "templateRow": 168,
           "code": "TS726",
           "description": "SILVERTIP",
           "specs": "ALU 28\" / RIGID / XT 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 717.0,
-          "defaultSale": 4762.37,
-          "defaultCost": 3439.61
+          "baseEuro": 716.999117387467,
+          "defaultSale": 4825.42,
+          "defaultCost": 3249.44
         },
         {
-          "templateRow": 170,
+          "templateRow": 169,
           "code": "TS716",
           "description": "SILVERTIP JET LITE",
           "specs": "ALU 28\" / RIGID / DEORE 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 598.0,
-          "defaultSale": 3971.96,
-          "defaultCost": 2868.74
+          "baseEuro": 598.000882612533,
+          "defaultSale": 4024.55,
+          "defaultCost": 2710.14
         },
         {
-          "templateRow": 171,
+          "templateRow": 170,
           "code": "TS706",
           "description": "SILVERTIP LITE",
           "specs": "ALU 28\" / RIGID / DEORE 10SP / MT200",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 598.0,
-          "defaultSale": 3971.96,
-          "defaultCost": 2868.74
+          "baseEuro": 598.000882612533,
+          "defaultSale": 4024.55,
+          "defaultCost": 2710.14
         }
       ]
     },
     {
       "name": "KIDS",
-      "templateRow": 173,
+      "templateRow": 172,
       "items": [
         {
-          "templateRow": 174,
+          "templateRow": 173,
           "code": "K2653",
           "description": "EXPERT JUNIOR 26\" PRO",
           "specs": "26\" / ALLOY / 18SP / H. DISC / SUSP",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 413.0,
-          "defaultSale": 2743.18,
-          "defaultCost": 1981.25
+          "baseEuro": 413.000882612533,
+          "defaultSale": 2779.5,
+          "defaultCost": 1871.72
         },
         {
-          "templateRow": 175,
+          "templateRow": 174,
           "code": "K2603",
           "description": "EXPERT JUNIOR 26\"",
           "specs": "26\" / ALLOY/ 21SP / VBRAKE / SUSP",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 323.0,
-          "defaultSale": 2145.39,
-          "defaultCost": 1549.5
+          "baseEuro": 323.000882612533,
+          "defaultSale": 2173.8,
+          "defaultCost": 1463.84
         },
         {
-          "templateRow": 176,
+          "templateRow": 175,
           "code": "K2403",
           "description": "EXPERT JUNIOR 24\"",
           "specs": "24\" / ALLOY / 8SP / VBRAKE",
           "sizes": "M",
           "bhu": "-",
           "baseEuro": 275.0,
-          "defaultSale": 1826.57,
-          "defaultCost": 1319.24
+          "defaultSale": 1850.76,
+          "defaultCost": 1246.3
         },
         {
-          "templateRow": 177,
+          "templateRow": 176,
           "code": "K2053",
           "description": "EXPERT JUNIOR 20\" SUSP",
           "specs": "20\" / ALLOY / 7SP / VBRAKE / SUSP",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 281.0,
-          "defaultSale": 1866.42,
-          "defaultCost": 1348.02
+          "baseEuro": 280.999558693733,
+          "defaultSale": 1891.14,
+          "defaultCost": 1273.49
         },
         {
-          "templateRow": 178,
+          "templateRow": 177,
           "code": "K2003",
           "description": "EXPERT JUNIOR 20\"",
           "specs": "20\" / ALLOY / 7SP",
           "sizes": "M",
           "bhu": "-",
           "baseEuro": 245.0,
-          "defaultSale": 1627.31,
-          "defaultCost": 1175.32
+          "defaultSale": 1648.85,
+          "defaultCost": 1110.34
         }
       ]
     },
     {
       "name": "MONTY",
-      "templateRow": 180,
+      "templateRow": 179,
       "items": [
         {
-          "templateRow": 181,
+          "templateRow": 180,
           "code": "MTR43",
           "description": "TRIKE ROCKET 24",
           "specs": "CROMOLY FORK / 7SP / M.MOTOR / H DISC / DIFF. / F&R BASKETS - 504WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2228.0,
-          "defaultSale": 14798.54,
-          "defaultCost": 10688.22
+          "baseEuro": 2228.000882612533,
+          "defaultSale": 14994.48,
+          "defaultCost": 10097.3
         },
         {
-          "templateRow": 182,
+          "templateRow": 181,
           "code": "MTR65",
           "description": "TRIKE ROCKET XC",
           "specs": "ALU 24\" / ZOOM 595S 100MM / REVOSHIFT / 7SP / M.MOTOR / DIFF. / 504WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2546.0,
-          "defaultSale": 16910.72,
-          "defaultCost": 12213.73
+          "baseEuro": 2545.999558693733,
+          "defaultSale": 17134.63,
+          "defaultCost": 11538.47
         },
         {
-          "templateRow": 183,
+          "templateRow": 182,
           "code": "MTN43",
           "description": "TRIKE NUKE24",
           "specs": "CROMOLY FORK / 7SP / F.MOTOR / M DISC / DIFF.  / F&R BASKETS - 418WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 1719.0,
-          "defaultSale": 11417.72,
-          "defaultCost": 8246.43
+          "baseEuro": 1719.000441306267,
+          "defaultSale": 11568.9,
+          "defaultCost": 7790.51
         },
         {
-          "templateRow": 184,
+          "templateRow": 183,
           "code": "MTJ43",
           "description": "TRIKE JOG24",
           "specs": "CROMOLY FORK / 7SP / M. DISC / DIFF. / F&R BASKETS",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 1273.0,
-          "defaultSale": 8455.36,
-          "defaultCost": 6106.87
+          "baseEuro": 1273.000882612533,
+          "defaultSale": 8567.32,
+          "defaultCost": 5769.24
         },
         {
-          "templateRow": 185,
+          "templateRow": 184,
           "code": "MC425",
           "description": "CARGO V4 ROVER",
           "specs": "ALU 24\"-20\"/SR MOBIE 34 /MICROSHIFT 10SP/ TEKTRO DISC H / LIGHTS / CARGO RACK / AXA - 540WH",
           "sizes": "M",
           "bhu": "-",
           "baseEuro": 2355.0,
-          "defaultSale": 15642.08,
-          "defaultCost": 11297.46
+          "defaultSale": 15849.2,
+          "defaultCost": 10672.86
         },
         {
-          "templateRow": 186,
+          "templateRow": 185,
           "code": "MC615",
           "description": "CARGO V6 STRADA",
           "specs": "ALU 26\" / CROMOLY FORK / ALFINE / 11SP /540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2546.0,
-          "defaultSale": 16910.72,
-          "defaultCost": 12213.73
+          "baseEuro": 2545.999558693733,
+          "defaultSale": 17134.63,
+          "defaultCost": 11538.47
         },
         {
-          "templateRow": 187,
+          "templateRow": 186,
           "code": "MC635",
           "description": "CARGO V6 STRADA ST",
           "specs": "ALU 26\" / CROMOLY FORK / ALFINE / 11SP /540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2546.0,
-          "defaultSale": 16910.72,
-          "defaultCost": 12213.73
+          "baseEuro": 2545.999558693733,
+          "defaultSale": 17134.63,
+          "defaultCost": 11538.47
         },
         {
-          "templateRow": 188,
+          "templateRow": 187,
           "code": "MC625",
           "description": "CARGO V6 ROVER",
           "specs": "ALU 26\" / SUNTOUR XCR32 80MM / CUES / 11SP / 540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2419.0,
-          "defaultSale": 16067.17,
-          "defaultCost": 11604.49
+          "baseEuro": 2419.000441306267,
+          "defaultSale": 16279.92,
+          "defaultCost": 10962.91
         },
         {
-          "templateRow": 189,
+          "templateRow": 188,
           "code": "MC645",
           "description": "CARGO V6 ROVER ST",
           "specs": "ALU 26\" / SUNTOUR XCR32 80MM / CUES / 11SP / 540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2419.0,
-          "defaultSale": 16067.17,
-          "defaultCost": 11604.49
+          "baseEuro": 2419.000441306267,
+          "defaultSale": 16279.92,
+          "defaultCost": 10962.91
         },
         {
-          "templateRow": 190,
+          "templateRow": 189,
           "code": "MC815",
           "description": "CARGO V8",
           "specs": "ALU 26\" / CROMOLY FORK / CUES / 10SP/ 540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2291.0,
-          "defaultSale": 15216.99,
-          "defaultCost": 10990.44
+          "baseEuro": 2290.999558693733,
+          "defaultSale": 15418.48,
+          "defaultCost": 10382.81
         },
         {
-          "templateRow": 191,
+          "templateRow": 190,
           "code": "MC825",
           "description": "CARGO V8 ROVER PRO",
           "specs": "ALU 26\" / SUNTOUR XCR32 80MM / CUES / 11SP / 540WH",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 2864.0,
-          "defaultSale": 19022.89,
-          "defaultCost": 13739.25
+          "baseEuro": 2864.000441306267,
+          "defaultSale": 19274.78,
+          "defaultCost": 12979.65
         },
         {
-          "templateRow": 192,
+          "templateRow": 191,
           "code": "MU753",
           "description": "ROCK",
           "specs": "ALU FORK / ALTUS 2X9SP / TEKTRO DISC H  / DYNAMO / LIGHTS / RACK",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 567.0,
-          "defaultSale": 3766.05,
-          "defaultCost": 2720.03
+          "baseEuro": 566.999117387467,
+          "defaultSale": 3815.92,
+          "defaultCost": 2569.64
         },
         {
-          "templateRow": 193,
+          "templateRow": 192,
           "code": "MU773",
           "description": "CORSA",
           "specs": "SUNTOUR NVX 63MM / DEORE 10SP / TEKTRO DISC H",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 516.0,
-          "defaultSale": 3427.31,
-          "defaultCost": 2475.37
+          "baseEuro": 515.999558693733,
+          "defaultSale": 3472.69,
+          "defaultCost": 2338.51
         },
         {
-          "templateRow": 194,
+          "templateRow": 193,
           "code": "MU733",
           "description": "INDIE",
           "specs": "ALU FORK / ALTUS 2X8SP / TEKTRO DISC H",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 459.0,
-          "defaultSale": 3048.71,
-          "defaultCost": 2201.93
+          "baseEuro": 459.000441306267,
+          "defaultSale": 3089.08,
+          "defaultCost": 2080.19
         },
         {
-          "templateRow": 195,
+          "templateRow": 194,
           "code": "MU183",
           "description": "SOURCE",
           "specs": "STEEL FORK / REVOSHIFT 6SP / V-BRAKE",
           "sizes": "M",
           "bhu": "-",
-          "baseEuro": 331.0,
-          "defaultSale": 2198.53,
-          "defaultCost": 1587.88
+          "baseEuro": 330.999558693733,
+          "defaultSale": 2227.64,
+          "defaultCost": 1500.09
         },
         {
-          "templateRow": 196,
+          "templateRow": 195,
           "code": "MMB13",
           "description": "BESAIDE M1",
           "specs": "SR RAIDON XC-RLR 100MM / DEORE 12SP / TEKTRO DISC H",
           "sizes": "S/M/L",
           "bhu": "-",
           "baseEuro": 700.0,
-          "defaultSale": 4649.45,
-          "defaultCost": 3358.06
+          "defaultSale": 4711.01,
+          "defaultCost": 3172.4
         },
         {
-          "templateRow": 197,
+          "templateRow": 196,
           "code": "MMB23",
           "description": "BESAIDE M2",
           "specs": "SR XCM-RL 100MM / DEORE 10SP / TEKTRO DISC H",
           "sizes": "S/M/L",
           "bhu": "-",
           "baseEuro": 510.0,
-          "defaultSale": 3387.46,
-          "defaultCost": 2446.58
+          "defaultSale": 3432.31,
+          "defaultCost": 2311.32
         },
         {
-          "templateRow": 198,
+          "templateRow": 197,
           "code": "MMB33",
           "description": "BESAIDE M3",
           "specs": "SR XCM-RL 100MM / ALTUS 2X8SP / TEKTRO DISC H",
           "sizes": "S/M/L",
           "bhu": "-",
-          "baseEuro": 459.0,
-          "defaultSale": 3048.71,
-          "defaultCost": 2201.93
+          "baseEuro": 459.000441306267,
+          "defaultSale": 3089.08,
+          "defaultCost": 2080.19
         },
         {
-          "templateRow": 199,
+          "templateRow": 198,
           "code": "MKXC3",
           "description": "KX11",
           "specs": "SR XCM-HLO 100MM / DEORE 10SP / TEKTRO DISC H",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 497.0,
-          "defaultSale": 3301.11,
-          "defaultCost": 2384.22
+          "baseEuro": 496.999117387467,
+          "defaultSale": 3344.82,
+          "defaultCost": 2252.4
         },
         {
-          "templateRow": 200,
+          "templateRow": 199,
           "code": "MKX13",
           "description": "KX10",
           "specs": "ZOOM 565D 100MM / ACERA 2X8SP / TEKTRO DISC H",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 401.0,
-          "defaultSale": 2663.47,
-          "defaultCost": 1923.69
+          "baseEuro": 400.999558693733,
+          "defaultSale": 2698.74,
+          "defaultCost": 1817.33
         },
         {
-          "templateRow": 201,
+          "templateRow": 200,
           "code": "MKX93",
           "description": "KX9",
           "specs": "ZOOM 565D 100MM / ACERA 2X7SP / TEKTRO DISC H",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 376.0,
-          "defaultSale": 2497.42,
-          "defaultCost": 1803.76
+          "baseEuro": 375.999558693733,
+          "defaultSale": 2530.49,
+          "defaultCost": 1704.03
         },
         {
-          "templateRow": 202,
+          "templateRow": 201,
           "code": "MKX83",
           "description": "KX8",
           "specs": "ZOOM BRAVO 386 60MM / ACERA 3X7SP / V-BRAKE",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 319.0,
-          "defaultSale": 2118.82,
-          "defaultCost": 1530.31
+          "baseEuro": 319.000441306267,
+          "defaultSale": 2146.88,
+          "defaultCost": 1445.71
         },
         {
-          "templateRow": 203,
+          "templateRow": 202,
           "code": "MKD73",
           "description": "KX7D",
           "specs": "ZOOM BRAVO 386A 50MM / ALTUS 7SP / TEKTRO DISC H",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 319.0,
-          "defaultSale": 2118.82,
-          "defaultCost": 1530.31
+          "baseEuro": 319.000441306267,
+          "defaultSale": 2146.88,
+          "defaultCost": 1445.71
         },
         {
-          "templateRow": 204,
+          "templateRow": 203,
           "code": "MKX73",
           "description": "KX7",
           "specs": "ZOOM BRAVO 386 50MM / ALTUS 7SP / V-BRAKE",
           "sizes": "M/L",
           "bhu": "-",
           "baseEuro": 280.0,
-          "defaultSale": 1859.78,
-          "defaultCost": 1343.22
+          "defaultSale": 1884.41,
+          "defaultCost": 1268.96
         },
         {
-          "templateRow": 205,
+          "templateRow": 204,
           "code": "MKX53",
           "description": "KX5",
           "specs": "ZOOM BRAVO 327 30MM / REVOSHIFT 6SP / V-BRAKE",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 242.0,
-          "defaultSale": 1607.38,
-          "defaultCost": 1160.93
+          "baseEuro": 241.999117387467,
+          "defaultSale": 1628.66,
+          "defaultCost": 1096.74
         },
         {
-          "templateRow": 206,
+          "templateRow": 205,
           "code": "MKF53",
           "description": "KX5R",
           "specs": "STEEL FORK / REVOSHIFT 6SP / V-BRAKE",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 242.0,
-          "defaultSale": 1607.38,
-          "defaultCost": 1160.93
+          "baseEuro": 241.999117387467,
+          "defaultSale": 1628.66,
+          "defaultCost": 1096.74
         },
         {
-          "templateRow": 207,
+          "templateRow": 206,
           "code": "MK393",
           "description": "139 EXPERT",
           "specs": "STEEL FORK / V-BRAKE",
           "sizes": "M/L",
           "bhu": "-",
-          "baseEuro": 191.0,
-          "defaultSale": 1268.64,
-          "defaultCost": 916.27
+          "baseEuro": 190.999558693733,
+          "defaultSale": 1285.43,
+          "defaultCost": 865.61
         }
       ]
     }

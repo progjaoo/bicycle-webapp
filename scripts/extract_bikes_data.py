@@ -7,14 +7,15 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SOURCE_XLSX = PROJECT_ROOT / "Prices_BH_2026_EUR_EXW_202602.xlsx"
+SOURCE_XLSX = PROJECT_ROOT / "PricesBH_2026_AED_Final_base.xlsx"
 OUTPUT_FILE = PROJECT_ROOT / "src" / "data" / "bikesData.js"
 
 NS = {"a": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
-DEFAULT_MARKUP = Decimal("6.604993597951347")
-DEFAULT_MARGIN = Decimal("38.45655398547896")
+SOURCE_MARKUP = Decimal("0.7111111111111111")
+SOURCE_RATE = Decimal("4.5")
+DEFAULT_MARKUP = Decimal("0.7111111111111111")
+DEFAULT_MARGIN = Decimal("48.5")
 DEFAULT_RATE = Decimal("4.5")
-EXPORT_TEMPLATE_ROW_OFFSET = 1
 
 
 def load_shared_strings(workbook: zipfile.ZipFile) -> list[str]:
@@ -51,12 +52,11 @@ def round_money(value: Decimal) -> float:
     return float(value.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
 
 
-def calculate_default_prices(base_euro: Decimal) -> tuple[float, float]:
-    markup_factor = Decimal("1") + (DEFAULT_MARKUP / Decimal("100"))
-    margin_factor = Decimal("1") + (DEFAULT_MARGIN / Decimal("100"))
-    raw_cost = base_euro * markup_factor * DEFAULT_RATE
-    raw_sale = raw_cost * margin_factor
-    return round_money(raw_sale), round_money(raw_cost)
+def to_base_euro(cost_value: str) -> float:
+    divisor = (Decimal("1") + (SOURCE_MARKUP / Decimal("100"))) * SOURCE_RATE
+    base_euro = Decimal(cost_value) / divisor
+    rounded = base_euro.quantize(Decimal("0.000000000001"), rounding=ROUND_HALF_UP)
+    return float(rounded)
 
 
 def build_dataset() -> dict:
@@ -70,13 +70,19 @@ def build_dataset() -> dict:
     categories = []
     current_category = None
     title = "BH 2026 (AED)"
-    title_cell = "G2"
+    title_cell = "G1"
 
     for row in sheet_data.findall("a:row", NS):
         row_number = int(row.attrib["r"])
         cell_map = {
             cell.attrib["r"][:1]: cell_value(cell, shared_strings).strip() for cell in row.findall("a:c", NS)
         }
+
+        for cell in row.findall("a:c", NS):
+            raw_value = cell_value(cell, shared_strings).strip()
+            if raw_value.startswith("BH 2026"):
+                title = raw_value
+                title_cell = cell.attrib["r"]
 
         if row_number < 3:
             continue
@@ -86,13 +92,14 @@ def build_dataset() -> dict:
         specs = cell_map.get("C", "")
         sizes = cell_map.get("D", "")
         bhu = cell_map.get("E", "")
-        euro_value = cell_map.get("F", "")
+        sale = cell_map.get("F", "")
+        cost = cell_map.get("G", "")
 
-        is_category_row = code and not description and not specs and not sizes and not bhu and not euro_value
+        is_category_row = code and not description and not specs and not sizes and not bhu
         if is_category_row:
             current_category = {
                 "name": code,
-                "templateRow": row_number + EXPORT_TEMPLATE_ROW_OFFSET,
+                "templateRow": row_number,
                 "items": [],
             }
             categories.append(current_category)
@@ -101,20 +108,17 @@ def build_dataset() -> dict:
         if not current_category or not code:
             continue
 
-        base_euro = Decimal(euro_value) if euro_value else Decimal("0")
-        default_sale, default_cost = calculate_default_prices(base_euro)
-
         current_category["items"].append(
             {
-                "templateRow": row_number + EXPORT_TEMPLATE_ROW_OFFSET,
+                "templateRow": row_number,
                 "code": code,
                 "description": description,
                 "specs": specs,
                 "sizes": sizes,
                 "bhu": bhu,
-                "baseEuro": float(base_euro),
-                "defaultSale": default_sale,
-                "defaultCost": default_cost,
+                "baseEuro": to_base_euro(cost),
+                "defaultSale": float(sale) if sale else 0,
+                "defaultCost": float(cost) if cost else 0,
             }
         )
 

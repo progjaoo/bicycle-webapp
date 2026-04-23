@@ -2,8 +2,8 @@ import { useState } from "react";
 import { bikesDataset } from "./data/bikesData";
 import {
   formatPrice,
-  parseLocalizedNumber,
   resolveItemPrices,
+  resolveNumericParameterValue,
   validateParameters,
 } from "./lib/pricing";
 
@@ -145,7 +145,7 @@ export default function App() {
   const [isExporting, setIsExporting] = useState(false);
   const [feedbackMessage, setFeedbackMessage] = useState("");
 
-  const errors = validateParameters(draftParameters);
+  const errors = validateParameters(draftParameters, dataset.defaultParameters);
   const normalizedQuery = draftParameters.query.trim().toLowerCase();
   const moedaDestino =
     draftParameters.moedaDestino.trim().toUpperCase() || dataset.defaultParameters.moedaDestino;
@@ -187,18 +187,25 @@ export default function App() {
       return;
     }
 
-    const parsedValue = parseLocalizedNumber(nextValue);
-    if (parsedValue === null) {
+    const resolvedValue = resolveNumericParameterValue(
+      nextValue,
+      dataset.defaultParameters[field],
+    );
+    if (resolvedValue === null) {
       return;
     }
 
-    if (field === "taxaConversao" && parsedValue <= 0) {
+    if (field === "taxaConversao" && resolvedValue <= 0) {
+      return;
+    }
+
+    if ((field === "markupCompra" || field === "margemVenda") && resolvedValue <= -100) {
       return;
     }
 
     setAppliedParameters((currentParameters) => ({
       ...currentParameters,
-      [field]: parsedValue,
+      [field]: resolvedValue,
     }));
   }
 
@@ -287,6 +294,7 @@ export default function App() {
             onChange={handleNumericChange("markupCompra")}
             error={errors.markupCompra}
             placeholder=""
+            inputMode="text"
           />
           <ParameterField
             label="Margem Venda"
@@ -295,6 +303,7 @@ export default function App() {
             onChange={handleNumericChange("margemVenda")}
             error={errors.margemVenda}
             placeholder=""
+            inputMode="text"
           />
           <ParameterField
             label="Taxa Conversão"
@@ -302,6 +311,7 @@ export default function App() {
             onChange={handleNumericChange("taxaConversao")}
             error={errors.taxaConversao}
             placeholder=""
+            inputMode="text"
           />
          {/* <ParameterField
             label="Moeda Destino (rótulo)"
@@ -352,6 +362,13 @@ export default function App() {
         ) : null}
 
         <div className="controls-footer">
+          <p>
+            Use valor final direto ou ajuste relativo com <strong>+</strong> e <strong>-</strong>.
+            Exemplo: <strong>-4</strong> reduz 4 pontos da base atual.
+            Ativo: compra {formatPrice(appliedParameters.markupCompra)}%, venda{" "}
+            {formatPrice(appliedParameters.margemVenda)}% e taxa{" "}
+            {formatPrice(appliedParameters.taxaConversao)}.
+          </p>
           {feedbackMessage ? <span>{feedbackMessage}</span> : null}
         </div>
       </section>

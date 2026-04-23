@@ -7,6 +7,11 @@ function normalizeInput(rawValue) {
   return rawValue.trim().replace(/\s+/g, "");
 }
 
+function isRelativeAdjustment(rawValue) {
+  const compactValue = normalizeInput(rawValue);
+  return compactValue.startsWith("+") || compactValue.startsWith("-");
+}
+
 export function parseLocalizedNumber(rawValue) {
   const compactValue = normalizeInput(rawValue);
   if (!compactValue) {
@@ -27,6 +32,19 @@ export function parseLocalizedNumber(rawValue) {
 
   const parsedValue = Number(normalizedValue);
   return Number.isFinite(parsedValue) ? parsedValue : null;
+}
+
+export function resolveNumericParameterValue(rawValue, defaultValue) {
+  const parsedValue = parseLocalizedNumber(rawValue);
+  if (parsedValue === null) {
+    return null;
+  }
+
+  if (isRelativeAdjustment(rawValue)) {
+    return defaultValue + parsedValue;
+  }
+
+  return parsedValue;
 }
 
 export function toInputString(value) {
@@ -73,23 +91,36 @@ export function formatPrice(value) {
   return numberFormatter.format(value);
 }
 
-export function validateParameters(draftParameters) {
+export function validateParameters(draftParameters, defaultParameters) {
   const errors = {};
 
   const hasMarkup = draftParameters.markupCompra.trim() !== "";
   const hasMargin = draftParameters.margemVenda.trim() !== "";
   const hasRate = draftParameters.taxaConversao.trim() !== "";
 
-  const markup = parseLocalizedNumber(draftParameters.markupCompra);
-  const margin = parseLocalizedNumber(draftParameters.margemVenda);
-  const rate = parseLocalizedNumber(draftParameters.taxaConversao);
+  const markup = resolveNumericParameterValue(
+    draftParameters.markupCompra,
+    defaultParameters.markupCompra,
+  );
+  const margin = resolveNumericParameterValue(
+    draftParameters.margemVenda,
+    defaultParameters.margemVenda,
+  );
+  const rate = resolveNumericParameterValue(
+    draftParameters.taxaConversao,
+    defaultParameters.taxaConversao,
+  );
 
   if (hasMarkup && markup === null) {
     errors.markupCompra = "Informe um percentual válido.";
+  } else if (hasMarkup && markup <= -100) {
+    errors.markupCompra = "O resultado final deve ser maior que -100%.";
   }
 
   if (hasMargin && margin === null) {
     errors.margemVenda = "Informe um percentual válido.";
+  } else if (hasMargin && margin <= -100) {
+    errors.margemVenda = "O resultado final deve ser maior que -100%.";
   }
 
   if (hasRate && rate === null) {

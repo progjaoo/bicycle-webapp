@@ -1,7 +1,7 @@
 import JSZip from "jszip";
 import { resolveItemPrices } from "./pricing.js";
 
-const TEMPLATE_URL = "/templates/PricesBH_2026_AED_Ajustado (1).xlsx";
+const TEMPLATE_URL = "/templates/PricesBH_2026_AED_Final_base.xlsx";
 const DEFAULT_WORKSHEET_PATH = "xl/worksheets/sheet1.xml";
 
 function sanitizeFileLabel(label) {
@@ -106,6 +106,6 @@ export async function exportWorkbook(dataset, parameters, templateData = null) {
 
   return {
     blob,
-    fileName: `PricesBH_2026_${sanitizeFileLabel(currencyLabel)}_Final.xlsx`,
+    fileName: `PricesBH_2026_${sanitizeFileLabel(currencyLabel)}.xlsx`,
   };
 }
