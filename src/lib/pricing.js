@@ -86,11 +86,13 @@ export function validatePercentAdjustment(rawAdjustment) {
   return "";
 }
 
-export function calculatePrices(baseEuro, parameters) {
+export function calculatePrices(baseEuro, parameters, defaultParameters = parameters) {
   const markupDecimal = parameters.markupCompra / 100;
   const marginDecimal = parameters.margemVenda / 100;
+  const defaultMarkupDecimal = defaultParameters.markupCompra / 100;
   const rawCost = baseEuro * (1 + markupDecimal) * parameters.taxaConversao;
-  const rawSale = rawCost * (1 + marginDecimal);
+  const rawSaleBase = baseEuro * (1 + defaultMarkupDecimal) * parameters.taxaConversao;
+  const rawSale = rawSaleBase * (1 + marginDecimal);
   const cost = roundPrice(rawCost);
   const sale = roundPrice(rawSale);
 
@@ -112,7 +114,7 @@ export function resolveItemPrices(item, parameters, defaultParameters, adjustmen
         cost: item.defaultCost,
         sale: item.defaultSale,
       }
-    : calculatePrices(item.baseEuro, parameters);
+    : calculatePrices(item.baseEuro, parameters, defaultParameters);
 
   return {
     cost: applyPercentAdjustment(prices.cost, adjustments.cost),
