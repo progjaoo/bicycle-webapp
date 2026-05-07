@@ -4,6 +4,7 @@ import {
   formatPrice,
   resolveItemPrices,
   resolveNumericParameterValue,
+  validatePercentAdjustment,
   validateParameters,
 } from "./lib/pricing";
 
@@ -83,6 +84,30 @@ function ParameterField({
   );
 }
 
+function PriceAdjustmentCell({
+  value,
+  adjustment,
+  onAdjustmentChange,
+  error,
+  tone,
+}) {
+  return (
+    <div className={`price-adjustment price-adjustment--${tone}`}>
+      <strong>{formatPrice(value)}</strong>
+      <label className={error ? "is-error" : ""}>
+        <span>%</span>
+        <input
+          value={adjustment}
+          onChange={(event) => onAdjustmentChange(event.target.value)}
+          placeholder="+/-"
+          inputMode="text"
+        />
+      </label>
+      {error ? <small>{error}</small> : null}
+    </div>
+  );
+}
+
 function WelcomeScreen({ dataset, onStart }) {
   const landingPreviewItems = buildLandingPreviewItems(dataset);
   const featuredCategory = dataset.categories[0];
@@ -142,21 +167,45 @@ export default function App() {
   const [hasStarted, setHasStarted] = useState(false);
   const [draftParameters, setDraftParameters] = useState(() => createDraftParameters(bikesDataset));
   const [appliedParameters, setAppliedParameters] = useState(() => createAppliedParameters(bikesDataset));
+  const [itemAdjustments, setItemAdjustments] = useState({});
   const [isExporting, setIsExporting] = useState(false);
   const [feedbackMessage, setFeedbackMessage] = useState("");
 
   const errors = validateParameters(draftParameters, dataset.defaultParameters);
+  const adjustmentErrors = dataset.categories.reduce((categoryErrors, category) => {
+    for (const item of category.items) {
+      const adjustments = itemAdjustments[item.code] || {};
+      const saleError = validatePercentAdjustment(adjustments.sale || "");
+      const costError = validatePercentAdjustment(adjustments.cost || "");
+
+      if (saleError || costError) {
+        categoryErrors[item.code] = {
+          sale: saleError,
+          cost: costError,
+        };
+      }
+    }
+
+    return categoryErrors;
+  }, {});
   const normalizedQuery = draftParameters.query.trim().toLowerCase();
   const moedaDestino =
     draftParameters.moedaDestino.trim().toUpperCase() || dataset.defaultParameters.moedaDestino;
-  const hasErrors = Object.keys(errors).length > 0;
+  const hasErrors = Object.keys(errors).length > 0 || Object.keys(adjustmentErrors).length > 0;
 
   const visibleCategories = dataset.categories
     .map((category) => {
       const items = category.items
         .map((item) => ({
           ...item,
-          ...resolveItemPrices(item, { ...appliedParameters, moedaDestino }, dataset.defaultParameters),
+          adjustments: itemAdjustments[item.code] || {},
+          adjustmentErrors: adjustmentErrors[item.code] || {},
+          ...resolveItemPrices(
+            item,
+            { ...appliedParameters, moedaDestino },
+            dataset.defaultParameters,
+            itemAdjustments[item.code] || {},
+          ),
         }))
         .filter((item) => {
           if (!normalizedQuery) {
@@ -244,7 +293,21 @@ export default function App() {
   function handleReset() {
     setDraftParameters(createDraftParameters(dataset));
     setAppliedParameters(createAppliedParameters(dataset));
+    setItemAdjustments({});
     setFeedbackMessage("");
+  }
+
+  function handleItemAdjustmentChange(code, field) {
+    return (nextValue) => {
+      setItemAdjustments((currentAdjustments) => ({
+        ...currentAdjustments,
+        [code]: {
+          ...(currentAdjustments[code] || {}),
+          [field]: nextValue,
+        },
+      }));
+      setFeedbackMessage("");
+    };
   }
 
   async function handleExport() {
@@ -258,7 +321,11 @@ export default function App() {
 
     try {
       const { exportWorkbook } = await import("./lib/exportWorkbook");
-      const exportedFile = await exportWorkbook(dataset, { ...appliedParameters, moedaDestino });
+      const exportedFile = await exportWorkbook(
+        dataset,
+        { ...appliedParameters, moedaDestino },
+        itemAdjustments,
+      );
 
       downloadBlob(exportedFile.blob, exportedFile.fileName);
       setFeedbackMessage(`Arquivo exportado: ${exportedFile.fileName}`);
@@ -313,14 +380,6 @@ export default function App() {
             placeholder=""
             inputMode="text"
           />
-         {/* <ParameterField
-            label="Moeda Destino (rótulo)"
-            value={draftParameters.moedaDestino}
-            onChange={handleTextChange("moedaDestino")}
-            placeholder={dataset.defaultParameters.moedaDestino}
-            className="parameter-field--neutral"
-            inputMode="text"
-          />  */}
         </div>
 
         <div className="controls-toolbar">
@@ -357,17 +416,14 @@ export default function App() {
 
         {hasErrors ? (
           <div className="error-banner">
-            Há campos inválidos no painel. O preview foi mantido com o último cálculo válido.
+            Há campos inválidos no painel. Corrija os percentuais destacados antes de exportar.
           </div>
         ) : null}
 
         <div className="controls-footer">
           <p>
-            Use valor final direto ou ajuste relativo com <strong>+</strong> e <strong>-</strong>.
-            Exemplo: <strong>-4</strong> reduz 4 pontos da base atual.
-            Ativo: compra {formatPrice(appliedParameters.markupCompra)}%, venda{" "}
-            {formatPrice(appliedParameters.margemVenda)}% e taxa{" "}
-            {formatPrice(appliedParameters.taxaConversao)}.
+            Ajustes individuais usam percentual sobre a coluna. Exemplo: <strong>-4</strong>{" "}
+            reduz o valor daquela célula em 4%.
           </p>
           {feedbackMessage ? <span>{feedbackMessage}</span> : null}
         </div>
@@ -389,7 +445,11 @@ export default function App() {
             </thead>
             <tbody>
               {visibleCategories.map((category) => (
-                <FragmentCategory key={category.name} category={category} />
+                <FragmentCategory
+                  key={category.name}
+                  category={category}
+                  onItemAdjustmentChange={handleItemAdjustmentChange}
+                />
               ))}
             </tbody>
           </table>
@@ -403,7 +463,7 @@ export default function App() {
   );
 }
 
-function FragmentCategory({ category }) {
+function FragmentCategory({ category, onItemAdjustmentChange }) {
   return (
     <>
       <tr className="category-row">
@@ -420,8 +480,24 @@ function FragmentCategory({ category }) {
           <td className="cell-specs">{item.specs}</td>
           <td>{item.sizes}</td>
           <td>{item.bhu}</td>
-          <td className="cell-sales">{formatPrice(item.sale)}</td>
-          <td className="cell-cost">{formatPrice(item.cost)}</td>
+          <td className="cell-sales">
+            <PriceAdjustmentCell
+              value={item.sale}
+              adjustment={item.adjustments.sale || ""}
+              onAdjustmentChange={onItemAdjustmentChange(item.code, "sale")}
+              error={item.adjustmentErrors.sale}
+              tone="sales"
+            />
+          </td>
+          <td className="cell-cost">
+            <PriceAdjustmentCell
+              value={item.cost}
+              adjustment={item.adjustments.cost || ""}
+              onAdjustmentChange={onItemAdjustmentChange(item.code, "cost")}
+              error={item.adjustmentErrors.cost}
+              tone="cost"
+            />
+          </td>
         </tr>
       ))}
     </>

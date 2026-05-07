@@ -557,7 +557,7 @@ button {
 
 table {
   width: 100%;
-  min-width: 1120px;
+  min-width: 1260px;
   border-collapse: separate;
   border-spacing: 0;
 }
@@ -610,7 +610,7 @@ tbody td {
 
 .cell-sales,
 .cell-cost {
-  width: 200px;
+  width: 220px;
   font-size: 1.05rem;
   font-weight: 900;
   text-align: right;
@@ -625,6 +625,53 @@ tbody td {
 .cell-cost {
   background: var(--bg-cost);
   color: inherit;
+}
+
+.price-adjustment {
+  display: grid;
+  gap: 8px;
+  justify-items: end;
+}
+
+.price-adjustment strong {
+  font-size: 1.05rem;
+}
+
+.price-adjustment label {
+  display: grid;
+  grid-template-columns: auto 74px;
+  align-items: center;
+  gap: 8px;
+}
+
+.price-adjustment label span {
+  color: var(--text-soft);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.price-adjustment input {
+  width: 74px;
+  min-height: 34px;
+  border: 1px solid rgba(84, 108, 176, 0.22);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--text-main);
+  font-size: 0.92rem;
+  font-weight: 800;
+  text-align: right;
+  outline: 0;
+}
+
+.price-adjustment label.is-error input {
+  border-color: rgba(203, 90, 90, 0.9);
+  box-shadow: 0 0 0 3px rgba(203, 90, 90, 0.08);
+}
+
+.price-adjustment small {
+  color: #a84d4d;
+  font-size: 0.74rem;
+  font-weight: 800;
 }
 
 .category-row td {

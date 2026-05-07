@@ -47,7 +47,7 @@ function setNumberCell(sheetXml, ref, value) {
   return replaceCell(sheetXml, ref, `<v>${value}</v>`);
 }
 
-function updateWorksheetXml(sheetXml, dataset, parameters) {
+function updateWorksheetXml(sheetXml, dataset, parameters, itemAdjustments) {
   const currencyLabel = parameters.moedaDestino.trim().toUpperCase() || "AED";
   let nextXml = setStringCell(sheetXml, dataset.titleCell || "G1", `BH 2026 (${currencyLabel})`);
 
@@ -55,7 +55,12 @@ function updateWorksheetXml(sheetXml, dataset, parameters) {
     nextXml = setStringCell(nextXml, `A${category.templateRow}`, category.name);
 
     for (const item of category.items) {
-      const prices = resolveItemPrices(item, parameters, dataset.defaultParameters);
+      const prices = resolveItemPrices(
+        item,
+        parameters,
+        dataset.defaultParameters,
+        itemAdjustments[item.code] || {},
+      );
 
       nextXml = setStringCell(nextXml, `A${item.templateRow}`, item.code);
       nextXml = setStringCell(nextXml, `B${item.templateRow}`, item.description);
@@ -70,7 +75,7 @@ function updateWorksheetXml(sheetXml, dataset, parameters) {
   return nextXml;
 }
 
-export async function buildWorkbookBlob(templateData, dataset, parameters) {
+export async function buildWorkbookBlob(templateData, dataset, parameters, itemAdjustments = {}) {
   const zip = await JSZip.loadAsync(templateData);
   const worksheetPath = dataset.worksheetPath || DEFAULT_WORKSHEET_PATH;
   const worksheetFile = zip.file(worksheetPath);
@@ -80,7 +85,7 @@ export async function buildWorkbookBlob(templateData, dataset, parameters) {
   }
 
   const sheetXml = await worksheetFile.async("string");
-  const updatedSheetXml = updateWorksheetXml(sheetXml, dataset, parameters);
+  const updatedSheetXml = updateWorksheetXml(sheetXml, dataset, parameters, itemAdjustments);
   zip.file(worksheetPath, updatedSheetXml);
 
   return zip.generateAsync({
@@ -89,7 +94,7 @@ export async function buildWorkbookBlob(templateData, dataset, parameters) {
   });
 }
 
-export async function exportWorkbook(dataset, parameters, templateData = null) {
+export async function exportWorkbook(dataset, parameters, itemAdjustments = {}, templateData = null) {
   let workbookData = templateData;
 
   if (!workbookData) {
@@ -101,7 +106,7 @@ export async function exportWorkbook(dataset, parameters, templateData = null) {
     workbookData = await response.arrayBuffer();
   }
 
-  const blob = await buildWorkbookBlob(workbookData, dataset, parameters);
+  const blob = await buildWorkbookBlob(workbookData, dataset, parameters, itemAdjustments);
   const currencyLabel = parameters.moedaDestino.trim().toUpperCase() || "AED";
 
   return {

@@ -4,7 +4,7 @@ const numberFormatter = new Intl.NumberFormat("pt-BR", {
 });
 
 function normalizeInput(rawValue) {
-  return rawValue.trim().replace(/\s+/g, "");
+  return rawValue.trim().replace(/\s+/g, "").replace(/%$/, "");
 }
 
 function isRelativeAdjustment(rawValue) {
@@ -56,6 +56,36 @@ export function roundPrice(value) {
   return Math.round((value + Number.EPSILON) * 100) / 100;
 }
 
+export function applyPercentAdjustment(value, rawAdjustment) {
+  if (!rawAdjustment || rawAdjustment.trim() === "") {
+    return value;
+  }
+
+  const adjustment = parseLocalizedNumber(rawAdjustment);
+  if (adjustment === null || adjustment <= -100) {
+    return value;
+  }
+
+  return roundPrice(value * (1 + adjustment / 100));
+}
+
+export function validatePercentAdjustment(rawAdjustment) {
+  if (!rawAdjustment || rawAdjustment.trim() === "") {
+    return "";
+  }
+
+  const adjustment = parseLocalizedNumber(rawAdjustment);
+  if (adjustment === null) {
+    return "Percentual inválido.";
+  }
+
+  if (adjustment <= -100) {
+    return "Deve ser maior que -100%.";
+  }
+
+  return "";
+}
+
 export function calculatePrices(baseEuro, parameters) {
   const markupDecimal = parameters.markupCompra / 100;
   const marginDecimal = parameters.margemVenda / 100;
@@ -76,15 +106,18 @@ export function isDefaultParameters(parameters, defaultParameters) {
   );
 }
 
-export function resolveItemPrices(item, parameters, defaultParameters) {
-  if (isDefaultParameters(parameters, defaultParameters)) {
-    return {
-      cost: item.defaultCost,
-      sale: item.defaultSale,
-    };
-  }
+export function resolveItemPrices(item, parameters, defaultParameters, adjustments = {}) {
+  const prices = isDefaultParameters(parameters, defaultParameters)
+    ? {
+        cost: item.defaultCost,
+        sale: item.defaultSale,
+      }
+    : calculatePrices(item.baseEuro, parameters);
 
-  return calculatePrices(item.baseEuro, parameters);
+  return {
+    cost: applyPercentAdjustment(prices.cost, adjustments.cost),
+    sale: applyPercentAdjustment(prices.sale, adjustments.sale),
+  };
 }
 
 export function formatPrice(value) {
